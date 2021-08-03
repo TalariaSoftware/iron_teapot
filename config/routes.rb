@@ -1,3 +1,3 @@
 IronTeapot::Engine.routes.draw do
-  get 'foobar', controller: 'teapots', action: 'coffee'
+  get '/wp-admin', controller: 'teapots', action: 'coffee'
 end
