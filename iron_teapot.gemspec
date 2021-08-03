@@ -7,7 +7,7 @@ Gem::Specification.new do |spec|
   spec.email       = ['damien@damienburke.com']
   spec.homepage    = 'https://github.com/TalariaSoftware/iron_teapot'
   spec.summary     = "Respond to vulnerability scanners with '418 I'm a Teapot'"
-  spec.license     = 'MIT'
+  spec.license     = 'Hippocratic 2.1'
   spec.required_ruby_version = Gem::Requirement.new('>= 2.6.0')
 
   spec.metadata['homepage_uri'] = spec.homepage
