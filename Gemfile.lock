@@ -151,6 +151,7 @@ GEM
     zeitwerk (2.4.2)
 
 PLATFORMS
+  x86_64-darwin-18
   x86_64-darwin-20
 
 DEPENDENCIES
@@ -158,4 +159,4 @@ DEPENDENCIES
   rspec-rails
 
 BUNDLED WITH
-   2.2.15
+   2.2.16
