@@ -1,3 +1,3 @@
 Rails.application.routes.draw do
-  mount IronTeapot::Engine => "/"
+  mount IronTeapot::Engine => '/'
 end

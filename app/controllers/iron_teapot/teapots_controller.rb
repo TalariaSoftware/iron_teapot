@@ -1,4 +1,4 @@
-require_dependency "iron_teapot/application_controller"
+require_dependency 'iron_teapot/application_controller'
 
 module IronTeapot
   class TeapotsController < ApplicationController
