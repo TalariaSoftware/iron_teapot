@@ -1,0 +1,68 @@
+require:
+  - rubocop-rake
+  - rubocop-rspec
+
+AllCops:
+  NewCops: enable
+
+Style/Documentation:
+  Enabled: false
+
+Layout/ArgumentAlignment:
+  EnforcedStyle: with_fixed_indentation
+
+Layout/FirstArrayElementIndentation:
+  EnforcedStyle: consistent
+
+Layout/HashAlignment:
+  EnforcedLastArgumentHashStyle: ignore_implicit
+
+Layout/LineEndStringConcatenationIndentation:
+  EnforcedStyle: indented
+
+Layout/LineLength:
+  Max: 80
+  IgnoreCopDirectives: true
+
+Layout/ParameterAlignment:
+  EnforcedStyle: with_fixed_indentation
+
+Lint/AmbiguousBlockAssociation:
+  Exclude:
+    - "**/*_spec.rb"
+
+Metrics/BlockLength:
+  Exclude:
+    - spec/**/*_spec.rb
+
+RSpec/Capybara/FeatureMethods:
+  EnabledMethods:
+    - feature
+    - scenario
+    - xfeature
+    - xscenario
+
+RSpec/NestedGroups:
+  Max: 5
+
+Style/BlockDelimiters:
+  EnforcedStyle: braces_for_chaining
+
+Style/EmptyMethod:
+  EnforcedStyle: expanded
+
+Style/FrozenStringLiteralComment:
+  EnforcedStyle: never
+
+Style/StringLiterals:
+  Exclude:
+    - spec/**/*_spec.rb
+
+Style/TrailingCommaInArguments:
+  EnforcedStyleForMultiline: comma
+
+Style/TrailingCommaInArrayLiteral:
+  EnforcedStyleForMultiline: comma
+
+Style/TrailingCommaInHashLiteral:
+  EnforcedStyleForMultiline: comma
