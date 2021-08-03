@@ -8,7 +8,9 @@ end
 
 require 'rspec/rails'
 
-# Dir[Rails.root.join('spec', 'support', '**', '*.rb')].sort.each { |f| require f }
+# Dir[Rails.root.join('spec', 'support', '**', '*.rb')].sort.each do |f|
+#   require f
+# end
 
 RSpec.configure do |config|
   config.use_active_record = false
