@@ -9,4 +9,19 @@ RSpec.describe IronTeapot::TeapotsController, type: :controller do
       expect(response).to have_http_status(418)
     end
   end
+
+  describe "POST #coffee" do
+    context "with CSRF protection" do
+      around do |example|
+        ActionController::Base.allow_forgery_protection = true
+        example.run
+        ActionController::Base.allow_forgery_protection = false
+      end
+
+      it "returns status 418" do
+        post :coffee
+        expect(response).to have_http_status(418)
+      end
+    end
+  end
 end
