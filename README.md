@@ -1,11 +1,10 @@
 # IronTeapot
-Short description and motivation.
+
+Prevent Routing Errors caused by vulnerability scanners
 
 ## Usage
 
-How to use Iron Teapot.
-
-### Installation
+### Install
 
 1. Add GitHub as a potential gem repository in your Gemfile.
 
@@ -29,6 +28,12 @@ How to use Iron Teapot.
   ```ruby
   mount IronTeapot::Engine => '/'
   ```
+
+### Update
+
+```sh
+bundle update iron_teapot
+```
 
 ## Contributing
 
