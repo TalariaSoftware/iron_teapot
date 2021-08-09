@@ -1,10 +1,29 @@
 require 'rails_helper'
 
 VULNERABILITY_TESTING_PATHS = %w[
+  /.env
   /.ftpconfig
+  /.git
   /1
+  /2018
+  /2019
+  /2020
+  /2021
+  /2022
   /FCKeditor/editor/filemanager/connectors/test.html
   /actuator/env
+  /admin
+  /admin/new
+  /auth
+  /backup
+  /bak
+  /bk
+  /blog
+  /cache
+  /cdn-cgi/foobar
+  /cgi-bin/fubar
+  /cms
+  /components/swim
   /demo/
   /demo/index.php/admin/
   /demo/rss/catalog/notifystock
@@ -17,6 +36,7 @@ VULNERABILITY_TESTING_PATHS = %w[
   /dev/rss/order/new
   /env
   /fckeditor/editor/filemanager/connectors/test.html
+  /foo/phpunit/bar
   /gaocc/g445g
   /html/js/editor/fckeditor/editor/filemanager/connectors/test.html
   /include/fckeditor/editor/filemanager/connectors/test.html
@@ -26,11 +46,18 @@ VULNERABILITY_TESTING_PATHS = %w[
   /magento/rss/catalog/notifystock
   /magento/rss/catalog/review
   /magento/rss/order/new
+  /new
+  /new-site
+  /old-site
+  /old-wp
   /old/
   /old/index.php/admin/
   /old/rss/catalog/notifystock
   /old/rss/catalog/review
   /old/rss/order/new
+  /phpMyAdmin
+  /phpmyadmin/fubar
+  /plugins/fubar
   /rss/catalog/notifystock
   /rss/catalog/review
   /rss/order/new
@@ -54,13 +81,24 @@ VULNERABILITY_TESTING_PATHS = %w[
   /test/rss/catalog/notifystock
   /test/rss/catalog/review
   /test/rss/order/new
+  /webadmin
+  /wordpress
+  /wp
   /wp-admin
   /wp-booking.php
   /wp-content/
   /wp-content/mu-plugins/db-safe-mode.php
   /wp-content/plugins/wpdiscuz/themes/default/style-rtl.css
   /wp-includes/css/wp-config.php
+  /wp-json
+  /wp1
+  /wp2
+  /www.rar
+  /www.sql
+  /www.sql.gz
+  /www.sql.zon
   /xmlrpc.php
+  /xxsssseee
 ].freeze
 
 RSpec.describe "teapot routes", type: :routing do

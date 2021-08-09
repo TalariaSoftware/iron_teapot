@@ -3,10 +3,28 @@ PATH_GLOBS = %w[
   *a.php/*b
   *a/fckeditor/*b
   *a/index.php/*b
-  /.ftpconfig
+  /*a/phpunit/*b
+  /.*b
   /1
+  /2018
+  /2019
+  /2020
+  /2021
+  /2022
   /FCKeditor/*b
   /actuator/env
+  /admin
+  /admin/*b
+  /auth
+  /backup
+  /bak
+  /bk
+  /blog
+  /cache
+  /cdn-cgi/*b
+  /cgi-bin/*b
+  /cms
+  /components/*b
   /demo
   /demo/*b
   /dev/
@@ -15,8 +33,15 @@ PATH_GLOBS = %w[
   /fckeditor/*b
   /gaocc/g445g
   /magento/*b
+  /new
+  /new-site
   /old
+  /old-site
+  /old-wp
   /old/*b
+  /phpMyAdmin
+  /phpmyadmin/*b
+  /plugins/*b
   /rss/*b
   /sftp-config.json
   /shop/*b
@@ -24,10 +49,19 @@ PATH_GLOBS = %w[
   /store/*b
   /test
   /test/*b
+  /webadmin
+  /wordpress
+  /wp
   /wp-admin
   /wp-content
   /wp-content/*b
   /wp-includes
+  /wp-json
+  /wp1
+  /wp2
+  /www.rar
+  /www.sql
+  /xxsssseee
 ].freeze
 
 IronTeapot::Engine.routes.draw do
