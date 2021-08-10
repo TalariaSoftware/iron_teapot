@@ -1,6 +1,6 @@
 # IronTeapot
 
-Prevent Routing Errors caused by vulnerability scanners
+Prevent rails routing errors caused by vulnerability scanners
 
 ## Usage
 
