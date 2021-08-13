@@ -24,4 +24,11 @@ RSpec.describe IronTeapot::TeapotsController, type: :controller do
       end
     end
   end
+
+  describe "DELETE #coffee" do
+    it "returns status 418" do
+      delete :coffee
+      expect(response).to have_http_status(418)
+    end
+  end
 end
