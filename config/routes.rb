@@ -1,8 +1,11 @@
 PATH_GLOBS = %w[
+  *a.aspx
+  *a.aspx*b
   *a.php
   *a.php/*b
   *a/fckeditor/*b
   *a/index.php/*b
+  *a/wp-includes/*b
   /*a/phpunit/*b
   /.*b
   /1
@@ -31,7 +34,9 @@ PATH_GLOBS = %w[
   /dev/*b
   /env
   /fckeditor/*b
+  /files
   /gaocc/g445g
+  /images
   /magento/*b
   /new
   /new-site
@@ -45,17 +50,21 @@ PATH_GLOBS = %w[
   /rss/*b
   /sftp-config.json
   /shop/*b
+  /sites/default/files
   /staging/*b
   /store/*b
   /test
   /test/*b
+  /uploads
   /webadmin
   /wordpress
   /wp
   /wp-admin
+  /wp-admin/*b
   /wp-content
   /wp-content/*b
   /wp-includes
+  /wp-includes/*b
   /wp-json
   /wp1
   /wp2

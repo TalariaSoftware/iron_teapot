@@ -4,16 +4,47 @@ VULNERABILITY_TESTING_PATHS = %w[
   /.env
   /.ftpconfig
   /.git
+  //2019/wp-includes/wlwmanifest.xml
+  //2019/wp-includes/wlwmanifest.xml
+  //2020/wp-includes/wlwmanifest.xml
+  //2020/wp-includes/wlwmanifest.xml
+  //blog/wp-includes/wlwmanifest.xml
+  //blog/wp-includes/wlwmanifest.xml
+  //cms/wp-includes/wlwmanifest.xml
+  //cms/wp-includes/wlwmanifest.xml
+  //news/wp-includes/wlwmanifest.xml
+  //news/wp-includes/wlwmanifest.xml
+  //site/wp-includes/wlwmanifest.xml
+  //site/wp-includes/wlwmanifest.xml
+  //sito/wp-includes/wlwmanifest.xml
+  //sito/wp-includes/wlwmanifest.xml
+  //web/wp-includes/wlwmanifest.xml
+  //web/wp-includes/wlwmanifest.xml
+  //website/wp-includes/wlwmanifest.xml
+  //website/wp-includes/wlwmanifest.xml
+  //wordpress/wp-includes/wlwmanifest.xml
+  //wordpress/wp-includes/wlwmanifest.xml
+  //wp-includes/wlwmanifest.xml
+  //wp-includes/wlwmanifest.xml
+  //wp/wp-includes/wlwmanifest.xml
+  //wp/wp-includes/wlwmanifest.xml
+  //wp1/wp-includes/wlwmanifest.xml
+  //wp1/wp-includes/wlwmanifest.xml
+  //wp2/wp-includes/wlwmanifest.xml
+  //wp2/wp-includes/wlwmanifest.xml
   /1
   /2018
   /2019
   /2020
   /2021
   /2022
+  /DesktopModules/Admin/RadEditorProvider/DialogHandler.aspx
   /FCKeditor/editor/filemanager/connectors/test.html
+  /Install/InstallWizard.aspx?__VIEWSTATE=
   /actuator/env
   /admin
   /admin/new
+  /app_master/telerik.web.ui.dialoghandler.aspx
   /auth
   /backup
   /bak
@@ -36,9 +67,11 @@ VULNERABILITY_TESTING_PATHS = %w[
   /dev/rss/order/new
   /env
   /fckeditor/editor/filemanager/connectors/test.html
+  /files/
   /foo/phpunit/bar
   /gaocc/g445g
   /html/js/editor/fckeditor/editor/filemanager/connectors/test.html
+  /images/
   /include/fckeditor/editor/filemanager/connectors/test.html
   /index.php/admin/
   /js/fckeditor/editor/filemanager/connectors/test.html
@@ -58,6 +91,7 @@ VULNERABILITY_TESTING_PATHS = %w[
   /phpMyAdmin
   /phpmyadmin/fubar
   /plugins/fubar
+  /providers/htmleditorproviders/telerik/telerik.web.ui.dialoghandler.aspx
   /rss/catalog/notifystock
   /rss/catalog/review
   /rss/order/new
@@ -68,6 +102,7 @@ VULNERABILITY_TESTING_PATHS = %w[
   /shop/rss/order/new
   /sites/all/libraries/fckeditor/editor/filemanager/connectors/test.html
   /sites/all/modules/fckeditor/fckeditor/editor/filemanager/connectors/test.html
+  /sites/default/files/
   /staging/index.php/admin/
   /staging/rss/catalog/notifystock
   /staging/rss/catalog/review
@@ -81,10 +116,12 @@ VULNERABILITY_TESTING_PATHS = %w[
   /test/rss/catalog/notifystock
   /test/rss/catalog/review
   /test/rss/order/new
+  /uploads/
   /webadmin
   /wordpress
   /wp
   /wp-admin
+  /wp-admin/css/
   /wp-booking.php
   /wp-content/
   /wp-content/mu-plugins/db-safe-mode.php
