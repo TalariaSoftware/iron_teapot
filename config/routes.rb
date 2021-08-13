@@ -15,19 +15,29 @@ PATH_GLOBS = %w[
   /2021
   /2022
   /FCKeditor/*b
+  /Public/Home/js/common.js
+  /Public/home/common/js/index.js
+  /Public/home/wap/css/qdgame.css
+  /Templates/user/js/global.js
+  /_wpeprivate/*b
   /actuator/env
   /admin
   /admin/*b
+  /api/ApiHub/fetchJinse
+  /api/Index/getLottery
   /auth
   /backup
   /bak
+  /base/exchange_article/index/classid/1/id/1
   /bk
   /blog
   /cache
   /cdn-cgi/*b
   /cgi-bin/*b
   /cms
+  /common/member/js/user.util.js
   /components/*b
+  /contacts
   /demo
   /demo/*b
   /dev/
@@ -37,9 +47,14 @@ PATH_GLOBS = %w[
   /files
   /gaocc/g445g
   /images
+  /images/src_images_but_dianz_s.png
+  /infe/rest/flash/getServerIP.json
+  /js/basic.js
   /magento/*b
+  /member/js/lang_zh_CN.js
   /new
   /new-site
+  /nyyh/game.css
   /old
   /old-site
   /old-wp
@@ -47,11 +62,19 @@ PATH_GLOBS = %w[
   /phpMyAdmin
   /phpmyadmin/*b
   /plugins/*b
+  /proxy/settings
+  /public/appapi/images/error.jpg
+  /public/h5static/js/main.js
   /rss/*b
   /sftp-config.json
   /shop/*b
   /sites/default/files
   /staging/*b
+  /static/data/thirdgames.json
+  /static/home/js/rooms.js
+  /static/home/static/js/login.js
+  /static/wap/js/common.js
+  /static/xianyu/js/bankCheck.js
   /store/*b
   /test
   /test/*b
@@ -61,6 +84,10 @@ PATH_GLOBS = %w[
   /wp
   /wp-admin
   /wp-admin/*b
+  /wp-config-backup
+  /wp-config-good
+  /wp-config.*b
+  /wp-config_good
   /wp-content
   /wp-content/*b
   /wp-includes

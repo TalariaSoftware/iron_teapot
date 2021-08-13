@@ -1,60 +1,46 @@
 require 'rails_helper'
 
 VULNERABILITY_TESTING_PATHS = %w[
+  .ftpconfig
   /.env
-  /.ftpconfig
   /.git
-  //2019/wp-includes/wlwmanifest.xml
-  //2019/wp-includes/wlwmanifest.xml
-  //2020/wp-includes/wlwmanifest.xml
-  //2020/wp-includes/wlwmanifest.xml
-  //blog/wp-includes/wlwmanifest.xml
-  //blog/wp-includes/wlwmanifest.xml
-  //cms/wp-includes/wlwmanifest.xml
-  //cms/wp-includes/wlwmanifest.xml
-  //news/wp-includes/wlwmanifest.xml
-  //news/wp-includes/wlwmanifest.xml
-  //site/wp-includes/wlwmanifest.xml
-  //site/wp-includes/wlwmanifest.xml
-  //sito/wp-includes/wlwmanifest.xml
-  //sito/wp-includes/wlwmanifest.xml
-  //web/wp-includes/wlwmanifest.xml
-  //web/wp-includes/wlwmanifest.xml
-  //website/wp-includes/wlwmanifest.xml
-  //website/wp-includes/wlwmanifest.xml
-  //wordpress/wp-includes/wlwmanifest.xml
-  //wordpress/wp-includes/wlwmanifest.xml
-  //wp-includes/wlwmanifest.xml
-  //wp-includes/wlwmanifest.xml
-  //wp/wp-includes/wlwmanifest.xml
-  //wp/wp-includes/wlwmanifest.xml
-  //wp1/wp-includes/wlwmanifest.xml
-  //wp1/wp-includes/wlwmanifest.xml
-  //wp2/wp-includes/wlwmanifest.xml
-  //wp2/wp-includes/wlwmanifest.xml
   /1
   /2018
   /2019
+  /2019/wp-includes/wlwmanifest.xml
   /2020
+  /2020/wp-includes/wlwmanifest.xml
   /2021
   /2022
   /DesktopModules/Admin/RadEditorProvider/DialogHandler.aspx
   /FCKeditor/editor/filemanager/connectors/test.html
   /Install/InstallWizard.aspx?__VIEWSTATE=
+  /Public/Home/js/common.js
+  /Public/home/common/js/index.js
+  /Public/home/wap/css/qdgame.css
+  /Templates/user/js/global.js
+  /_wpeprivate/config.json
   /actuator/env
   /admin
   /admin/new
+  /api/ApiHub/fetchJinse
+  /api/Index/getLottery
   /app_master/telerik.web.ui.dialoghandler.aspx
   /auth
   /backup
   /bak
+  /base/exchange_article/index/classid/1/id/1
   /bk
   /blog
+  /blog/wp-includes/wlwmanifest.xml
   /cache
   /cdn-cgi/foobar
   /cgi-bin/fubar
   /cms
+  /cms/wp-includes/wlwmanifest.xml
+  /common/member/js/user.util.js
   /components/swim
+  /contacts
   /demo/
   /demo/index.php/admin/
   /demo/rss/catalog/notifystock
@@ -72,15 +58,21 @@ VULNERABILITY_TESTING_PATHS = %w[
   /gaocc/g445g
   /html/js/editor/fckeditor/editor/filemanager/connectors/test.html
   /images/
+  /images/src_images_but_dianz_s.png
   /include/fckeditor/editor/filemanager/connectors/test.html
   /index.php/admin/
+  /infe/rest/flash/getServerIP.json
+  /js/basic.js
   /js/fckeditor/editor/filemanager/connectors/test.html
   /magento/index.php/admin/
   /magento/rss/catalog/notifystock
   /magento/rss/catalog/review
   /magento/rss/order/new
+  /member/js/lang_zh_CN.js
   /new
   /new-site
+  /news/wp-includes/wlwmanifest.xml
+  /nyyh/game.css
   /old-site
   /old-wp
   /old/
@@ -92,6 +84,9 @@ VULNERABILITY_TESTING_PATHS = %w[
   /phpmyadmin/fubar
   /plugins/fubar
   /providers/htmleditorproviders/telerik/telerik.web.ui.dialoghandler.aspx
+  /proxy/settings
+  /public/appapi/images/error.jpg
+  /public/h5static/js/main.js
   /rss/catalog/notifystock
   /rss/catalog/review
   /rss/order/new
@@ -100,13 +95,20 @@ VULNERABILITY_TESTING_PATHS = %w[
   /shop/rss/catalog/notifystock
   /shop/rss/catalog/review
   /shop/rss/order/new
+  /site/wp-includes/wlwmanifest.xml
   /sites/all/libraries/fckeditor/editor/filemanager/connectors/test.html
   /sites/all/modules/fckeditor/fckeditor/editor/filemanager/connectors/test.html
   /sites/default/files/
+  /sito/wp-includes/wlwmanifest.xml
   /staging/index.php/admin/
   /staging/rss/catalog/notifystock
   /staging/rss/catalog/review
   /staging/rss/order/new
+  /static/data/thirdgames.json
+  /static/home/js/rooms.js
+  /static/home/static/js/login.js
+  /static/wap/js/common.js
+  /static/xianyu/js/bankCheck.js
   /store/index.php/admin/
   /store/rss/catalog/notifystock
   /store/rss/catalog/review
@@ -117,19 +119,42 @@ VULNERABILITY_TESTING_PATHS = %w[
   /test/rss/catalog/review
   /test/rss/order/new
   /uploads/
+  /web/wp-includes/wlwmanifest.xml
   /webadmin
+  /website/wp-includes/wlwmanifest.xml
   /wordpress
+  /wordpress/wp-includes/wlwmanifest.xml
   /wp
   /wp-admin
   /wp-admin/css/
   /wp-booking.php
+  /wp-config-backup.txt
+  /wp-config-good
+  /wp-config.bak
+  /wp-config.good
+  /wp-config.php-bak
+  /wp-config.php-original
+  /wp-config.php_
+  /wp-config.php_1
+  /wp-config.php_Old
+  /wp-config.php_bak
+  /wp-config.php_new
+  /wp-config.php_orig
+  /wp-config.php_original
+  /wp-config.phporiginal
+  /wp-config.php~
+  /wp-config_good
   /wp-content/
   /wp-content/mu-plugins/db-safe-mode.php
   /wp-content/plugins/wpdiscuz/themes/default/style-rtl.css
   /wp-includes/css/wp-config.php
+  /wp-includes/wlwmanifest.xml
   /wp-json
+  /wp/wp-includes/wlwmanifest.xml
   /wp1
+  /wp1/wp-includes/wlwmanifest.xml
   /wp2
+  /wp2/wp-includes/wlwmanifest.xml
   /www.rar
   /www.sql
   /www.sql.gz
