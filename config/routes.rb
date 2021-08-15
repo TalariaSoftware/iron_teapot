@@ -104,4 +104,6 @@ IronTeapot::Engine.routes.draw do
   PATH_GLOBS.each do |path|
     get path, controller: 'teapots', action: 'coffee'
   end
+
+  post '/', controller: 'teapots', action: 'coffee'
 end

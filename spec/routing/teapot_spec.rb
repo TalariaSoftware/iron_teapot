@@ -165,8 +165,12 @@ VULNERABILITY_TESTING_PATHS = %w[
 
 RSpec.describe "teapot routes", type: :routing do
   VULNERABILITY_TESTING_PATHS.each do |path|
-    it "GET #{path} routes to the teapot controller" do
+    it "routes GET #{path} to the teapot controller" do
       expect(get(path)).to route_to('iron_teapot/teapots#coffee')
     end
+  end
+
+  it "routes POST / to the teapot controller" do
+    expect(post('/')).to route_to('iron_teapot/teapots#coffee')
   end
 end
