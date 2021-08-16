@@ -93,6 +93,7 @@ PATH_GLOBS = %w[
   /wp-includes
   /wp-includes/*b
   /wp-json
+  /wp-json/*b
   /wp1
   /wp2
   /www.rar

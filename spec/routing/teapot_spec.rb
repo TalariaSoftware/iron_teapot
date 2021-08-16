@@ -150,6 +150,7 @@ VULNERABILITY_TESTING_PATHS = %w[
   /wp-includes/css/wp-config.php
   /wp-includes/wlwmanifest.xml
   /wp-json
+  /wp-json/wp/v2/users
   /wp/wp-includes/wlwmanifest.xml
   /wp1
   /wp1/wp-includes/wlwmanifest.xml
