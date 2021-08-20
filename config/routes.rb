@@ -1,4 +1,4 @@
-PATH_GLOBS = %w[
+GET_PATH_GLOBS = %w[
   *a.aspx
   *a.aspx*b
   *a.php
@@ -50,7 +50,9 @@ PATH_GLOBS = %w[
   /images/src_images_but_dianz_s.png
   /infe/rest/flash/getServerIP.json
   /js/basic.js
+  /js/mage/cookies.js
   /magento/*b
+  /manager
   /member/js/lang_zh_CN.js
   /new
   /new-site
@@ -68,6 +70,7 @@ PATH_GLOBS = %w[
   /rss/*b
   /sftp-config.json
   /shop/*b
+  /simpla
   /sites/default/files
   /staging/*b
   /static/data/thirdgames.json
@@ -101,10 +104,17 @@ PATH_GLOBS = %w[
   /xxsssseee
 ].freeze
 
+POST_PATH_GLOBS = %w[
+  /
+  *a.php
+].freeze
+
 IronTeapot::Engine.routes.draw do
-  PATH_GLOBS.each do |path|
+  GET_PATH_GLOBS.each do |path|
     get path, controller: 'teapots', action: 'coffee'
   end
 
-  post '/', controller: 'teapots', action: 'coffee'
+  POST_PATH_GLOBS.each do |path|
+    post path, controller: 'teapots', action: 'coffee'
+  end
 end

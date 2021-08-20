@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-VULNERABILITY_TESTING_PATHS = %w[
+GET_PATHS = %w[
   .ftpconfig
   /.env
   /.git
@@ -64,10 +64,12 @@ VULNERABILITY_TESTING_PATHS = %w[
   /infe/rest/flash/getServerIP.json
   /js/basic.js
   /js/fckeditor/editor/filemanager/connectors/test.html
+  /js/mage/cookies.js
   /magento/index.php/admin/
   /magento/rss/catalog/notifystock
   /magento/rss/catalog/review
   /magento/rss/order/new
+  /manager/
   /member/js/lang_zh_CN.js
   /new
   /new-site
@@ -95,6 +97,7 @@ VULNERABILITY_TESTING_PATHS = %w[
   /shop/rss/catalog/notifystock
   /shop/rss/catalog/review
   /shop/rss/order/new
+  /simpla/
   /site/wp-includes/wlwmanifest.xml
   /sites/all/libraries/fckeditor/editor/filemanager/connectors/test.html
   /sites/all/modules/fckeditor/fckeditor/editor/filemanager/connectors/test.html
@@ -164,14 +167,23 @@ VULNERABILITY_TESTING_PATHS = %w[
   /xxsssseee
 ].freeze
 
+POST_PATHS = %w[
+  /
+  /wp-content/mu-plugins/db-safe-mode.php
+  /wp-includes/css/wp-config.php
+  /wp-booking.php
+].freeze
+
 RSpec.describe "teapot routes", type: :routing do
-  VULNERABILITY_TESTING_PATHS.each do |path|
+  GET_PATHS.each do |path|
     it "routes GET #{path} to the teapot controller" do
       expect(get(path)).to route_to('iron_teapot/teapots#coffee')
     end
   end
 
-  it "routes POST / to the teapot controller" do
-    expect(post('/')).to route_to('iron_teapot/teapots#coffee')
+  POST_PATHS.each do |path|
+    it "routes POST #{path} to the teapot controller" do
+      expect(post(path)).to route_to('iron_teapot/teapots#coffee')
+    end
   end
 end
