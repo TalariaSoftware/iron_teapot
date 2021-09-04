@@ -13,6 +13,7 @@ GET_PATH_GLOBS = %w[
   *a/index.php/*b
   *a/phpinfo
   *a/wp-includes/*b
+  /!==this.readyState
   /*a/phpunit/*b
   /.*b
   /1
@@ -56,6 +57,7 @@ GET_PATH_GLOBS = %w[
   /backup
   /bak
   /base/exchange_article/index/classid/1/id/1
+  /bc
   /bk
   /blog
   /cache
@@ -92,6 +94,7 @@ GET_PATH_GLOBS = %w[
   /kkrps/im_group/showmembers
   /login.html
   /magento/*b
+  /main
   /manager
   /member/js/lang_zh_CN.js
   /new
@@ -101,6 +104,7 @@ GET_PATH_GLOBS = %w[
   /old-site
   /old-wp
   /old/*b
+  /oldsite
   /pages/admin
   /phpMyAdmin
   /phpinfo

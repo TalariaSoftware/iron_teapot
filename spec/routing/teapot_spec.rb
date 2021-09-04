@@ -2,6 +2,7 @@ require 'rails_helper'
 
 GET_PATHS = %w[
   .ftpconfig
+  /!==this.readyState
   /.env
   /.git
   /1
@@ -56,6 +57,7 @@ GET_PATHS = %w[
   /backup
   /bak
   /base/exchange_article/index/classid/1/id/1
+  /bc
   /bk
   /blog
   /blog/wp-includes/wlwmanifest.xml
@@ -113,6 +115,7 @@ GET_PATHS = %w[
   /magento/rss/catalog/notifystock
   /magento/rss/catalog/review
   /magento/rss/order/new
+  /main
   /manager/
   /member/js/lang_zh_CN.js
   /new
@@ -126,6 +129,7 @@ GET_PATHS = %w[
   /old/rss/catalog/notifystock
   /old/rss/catalog/review
   /old/rss/order/new
+  /oldsite
   /pages/admin
   /phpMyAdmin
   /phpinfo
@@ -133,6 +137,7 @@ GET_PATHS = %w[
   /plugins/fubar
   /providers/htmleditorproviders/telerik/telerik.web.ui.dialoghandler.aspx
   /proxy/settings
+  /public/.env
   /public/appapi/images/error.jpg
   /public/h5static/js/main.js
   /public/tpl/default/static/css.css
@@ -165,6 +170,7 @@ GET_PATHS = %w[
   /static/home/static/js/login.js
   /static/wap/js/common.js
   /static/xianyu/js/bankCheck.js
+  /storage/.env
   /store/index.php/admin/
   /store/rss/catalog/notifystock
   /store/rss/catalog/review
