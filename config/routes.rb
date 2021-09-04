@@ -1,10 +1,17 @@
 GET_PATH_GLOBS = %w[
+  *a.asp
   *a.aspx
   *a.aspx*b
+  *a.do
+  *a.mvc
   *a.php
   *a.php/*b
+  *a/.env
+  *a/GetQrCodeInfo
+  *a/aws.yml
   *a/fckeditor/*b
   *a/index.php/*b
+  *a/phpinfo
   *a/wp-includes/*b
   /*a/phpunit/*b
   /.*b
@@ -14,18 +21,38 @@ GET_PATH_GLOBS = %w[
   /2020
   /2021
   /2022
+  /Content/*b
   /FCKeditor/*b
+  /Home/GetAllGameCategory
+  /Public/Home/*b
   /Public/Home/js/common.js
+  /Public/Wchat/*b
+  /Public/css/errorCss.css
+  /Public/css/hall.css
+  /Public/home/*b
   /Public/home/common/js/index.js
   /Public/home/wap/css/qdgame.css
+  /Public/js/common.js
+  /Scripts/common.js
   /Templates/user/js/global.js
   /_wpeprivate/*b
   /actuator/env
+  /adm
   /admin
   /admin/*b
+  /administrator
+  /ajax
   /api/ApiHub/fetchJinse
   /api/Index/getLottery
+  /api/common/getConfig
+  /api/config-init
+  /api/contactWay
+  /api/customerServiceLink
+  /api/public
+  /api/uploads/apimap
+  /appxz/index.html
   /auth
+  /aws.yml
   /backup
   /bak
   /base/exchange_article/index/classid/1/id/1
@@ -34,10 +61,16 @@ GET_PATH_GLOBS = %w[
   /cache
   /cdn-cgi/*b
   /cgi-bin/*b
+  /client/api/findFreeTrade
   /cms
   /common/member/js/user.util.js
   /components/*b
+  /config.js
+  /contact
   /contacts
+  /cscpLoginWeb/*b
+  /css/nsc/reset.css
+  /data/json/config.json
   /demo
   /demo/*b
   /dev/
@@ -46,11 +79,18 @@ GET_PATH_GLOBS = %w[
   /fckeditor/*b
   /files
   /gaocc/g445g
+  /im/in/GetUuid
   /images
+  /images/no.jpg
   /images/src_images_but_dianz_s.png
+  /index/Mobile/kline_week
   /infe/rest/flash/getServerIP.json
+  /jiaoyimao/default.css
   /js/basic.js
+  /js/home.js
   /js/mage/cookies.js
+  /kkrps/im_group/showmembers
+  /login.html
   /magento/*b
   /manager
   /member/js/lang_zh_CN.js
@@ -61,27 +101,40 @@ GET_PATH_GLOBS = %w[
   /old-site
   /old-wp
   /old/*b
+  /pages/admin
   /phpMyAdmin
+  /phpinfo
   /phpmyadmin/*b
   /plugins/*b
   /proxy/settings
   /public/appapi/images/error.jpg
   /public/h5static/js/main.js
+  /public/tpl/default/static/css.css
+  /resources/css/headernav.css
   /rss/*b
+  /s_api/basic/download/info
   /sftp-config.json
   /shop/*b
   /simpla
   /sites/default/files
   /staging/*b
+  /static/admincp/js/common.js
+  /static/css/index.css
   /static/data/thirdgames.json
+  /static/download/style.css
+  /static/home/css2/login--1.css
   /static/home/js/rooms.js
   /static/home/static/js/login.js
   /static/wap/js/common.js
   /static/xianyu/js/bankCheck.js
   /store/*b
+  /template/920ka/js/woodyapp.js
+  /template/js/comm/Confrim.js
   /test
   /test/*b
   /uploads
+  /wap/api/exchangerateuserconfig!get.action
+  /wap/trading/get_newallorder_ajax
   /webadmin
   /wordpress
   /wp
@@ -105,8 +158,14 @@ GET_PATH_GLOBS = %w[
 ].freeze
 
 POST_PATH_GLOBS = %w[
-  /
   *a.php
+  /
+  /melody/api/v1/pageconfig/list
+  /user/getAllNicknames
+].freeze
+
+DELETE_PATH_GLOBS = %w[
+  /contacts
 ].freeze
 
 IronTeapot::Engine.routes.draw do
@@ -116,5 +175,9 @@ IronTeapot::Engine.routes.draw do
 
   POST_PATH_GLOBS.each do |path|
     post path, controller: 'teapots', action: 'coffee'
+  end
+
+  DELETE_PATH_GLOBS.each do |path|
+    delete path, controller: 'teapots', action: 'coffee'
   end
 end

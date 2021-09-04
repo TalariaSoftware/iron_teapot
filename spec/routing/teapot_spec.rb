@@ -12,21 +12,47 @@ GET_PATHS = %w[
   /2020/wp-includes/wlwmanifest.xml
   /2021
   /2022
+  /Content/Wap/base.css
+  /Content/common/web/CommonActivity.css
+  /Content/css/wzwstylel.css
   /DesktopModules/Admin/RadEditorProvider/DialogHandler.aspx
   /FCKeditor/editor/filemanager/connectors/test.html
+  /Home/GetAllGameCategory
   /Install/InstallWizard.aspx?__VIEWSTATE=
+  /Promotions/list.mvc
+  /Public/Home/images/game/pk10.png
+  /Public/Home/js/cls.js
   /Public/Home/js/common.js
+  /Public/Wchat/css/index.css
+  /Public/css/errorCss.css
+  /Public/css/hall.css
   /Public/home/common/js/index.js
+  /Public/home/js/check.js
   /Public/home/wap/css/qdgame.css
+  /Public/js/common.js
+  /Scripts/common.js
   /Templates/user/js/global.js
+  /_profiler/phpinfo
   /_wpeprivate/config.json
   /actuator/env
+  /adm
   /admin
   /admin/new
+  /administrator
+  /ajax
   /api/ApiHub/fetchJinse
   /api/Index/getLottery
+  /api/common/getConfig
+  /api/config-init
+  /api/contactWay
+  /api/customerServiceLink
+  /api/public
+  /api/stock/getSingleStock.do
+  /api/uploads/apimap
   /app_master/telerik.web.ui.dialoghandler.aspx
+  /appxz/index.html
   /auth
+  /aws.yml
   /backup
   /bak
   /base/exchange_article/index/classid/1/id/1
@@ -36,11 +62,18 @@ GET_PATHS = %w[
   /cache
   /cdn-cgi/foobar
   /cgi-bin/fubar
+  /client/api/findFreeTrade
   /cms
   /cms/wp-includes/wlwmanifest.xml
   /common/member/js/user.util.js
   /components/swim
+  /config.js
+  /config/aws.yml
+  /contact
   /contacts
+  /cscpLoginWeb/app/home
+  /css/nsc/reset.css
+  /data/json/config.json
   /demo/
   /demo/index.php/admin/
   /demo/rss/catalog/notifystock
@@ -56,15 +89,26 @@ GET_PATHS = %w[
   /files/
   /foo/phpunit/bar
   /gaocc/g445g
+  /getConfig/listPopFrame.do
+  /home/GetQrCodeInfo
   /html/js/editor/fckeditor/editor/filemanager/connectors/test.html
+  /im/in/GetUuid
   /images/
+  /images/no.jpg
   /images/src_images_but_dianz_s.png
   /include/fckeditor/editor/filemanager/connectors/test.html
   /index.php/admin/
+  /index/Mobile/kline_week
   /infe/rest/flash/getServerIP.json
+  /jiaoyimao/default.css
   /js/basic.js
   /js/fckeditor/editor/filemanager/connectors/test.html
+  /js/home.js
   /js/mage/cookies.js
+  /kkrps/im_group/showmembers
+  /laravel/.env
+  /login.asp
+  /login.html
   /magento/index.php/admin/
   /magento/rss/catalog/notifystock
   /magento/rss/catalog/review
@@ -82,16 +126,21 @@ GET_PATHS = %w[
   /old/rss/catalog/notifystock
   /old/rss/catalog/review
   /old/rss/order/new
+  /pages/admin
   /phpMyAdmin
+  /phpinfo
   /phpmyadmin/fubar
   /plugins/fubar
   /providers/htmleditorproviders/telerik/telerik.web.ui.dialoghandler.aspx
   /proxy/settings
   /public/appapi/images/error.jpg
   /public/h5static/js/main.js
+  /public/tpl/default/static/css.css
+  /resources/css/headernav.css
   /rss/catalog/notifystock
   /rss/catalog/review
   /rss/order/new
+  /s_api/basic/download/info
   /sftp-config.json
   /shop/index.php/admin/
   /shop/rss/catalog/notifystock
@@ -107,7 +156,11 @@ GET_PATHS = %w[
   /staging/rss/catalog/notifystock
   /staging/rss/catalog/review
   /staging/rss/order/new
+  /static/admincp/js/common.js
+  /static/css/index.css
   /static/data/thirdgames.json
+  /static/download/style.css
+  /static/home/css2/login--1.css
   /static/home/js/rooms.js
   /static/home/static/js/login.js
   /static/wap/js/common.js
@@ -116,12 +169,17 @@ GET_PATHS = %w[
   /store/rss/catalog/notifystock
   /store/rss/catalog/review
   /store/rss/order/new
+  /template/920ka/js/woodyapp.js
+  /template/js/comm/Confrim.js
   /test/
   /test/index.php/admin/
   /test/rss/catalog/notifystock
   /test/rss/catalog/review
   /test/rss/order/new
   /uploads/
+  /vendor/.env
+  /wap/api/exchangerateuserconfig!get.action
+  /wap/trading/get_newallorder_ajax
   /web/wp-includes/wlwmanifest.xml
   /webadmin
   /website/wp-includes/wlwmanifest.xml
@@ -169,9 +227,15 @@ GET_PATHS = %w[
 
 POST_PATHS = %w[
   /
+  /melody/api/v1/pageconfig/list
+  /user/getAllNicknames
+  /wp-booking.php
   /wp-content/mu-plugins/db-safe-mode.php
   /wp-includes/css/wp-config.php
-  /wp-booking.php
+].freeze
+
+DELETE_PATHS = %w[
+  /contacts
 ].freeze
 
 RSpec.describe "teapot routes", type: :routing do
@@ -184,6 +248,12 @@ RSpec.describe "teapot routes", type: :routing do
   POST_PATHS.each do |path|
     it "routes POST #{path} to the teapot controller" do
       expect(post(path)).to route_to('iron_teapot/teapots#coffee')
+    end
+  end
+
+  DELETE_PATHS.each do |path|
+    it "routes DELETE #{path} to the teapot controller" do
+      expect(delete(path)).to route_to('iron_teapot/teapots#coffee')
     end
   end
 end
