@@ -8,10 +8,14 @@ GET_PATH_GLOBS = %w[
   *a.php/*b
   *a/.env
   *a/GetQrCodeInfo
+  *a/admin
+  *a/admin/*b
   *a/aws.yml
   *a/fckeditor/*b
+  *a/getTheLotteryInitList
   *a/index.php/*b
   *a/phpinfo
+  *a/queryOfficePage
   *a/wp-includes/*b
   /!==this.readyState
   /*a/phpunit/*b
@@ -22,55 +26,57 @@ GET_PATH_GLOBS = %w[
   /2020
   /2021
   /2022
+  /360/static/js/iku.js
   /Content/*b
   /FCKeditor/*b
+  /Home/Bind/binding
   /Home/GetAllGameCategory
-  /Public/Home/*b
-  /Public/Home/js/common.js
-  /Public/Wchat/*b
-  /Public/css/errorCss.css
-  /Public/css/hall.css
-  /Public/home/*b
-  /Public/home/common/js/index.js
-  /Public/home/wap/css/qdgame.css
-  /Public/js/common.js
+  /Home/Index/ajaxTJ
+  /Login
+  /Pc/Lang/index.html
+  /Public/*b
   /Scripts/common.js
-  /Templates/user/js/global.js
+  /Security/login
+  /Templates/*b
   /_wpeprivate/*b
   /actuator/env
   /adm
   /admin
   /admin/*b
   /administrator
+  /administrator/language/en-GB/en-GB.xml
   /ajax
-  /api/ApiHub/fetchJinse
-  /api/Index/getLottery
-  /api/common/getConfig
-  /api/config-init
-  /api/contactWay
-  /api/customerServiceLink
-  /api/public
-  /api/uploads/apimap
+  /ajax/*b
+  /api/*b
+  /apis/*b
   /appxz/index.html
+  /assets/res/mods/room.js
   /auth
   /aws.yml
   /backup
   /bak
   /base/exchange_article/index/classid/1/id/1
+  /base/exchange_index/changepwdfirst
   /bc
   /bk
   /blog
   /cache
   /cdn-cgi/*b
   /cgi-bin/*b
+  /client/api/findConfigByKey
   /client/api/findFreeTrade
   /cms
   /common/member/js/user.util.js
+  /common/template/lottery/lecai/css/style.css
   /components/*b
   /config.js
   /contact
   /contacts
   /cscpLoginWeb/*b
+  /csjs/bankCheck.js
+  /css/all.css
+  /css/app.css
+  /css/main.css
   /css/nsc/reset.css
   /data/json/config.json
   /demo
@@ -80,23 +86,41 @@ GET_PATH_GLOBS = %w[
   /env
   /fckeditor/*b
   /files
+  /files/pub_rem.js
+  /friendGroup/list
   /gaocc/g445g
+  /h5
+  /homes
+  /im
+  /im/App/config
+  /im/h5
   /im/in/GetUuid
   /images
   /images/no.jpg
   /images/src_images_but_dianz_s.png
   /index/Mobile/kline_week
+  /index/index/purchase.html
   /infe/rest/flash/getServerIP.json
+  /install
+  /ipl/app/flash/publicbmw/ball/FigLeaf.js
   /jiaoyimao/default.css
   /js/basic.js
+  /js/common.js
   /js/home.js
   /js/mage/cookies.js
-  /kkrps/im_group/showmembers
+  /kkrps/im_group/*b
+  /langConfig.js
+  /loan
   /login.html
+  /m
+  /m/ticker/usdtqc
   /magento/*b
+  /magento_version
   /main
   /manager
+  /market/getStockBaseInfo
   /member/js/lang_zh_CN.js
+  /n/news/banner
   /new
   /new-site
   /nyyh/game.css
@@ -105,40 +129,49 @@ GET_PATH_GLOBS = %w[
   /old-wp
   /old/*b
   /oldsite
+  /otc
   /pages/admin
+  /pages/console/*b
   /phpMyAdmin
   /phpinfo
   /phpmyadmin/*b
   /plugins/*b
+  /proxy/games
   /proxy/settings
-  /public/appapi/images/error.jpg
-  /public/h5static/js/main.js
-  /public/tpl/default/static/css.css
+  /public/*b
   /resources/css/headernav.css
+  /resources/main/common.js
+  /room/getRoomBangFans
+  /room/script/face.js
   /rss/*b
-  /s_api/basic/download/info
+  /s_api/basic/*b
   /sftp-config.json
   /shop/*b
   /simpla
+  /site
+  /site.js
+  /site/get-hq
   /sites/default/files
   /staging/*b
-  /static/admincp/js/common.js
-  /static/css/index.css
-  /static/data/thirdgames.json
-  /static/download/style.css
-  /static/home/css2/login--1.css
-  /static/home/js/rooms.js
-  /static/home/static/js/login.js
-  /static/wap/js/common.js
-  /static/xianyu/js/bankCheck.js
+  /static/*b
+  /statics/js/API.js
+  /stock/search
   /store/*b
+  /temp
   /template/920ka/js/woodyapp.js
   /template/js/comm/Confrim.js
   /test
   /test/*b
+  /tmp
   /uploads
+  /user/userlist
+  /v1
+  /v2
+  /views/commData/commonSite.js
   /wap/api/exchangerateuserconfig!get.action
   /wap/trading/get_newallorder_ajax
+  /web
+  /web/api/getBanner
   /webadmin
   /wordpress
   /wp
@@ -158,7 +191,9 @@ GET_PATH_GLOBS = %w[
   /wp2
   /www.rar
   /www.sql
+  /xianyu/*b
   /xxsssseee
+  /xy
 ].freeze
 
 POST_PATH_GLOBS = %w[
