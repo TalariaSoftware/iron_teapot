@@ -81,6 +81,8 @@ GET_PATHS = %w[
   /adminlogin/admin/
   /ajax
   /ajax/allcoin_a/id/0?t=0.3782499195965951
+  /analytics/jbips/
+  /api.py
   /api/ApiHub/fetchJinse
   /api/Index/getLottery
   /api/common/getConfig
@@ -144,6 +146,7 @@ GET_PATHS = %w[
   /dev/rss/catalog/notifystock
   /dev/rss/catalog/review
   /dev/rss/order/new
+  /downloader
   /env
   /fckeditor/editor/filemanager/connectors/test.html
   /files/

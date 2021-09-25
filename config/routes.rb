@@ -47,6 +47,8 @@ GET_PATH_GLOBS = %w[
   /administrator/language/en-GB/en-GB.xml
   /ajax
   /ajax/*b
+  /analytics/jbips
+  /api.py
   /api/*b
   /apis/*b
   /appxz/index.html
@@ -83,6 +85,7 @@ GET_PATH_GLOBS = %w[
   /demo/*b
   /dev/
   /dev/*b
+  /downloader
   /env
   /fckeditor/*b
   /files
