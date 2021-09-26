@@ -27,6 +27,7 @@ GET_PATH_GLOBS = %w[
   /2021
   /2022
   /360/static/js/iku.js
+  /App_master/Telerik.Web.UI.WebResource.axd
   /Content/*b
   /FCKeditor/*b
   /Home/Bind/binding
@@ -37,8 +38,11 @@ GET_PATH_GLOBS = %w[
   /Public/*b
   /Scripts/common.js
   /Security/login
+  /Telerik.Web.UI.WebResource.axd
+  /Template/Mobile/js/main.js
   /Templates/*b
   /_wpeprivate/*b
+  /actions/seomatic/meta-container/all-meta-containers
   /actuator/env
   /adm
   /admin
@@ -51,8 +55,13 @@ GET_PATH_GLOBS = %w[
   /api.py
   /api/*b
   /apis/*b
+  /app/common/getRegisterSet
   /appxz/index.html
+  /assets/app-manifest.json
+  /assets/dist/static/js/vendor_prod.js
+  /assets/extension/market/css/mt4.css
   /assets/res/mods/room.js
+  /assets/room/css/room_mobile.css
   /auth
   /aws.yml
   /backup
@@ -80,6 +89,7 @@ GET_PATH_GLOBS = %w[
   /css/app.css
   /css/main.css
   /css/nsc/reset.css
+  /css/view/main/*b
   /data/json/config.json
   /demo
   /demo/*b
@@ -93,7 +103,9 @@ GET_PATH_GLOBS = %w[
   /friendGroup/list
   /gaocc/g445g
   /h5
+  /home/login/login_index.html
   /homes
+  /iframe/rankgiftgotapi/1005
   /im
   /im/App/config
   /im/h5
@@ -101,8 +113,10 @@ GET_PATH_GLOBS = %w[
   /images
   /images/no.jpg
   /images/src_images_but_dianz_s.png
-  /index/Mobile/kline_week
+  /index/Mobile/*b
   /index/index/purchase.html
+  /index/login/register
+  /infe/rest/fig/advertise/common.json
   /infe/rest/flash/getServerIP.json
   /install
   /ipl/app/flash/publicbmw/ball/FigLeaf.js
@@ -111,10 +125,13 @@ GET_PATH_GLOBS = %w[
   /js/common.js
   /js/home.js
   /js/mage/cookies.js
+  /json/configs/permanent/permanent-lottery-config-list.json
   /kkrps/im_group/*b
   /langConfig.js
+  /lanren/css/global.css
+  /lib/client/etc/hometu.jpg
   /loan
-  /login.html
+  /login
   /m
   /m/ticker/usdtqc
   /magento/*b
@@ -122,6 +139,7 @@ GET_PATH_GLOBS = %w[
   /main
   /manager
   /market/getStockBaseInfo
+  /market/market-ws/iframe.html
   /member/js/lang_zh_CN.js
   /n/news/banner
   /new
@@ -139,6 +157,7 @@ GET_PATH_GLOBS = %w[
   /phpinfo
   /phpmyadmin/*b
   /plugins/*b
+  /portal/index/protocol.html
   /proxy/games
   /proxy/settings
   /public/*b
@@ -148,6 +167,7 @@ GET_PATH_GLOBS = %w[
   /room/script/face.js
   /rss/*b
   /s_api/basic/*b
+  /service
   /sftp-config.json
   /shop/*b
   /simpla
@@ -155,13 +175,14 @@ GET_PATH_GLOBS = %w[
   /site.js
   /site/get-hq
   /sites/default/files
+  /skin/main/onload.js
   /staging/*b
   /static/*b
   /statics/js/API.js
   /stock/search
   /store/*b
   /temp
-  /template/920ka/js/woodyapp.js
+  /template/920ka/*b
   /template/js/comm/Confrim.js
   /test
   /test/*b
@@ -169,6 +190,7 @@ GET_PATH_GLOBS = %w[
   /uploads
   /user/userlist
   /v1
+  /v1/management/tenant/getSpeedDomain
   /v2
   /views/commData/commonSite.js
   /wap/api/exchangerateuserconfig!get.action
@@ -202,6 +224,9 @@ GET_PATH_GLOBS = %w[
 POST_PATH_GLOBS = %w[
   *a.php
   /
+  /api/system/system/config/get
+  /auth/oauth/token
+  /index.php/api/other/appSetting
   /melody/api/v1/pageconfig/list
   /user/getAllNicknames
 ].freeze

