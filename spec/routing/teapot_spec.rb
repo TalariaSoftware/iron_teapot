@@ -82,7 +82,9 @@ GET_PATHS = %w[
   /admin_/admin/
   /administrator
   /administrator/admin/
+  /administrator/help/en-GB/toc.json
   /administrator/language/en-GB/en-GB.xml
+  /administrator/language/en-GB/install.xml
   /adminlogin/admin/
   /ajax
   /ajax/allcoin_a/id/0?t=0.3782499195965951
@@ -136,6 +138,7 @@ GET_PATHS = %w[
   /common/template/lottery/lecai/css/style.css
   /components/swim
   /config.js
+  /config.json
   /config/aws.yml
   /contact
   /contacts
@@ -167,6 +170,7 @@ GET_PATHS = %w[
   /friendGroup/list
   /gaocc/g445g
   /getConfig/listPopFrame.do
+  /guacamole/api/tokens
   /h5/
   /home/GetQrCodeInfo
   /home/login/login_index.html
@@ -178,6 +182,7 @@ GET_PATHS = %w[
   /im/h5/
   /im/in/GetUuid
   /images/
+  /images/editor/separator.gif
   /images/no.jpg
   /images/src_images_but_dianz_s.png
   /include/fckeditor/editor/filemanager/connectors/test.html
@@ -194,9 +199,11 @@ GET_PATHS = %w[
   /js/basic.js
   /js/common.js
   /js/fckeditor/editor/filemanager/connectors/test.html
+  /js/header-rollup-554.js
   /js/home.js
   /js/mage/cookies.js
   /json/configs/permanent/permanent-lottery-config-list.json
+  /kkrp/site/info
   /kkrps/im_group/show_members
   /kkrps/im_group/showmembers
   /langConfig.js
@@ -219,10 +226,13 @@ GET_PATHS = %w[
   /market/getStockBaseInfo?stockCodeInternal=2658
   /market/market-ws/iframe.html
   /member/js/lang_zh_CN.js
+  /misc/ajax.js
   /n/news/banner?column_id=303
   /new
   /new-site
   /news/wp-includes/wlwmanifest.xml
+  /newsite
+  /nyyh/chkjs.js
   /nyyh/game.css
   /oc/admin/
   /old-site
@@ -241,6 +251,7 @@ GET_PATHS = %w[
   /phpmyadmin/fubar
   /plugins/fubar
   /portal/index/protocol.html
+  /protal
   /providers/htmleditorproviders/telerik/telerik.web.ui.dialoghandler.aspx
   /proxy/games
   /proxy/settings
@@ -261,6 +272,7 @@ GET_PATHS = %w[
   /rss/order/new
   /s_api/basic/config_js?callback=__set_config
   /s_api/basic/download/info
+  /sendgrid.env
   /sftp-config.json
   /shop/index.php/admin/
   /shop/rss/catalog/notifystock
@@ -320,6 +332,7 @@ GET_PATHS = %w[
   /uploads/
   /user/admin/
   /user/userlist
+  /users/
   /v1/
   /v1/management/tenant/getSpeedDomain
   /v2/
@@ -375,6 +388,7 @@ GET_PATHS = %w[
   /xmlrpc.php
   /xxsssseee
   /xy/
+  js/chat/chat.js
 ].freeze
 # rubocop:enable Layout/LineLength
 

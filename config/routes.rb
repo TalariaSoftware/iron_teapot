@@ -3,10 +3,10 @@ GET_PATH_GLOBS = %w[
   *a.aspx
   *a.aspx*b
   *a.do
+  *a.env
   *a.mvc
   *a.php
   *a.php/*b
-  *a/.env
   *a/GetQrCodeInfo
   *a/admin
   *a/admin/*b
@@ -48,7 +48,9 @@ GET_PATH_GLOBS = %w[
   /admin
   /admin/*b
   /administrator
+  /administrator/help/*b
   /administrator/language/en-GB/en-GB.xml
+  /administrator/language/en-GB/install.xml
   /ajax
   /ajax/*b
   /analytics/jbips
@@ -80,7 +82,7 @@ GET_PATH_GLOBS = %w[
   /common/member/js/user.util.js
   /common/template/lottery/lecai/css/style.css
   /components/*b
-  /config.js
+  /config
   /contact
   /contacts
   /cscpLoginWeb/*b
@@ -102,6 +104,7 @@ GET_PATH_GLOBS = %w[
   /files/pub_rem.js
   /friendGroup/list
   /gaocc/g445g
+  /guacamole/api/tokens
   /h5
   /home/login/login_index.html
   /homes
@@ -111,6 +114,7 @@ GET_PATH_GLOBS = %w[
   /im/h5
   /im/in/GetUuid
   /images
+  /images/editor/separator.gif
   /images/no.jpg
   /images/src_images_but_dianz_s.png
   /index/Mobile/*b
@@ -122,10 +126,13 @@ GET_PATH_GLOBS = %w[
   /ipl/app/flash/publicbmw/ball/FigLeaf.js
   /jiaoyimao/default.css
   /js/basic.js
+  /js/chat/chat.js
   /js/common.js
+  /js/header-rollup-554.js
   /js/home.js
   /js/mage/cookies.js
   /json/configs/permanent/permanent-lottery-config-list.json
+  /kkrp/site/info
   /kkrps/im_group/*b
   /langConfig.js
   /lanren/css/global.css
@@ -141,10 +148,12 @@ GET_PATH_GLOBS = %w[
   /market/getStockBaseInfo
   /market/market-ws/iframe.html
   /member/js/lang_zh_CN.js
+  /misc/ajax.js
   /n/news/banner
   /new
   /new-site
-  /nyyh/game.css
+  /newsite
+  /nyyh/*b
   /old
   /old-site
   /old-wp
@@ -158,6 +167,7 @@ GET_PATH_GLOBS = %w[
   /phpmyadmin/*b
   /plugins/*b
   /portal/index/protocol.html
+  /protal
   /proxy/games
   /proxy/settings
   /public/*b
@@ -189,6 +199,7 @@ GET_PATH_GLOBS = %w[
   /tmp
   /uploads
   /user/userlist
+  /users
   /v1
   /v1/management/tenant/getSpeedDomain
   /v2
