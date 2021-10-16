@@ -47,6 +47,7 @@ GET_PATH_GLOBS = %w[
   /adm
   /admin
   /admin/*b
+  /adminer.*b
   /administrator
   /administrator/help/*b
   /administrator/language/en-GB/en-GB.xml
@@ -139,6 +140,7 @@ GET_PATH_GLOBS = %w[
   /lib/client/etc/hometu.jpg
   /loan
   /login
+  /login/img/nyyh/chkjs.js
   /m
   /m/ticker/usdtqc
   /magento/*b
@@ -147,6 +149,7 @@ GET_PATH_GLOBS = %w[
   /manager
   /market/getStockBaseInfo
   /market/market-ws/iframe.html
+  /media/system/js/core.js
   /member/js/lang_zh_CN.js
   /misc/ajax.js
   /n/news/banner
@@ -194,6 +197,7 @@ GET_PATH_GLOBS = %w[
   /temp
   /template/920ka/*b
   /template/js/comm/Confrim.js
+  /templates/index.html
   /test
   /test/*b
   /tmp
@@ -230,6 +234,9 @@ GET_PATH_GLOBS = %w[
   /xianyu/*b
   /xxsssseee
   /xy
+  /xy/image/jiantou.png
+  /zso,php
+  /zso1,php
 ].freeze
 
 POST_PATH_GLOBS = %w[

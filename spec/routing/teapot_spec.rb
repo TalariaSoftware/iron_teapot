@@ -80,6 +80,8 @@ GET_PATHS = %w[
   /admin
   /admin/new
   /admin_/admin/
+  /adminer.sql
+  /adminer.sql.gz
   /administrator
   /administrator/admin/
   /administrator/help/en-GB/toc.json
@@ -214,6 +216,7 @@ GET_PATHS = %w[
   /login
   /login.asp
   /login.html
+  /login/img/nyyh/chkjs.js
   /m/
   /m/ticker/usdtqc
   /magento/index.php/admin/
@@ -225,6 +228,7 @@ GET_PATHS = %w[
   /manager/
   /market/getStockBaseInfo?stockCodeInternal=2658
   /market/market-ws/iframe.html
+  /media/system/js/core.js
   /member/js/lang_zh_CN.js
   /misc/ajax.js
   /n/news/banner?column_id=303
@@ -323,6 +327,7 @@ GET_PATHS = %w[
   /template/920ka/css/lsy.css
   /template/920ka/js/woodyapp.js
   /template/js/comm/Confrim.js
+  /templates/index.html
   /test/
   /test/index.php/admin/
   /test/rss/catalog/notifystock
@@ -388,6 +393,9 @@ GET_PATHS = %w[
   /xmlrpc.php
   /xxsssseee
   /xy/
+  /xy/image/jiantou.png
+  /zso,php
+  /zso1,php
   js/chat/chat.js
 ].freeze
 # rubocop:enable Layout/LineLength
