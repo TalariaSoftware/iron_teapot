@@ -14,6 +14,7 @@ GET_PATH_GLOBS = %w[
   *a/fckeditor/*b
   *a/getTheLotteryInitList
   *a/index.php/*b
+  *a/magmi
   *a/phpinfo
   *a/queryOfficePage
   *a/wp-includes/*b
@@ -54,11 +55,13 @@ GET_PATH_GLOBS = %w[
   /administrator/language/en-GB/install.xml
   /ajax
   /ajax/*b
+  /amfeed/main/download
   /analytics/jbips
   /api.py
   /api/*b
   /apis/*b
   /app/common/getRegisterSet
+  /app/etc/local.xml
   /appxz/index.html
   /assets/app-manifest.json
   /assets/dist/static/js/vendor_prod.js
@@ -131,12 +134,14 @@ GET_PATH_GLOBS = %w[
   /js/common.js
   /js/header-rollup-554.js
   /js/home.js
+  /js/json.js
   /js/mage/cookies.js
   /json/configs/permanent/permanent-lottery-config-list.json
   /kkrp/site/info
   /kkrps/im_group/*b
   /langConfig.js
   /lanren/css/global.css
+  /legal/currency/set
   /lib/client/etc/hometu.jpg
   /loan
   /login
@@ -207,6 +212,7 @@ GET_PATH_GLOBS = %w[
   /v1
   /v1/management/tenant/getSpeedDomain
   /v2
+  /var/cache/mage--2
   /views/commData/commonSite.js
   /wap/api/exchangerateuserconfig!get.action
   /wap/trading/get_newallorder_ajax
@@ -247,6 +253,7 @@ POST_PATH_GLOBS = %w[
   /index.php/api/other/appSetting
   /melody/api/v1/pageconfig/list
   /user/getAllNicknames
+  /wap/banner/details
 ].freeze
 
 DELETE_PATH_GLOBS = %w[

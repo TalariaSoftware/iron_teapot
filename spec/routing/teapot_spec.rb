@@ -90,6 +90,7 @@ GET_PATHS = %w[
   /adminlogin/admin/
   /ajax
   /ajax/allcoin_a/id/0?t=0.3782499195965951
+  /amfeed/main/download?file=..%2F..%2F..%2Fapp%2Fetc%2Flocal.xml
   /analytics/jbips/
   /api.py
   /api/ApiHub/fetchJinse
@@ -111,6 +112,7 @@ GET_PATHS = %w[
   /api/wallet/redDetail
   /apis/api/index
   /app/common/getRegisterSet
+  /app/etc/local.xml
   /app_master/telerik.web.ui.dialoghandler.aspx
   /appxz/index.html
   /assets/app-manifest.json
@@ -203,6 +205,7 @@ GET_PATHS = %w[
   /js/fckeditor/editor/filemanager/connectors/test.html
   /js/header-rollup-554.js
   /js/home.js
+  /js/json.js
   /js/mage/cookies.js
   /json/configs/permanent/permanent-lottery-config-list.json
   /kkrp/site/info
@@ -211,6 +214,7 @@ GET_PATHS = %w[
   /langConfig.js
   /lanren/css/global.css
   /laravel/.env
+  /legal/currency/set
   /lib/client/etc/hometu.jpg
   /loan
   /login
@@ -224,6 +228,8 @@ GET_PATHS = %w[
   /magento/rss/catalog/review
   /magento/rss/order/new
   /magento_version
+  /magmi-importer/conf/magmi.ini
+  /magmi/conf/magmi.ini
   /main
   /manager/
   /market/getStockBaseInfo?stockCodeInternal=2658
@@ -341,6 +347,7 @@ GET_PATHS = %w[
   /v1/
   /v1/management/tenant/getSpeedDomain
   /v2/
+  /var/cache/mage--2/
   /vendor/.env
   /views/commData/commonSite.js
   /wap/api/exchangerateuserconfig!get.action
@@ -407,6 +414,7 @@ POST_PATHS = %w[
   /index.php/api/other/appSetting
   /melody/api/v1/pageconfig/list
   /user/getAllNicknames
+  /wap/banner/details
   /wp-booking.php
   /wp-content/mu-plugins/db-safe-mode.php
   /wp-includes/css/wp-config.php
