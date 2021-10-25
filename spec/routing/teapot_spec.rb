@@ -442,4 +442,17 @@ RSpec.describe "teapot routes", type: :routing do
       expect(delete(path)).to route_to('iron_teapot/teapots#coffee')
     end
   end
+
+  context "when the request header contains the '\\*\\/\\*' mime type" do
+    before do
+      allow_any_instance_of(ActionDispatch::Request) # rubocop:disable RSpec/AnyInstance
+        .to receive(:accept).and_return(
+          'text/html,application/xhtml+xml,application/xml;q=0.9,\*\/\*;q=0.8',
+        )
+    end
+
+    it "routes a '\\*\\/\\*' mime type to the teappot controller" do
+      expect(get('/')).to route_to('iron_teapot/teapots#coffee')
+    end
+  end
 end

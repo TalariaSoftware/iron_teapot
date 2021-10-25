@@ -272,4 +272,8 @@ IronTeapot::Engine.routes.draw do
   DELETE_PATH_GLOBS.each do |path|
     delete path, controller: 'teapots', action: 'coffee'
   end
+
+  get '/', controller: 'teapots', action: 'coffee', constraints: {
+    accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,\*\/\*;q=0.8', # rubocop:disable Layout/LineLength
+  }
 end
