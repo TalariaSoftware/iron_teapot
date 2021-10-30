@@ -33,6 +33,7 @@ GET_PATHS = %w[
   /360/static/js/iku.js
   /@/admin/
   /App_master/Telerik.Web.UI.WebResource.axd?type=rau
+  /Bitcoin/wallet.dat
   /Content/Wap/base.css
   /Content/common/web/CommonActivity.css
   /Content/css/wzwstylel.css
@@ -123,11 +124,17 @@ GET_PATHS = %w[
   /auth
   /auth/login/admin/
   /aws.yml
+  /bac
   /backup
+  /backup/bitcoin/wallet.dat
+  /backup/wallet.dat
+  /backups/wallet.dat
   /bak
   /base/exchange_article/index/classid/1/id/1
   /base/exchange_index/changepwdfirst
   /bc
+  /bitcoin/backup/wallet.dat
+  /bitcoin/wallet.dat
   /bk
   /blog
   /blog/wp-includes/wlwmanifest.xml
@@ -212,6 +219,7 @@ GET_PATHS = %w[
   /kkrps/im_group/show_members
   /kkrps/im_group/showmembers
   /langConfig.js
+  /language/index.html
   /lanren/css/global.css
   /laravel/.env
   /legal/currency/set
@@ -240,6 +248,7 @@ GET_PATHS = %w[
   /n/news/banner?column_id=303
   /new
   /new-site
+  /newfolder
   /news/wp-includes/wlwmanifest.xml
   /newsite
   /nyyh/chkjs.js
@@ -261,6 +270,7 @@ GET_PATHS = %w[
   /phpmyadmin/fubar
   /plugins/fubar
   /portal/index/protocol.html
+  /project
   /protal
   /providers/htmleditorproviders/telerik/telerik.web.ui.dialoghandler.aspx
   /proxy/games
@@ -339,6 +349,7 @@ GET_PATHS = %w[
   /test/rss/catalog/notifystock
   /test/rss/catalog/review
   /test/rss/order/new
+  /themes/README.txt
   /tmp/
   /uploads/
   /user/admin/
@@ -350,6 +361,9 @@ GET_PATHS = %w[
   /var/cache/mage--2/
   /vendor/.env
   /views/commData/commonSite.js
+  /wallet.dat
+  /wallet/wallet.dat
+  /wallets/wallet.dat
   /wap/api/exchangerateuserconfig!get.action
   /wap/trading/get_newallorder_ajax
   /web/
@@ -392,6 +406,7 @@ GET_PATHS = %w[
   /wp2
   /wp2/wp-includes/wlwmanifest.xml
   /ws/index/getTheLotteryInitList
+  /www
   /www.rar
   /www.sql
   /www.sql.gz

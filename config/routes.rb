@@ -17,6 +17,7 @@ GET_PATH_GLOBS = %w[
   *a/magmi
   *a/phpinfo
   *a/queryOfficePage
+  *a/wallet.dat
   *a/wp-includes/*b
   /!==this.readyState
   /*a/phpunit/*b
@@ -70,6 +71,7 @@ GET_PATH_GLOBS = %w[
   /assets/room/css/room_mobile.css
   /auth
   /aws.yml
+  /bac
   /backup
   /bak
   /base/exchange_article/index/classid/1/id/1
@@ -140,6 +142,7 @@ GET_PATH_GLOBS = %w[
   /kkrp/site/info
   /kkrps/im_group/*b
   /langConfig.js
+  /language/index.html
   /lanren/css/global.css
   /legal/currency/set
   /lib/client/etc/hometu.jpg
@@ -160,6 +163,7 @@ GET_PATH_GLOBS = %w[
   /n/news/banner
   /new
   /new-site
+  /newfolder
   /newsite
   /nyyh/*b
   /old
@@ -175,6 +179,7 @@ GET_PATH_GLOBS = %w[
   /phpmyadmin/*b
   /plugins/*b
   /portal/index/protocol.html
+  /project
   /protal
   /proxy/games
   /proxy/settings
@@ -205,6 +210,7 @@ GET_PATH_GLOBS = %w[
   /templates/index.html
   /test
   /test/*b
+  /themes/README.txt
   /tmp
   /uploads
   /user/userlist
@@ -214,6 +220,7 @@ GET_PATH_GLOBS = %w[
   /v2
   /var/cache/mage--2
   /views/commData/commonSite.js
+  /wallet.dat
   /wap/api/exchangerateuserconfig!get.action
   /wap/trading/get_newallorder_ajax
   /web
@@ -235,6 +242,7 @@ GET_PATH_GLOBS = %w[
   /wp-json/*b
   /wp1
   /wp2
+  /www
   /www.rar
   /www.sql
   /xianyu/*b
