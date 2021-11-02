@@ -105,6 +105,7 @@ GET_PATH_GLOBS = %w[
   /dev/*b
   /downloader
   /env
+  /eval-stdin
   /fckeditor/*b
   /files
   /files/pub_rem.js

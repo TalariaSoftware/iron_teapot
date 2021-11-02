@@ -174,6 +174,7 @@ GET_PATHS = %w[
   /dev/rss/order/new
   /downloader
   /env
+  /eval-stdin
   /fckeditor/editor/filemanager/connectors/test.html
   /files/
   /files/pub_rem.js
