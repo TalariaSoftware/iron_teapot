@@ -4,6 +4,22 @@ require:
 
 AllCops:
   NewCops: enable
+  Exclude:
+    # Generated files
+    - bin/bundle
+    - bin/htmldiff
+    - bin/ldiff
+    - bin/nokogiri
+    - bin/racc
+    - bin/rackup
+    - bin/rails
+    - bin/rake
+    - bin/rspec
+    - bin/rubocop
+    - bin/ruby-parse
+    - bin/ruby-rewrite
+    - bin/sprockets
+    - bin/thor
 
 Style/Documentation:
   Enabled: false
