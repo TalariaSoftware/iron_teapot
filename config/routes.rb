@@ -1,7 +1,9 @@
 GET_PATH_GLOBS = %w[
+  *a.ashx
   *a.asp
   *a.aspx
   *a.aspx*b
+  *a.cgi
   *a.do
   *a.env
   *a.mvc
@@ -23,6 +25,7 @@ GET_PATH_GLOBS = %w[
   /*a/phpunit/*b
   /.*b
   /1
+  /1111/feed
   /2018
   /2019
   /2020
@@ -70,6 +73,7 @@ GET_PATH_GLOBS = %w[
   /assets/res/mods/room.js
   /assets/room/css/room_mobile.css
   /auth
+  /auth/oauth/token
   /aws.yml
   /bac
   /backup
@@ -97,6 +101,7 @@ GET_PATH_GLOBS = %w[
   /css/app.css
   /css/main.css
   /css/nsc/reset.css
+  /css/style.css
   /css/view/main/*b
   /data/json/config.json
   /demo
@@ -109,10 +114,12 @@ GET_PATH_GLOBS = %w[
   /fckeditor/*b
   /files
   /files/pub_rem.js
+  /files/pub_reset.css
   /friendGroup/list
   /gaocc/g445g
   /guacamole/api/tokens
   /h5
+  /h5/static/*b
   /home/login/login_index.html
   /homes
   /iframe/rankgiftgotapi/1005
@@ -124,6 +131,7 @@ GET_PATH_GLOBS = %w[
   /images/editor/separator.gif
   /images/no.jpg
   /images/src_images_but_dianz_s.png
+  /img/login.png
   /index/Mobile/*b
   /index/index/purchase.html
   /index/login/register
@@ -132,6 +140,8 @@ GET_PATH_GLOBS = %w[
   /install
   /ipl/app/flash/publicbmw/ball/FigLeaf.js
   /jiaoyimao/default.css
+  /js/a.script
+  /js/app.ling.js
   /js/basic.js
   /js/chat/chat.js
   /js/common.js
@@ -142,6 +152,7 @@ GET_PATH_GLOBS = %w[
   /json/configs/permanent/permanent-lottery-config-list.json
   /kkrp/site/info
   /kkrps/im_group/*b
+  /km.asmx/getPlatParam
   /langConfig.js
   /language/index.html
   /lanren/css/global.css
@@ -161,6 +172,7 @@ GET_PATH_GLOBS = %w[
   /media/system/js/core.js
   /member/js/lang_zh_CN.js
   /misc/ajax.js
+  /mytio/config/base
   /n/news/banner
   /new
   /new-site
@@ -173,6 +185,7 @@ GET_PATH_GLOBS = %w[
   /old/*b
   /oldsite
   /otc
+  /other/codepay/js/codepay_util.js
   /pages/admin
   /pages/console/*b
   /phpMyAdmin
@@ -199,6 +212,7 @@ GET_PATH_GLOBS = %w[
   /site.js
   /site/get-hq
   /sites/default/files
+  /skin/common_files/lib/jquery.cookie.js
   /skin/main/onload.js
   /staging/*b
   /static/*b
@@ -207,19 +221,23 @@ GET_PATH_GLOBS = %w[
   /store/*b
   /temp
   /template/920ka/*b
+  /template/css/login.css
   /template/js/comm/Confrim.js
+  /template/tmp1/js/common.js
   /templates/index.html
   /test
   /test/*b
   /themes/README.txt
   /tmp
   /uploads
+  /user/getAllNicknames
   /user/userlist
   /users
   /v1
   /v1/management/tenant/getSpeedDomain
   /v2
   /var/cache/mage--2
+  /var/resource_config.json
   /views/commData/commonSite.js
   /wallet.dat
   /wap/api/exchangerateuserconfig!get.action
@@ -257,9 +275,11 @@ GET_PATH_GLOBS = %w[
 POST_PATH_GLOBS = %w[
   *a.php
   /
+  /api/app/config_new
   /api/system/system/config/get
   /auth/oauth/token
   /index.php/api/other/appSetting
+  /login/kefuxian.mvc
   /melody/api/v1/pageconfig/list
   /user/getAllNicknames
   /wap/banner/details

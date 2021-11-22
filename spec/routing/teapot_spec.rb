@@ -16,6 +16,7 @@ GET_PATHS = %w[
   /10/admin/
   /100/admin/
   /1000/admin/
+  /1111/feed
   /123/admin/
   /2/admin/
   /200/admin/
@@ -44,6 +45,7 @@ GET_PATHS = %w[
   /Home/Index/ajaxTJ
   /Install/InstallWizard.aspx?__VIEWSTATE=
   /Login
+  /MT/mt-atom.cgi
   /Pc/Lang/index.html
   /Promotions/list.mvc
   /Public/Home/images/game/pk10.png
@@ -123,6 +125,7 @@ GET_PATHS = %w[
   /assets/room/css/room_mobile.css
   /auth
   /auth/login/admin/
+  /auth/oauth/token
   /aws.yml
   /bac
   /backup
@@ -159,6 +162,7 @@ GET_PATHS = %w[
   /css/app.css
   /css/main.css
   /css/nsc/reset.css
+  /css/style.css
   /css/view/main/goin.css
   /css/view/main/style.css
   /data/json/config.json
@@ -178,12 +182,15 @@ GET_PATHS = %w[
   /fckeditor/editor/filemanager/connectors/test.html
   /files/
   /files/pub_rem.js
+  /files/pub_reset.css
   /foo/phpunit/bar
   /friendGroup/list
   /gaocc/g445g
   /getConfig/listPopFrame.do
   /guacamole/api/tokens
   /h5/
+  /h5/static/cert/icon_yanzhengma.png
+  /h5/static/tabbar/txl.png
   /home/GetQrCodeInfo
   /home/login/login_index.html
   /homes/
@@ -197,6 +204,7 @@ GET_PATHS = %w[
   /images/editor/separator.gif
   /images/no.jpg
   /images/src_images_but_dianz_s.png
+  /img/login.png
   /include/fckeditor/editor/filemanager/connectors/test.html
   /index.php/admin/
   /index/Mobile/fenshi?code=sz002405
@@ -208,6 +216,8 @@ GET_PATHS = %w[
   /install/
   /ipl/app/flash/publicbmw/ball/FigLeaf.js?site=member
   /jiaoyimao/default.css
+  /js/a.script
+  /js/app.ling.js
   /js/basic.js
   /js/common.js
   /js/fckeditor/editor/filemanager/connectors/test.html
@@ -219,6 +229,7 @@ GET_PATHS = %w[
   /kkrp/site/info
   /kkrps/im_group/show_members
   /kkrps/im_group/showmembers
+  /km.asmx/getPlatParam
   /langConfig.js
   /language/index.html
   /lanren/css/global.css
@@ -246,6 +257,9 @@ GET_PATHS = %w[
   /media/system/js/core.js
   /member/js/lang_zh_CN.js
   /misc/ajax.js
+  /mt-atom.cgi
+  /mt/mt-atom.cgi
+  /mytio/config/base
   /n/news/banner?column_id=303
   /new
   /new-site
@@ -264,6 +278,7 @@ GET_PATHS = %w[
   /old/rss/order/new
   /oldsite
   /otc/
+  /other/codepay/js/codepay_util.js
   /pages/admin
   /pages/console/js/common.js
   /phpMyAdmin
@@ -305,10 +320,12 @@ GET_PATHS = %w[
   /site/admin/
   /site/get-hq?proNo=btc&panType=1&pid=1
   /site/wp-includes/wlwmanifest.xml
+  /sitecore/shell/ClientBin/Reporting/Report.ashx
   /sites/all/libraries/fckeditor/editor/filemanager/connectors/test.html
   /sites/all/modules/fckeditor/fckeditor/editor/filemanager/connectors/test.html
   /sites/default/files/
   /sito/wp-includes/wlwmanifest.xml
+  /skin/common_files/lib/jquery.cookie.js
   /skin/main/onload.js
   /staging/index.php/admin/
   /staging/rss/catalog/notifystock
@@ -343,7 +360,9 @@ GET_PATHS = %w[
   /temp/
   /template/920ka/css/lsy.css
   /template/920ka/js/woodyapp.js
+  /template/css/login.css
   /template/js/comm/Confrim.js
+  /template/tmp1/js/common.js
   /templates/index.html
   /test/
   /test/index.php/admin/
@@ -354,12 +373,14 @@ GET_PATHS = %w[
   /tmp/
   /uploads/
   /user/admin/
+  /user/getAllNicknames
   /user/userlist
   /users/
   /v1/
   /v1/management/tenant/getSpeedDomain
   /v2/
   /var/cache/mage--2/
+  /var/resource_config.json
   /vendor/.env
   /views/commData/commonSite.js
   /wallet.dat
@@ -425,9 +446,11 @@ GET_PATHS = %w[
 
 POST_PATHS = %w[
   /
+  /api/app/config_new
   /api/system/system/config/get
   /auth/oauth/token
   /index.php/api/other/appSetting
+  /login/kefuxian.mvc
   /melody/api/v1/pageconfig/list
   /user/getAllNicknames
   /wap/banner/details
