@@ -449,9 +449,12 @@ POST_PATHS = %w[
   /api/app/config_new
   /api/system/system/config/get
   /auth/oauth/token
+  /bin/bash
+  /cgi-bin/mt/mt-xmlrpc.cgi
   /index.php/api/other/appSetting
   /login/kefuxian.mvc
   /melody/api/v1/pageconfig/list
+  /mt/mt-xmlrpc.cgi
   /user/getAllNicknames
   /wap/banner/details
   /wp-booking.php

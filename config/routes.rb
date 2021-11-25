@@ -274,10 +274,12 @@ GET_PATH_GLOBS = %w[
 
 POST_PATH_GLOBS = %w[
   *a.php
+  *a/mt-xmlrpc.cgi
   /
   /api/app/config_new
   /api/system/system/config/get
   /auth/oauth/token
+  /bin/bash
   /index.php/api/other/appSetting
   /login/kefuxian.mvc
   /melody/api/v1/pageconfig/list
