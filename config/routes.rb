@@ -212,6 +212,8 @@ GET_PATH_GLOBS = %w[
   /site.js
   /site/get-hq
   /sites/default/files
+  /sitio
+  /sito
   /skin/common_files/lib/jquery.cookie.js
   /skin/main/onload.js
   /staging/*b
@@ -259,6 +261,7 @@ GET_PATH_GLOBS = %w[
   /wp-includes/*b
   /wp-json
   /wp-json/*b
+  /wp-old
   /wp1
   /wp2
   /www

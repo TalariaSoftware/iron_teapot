@@ -324,6 +324,8 @@ GET_PATHS = %w[
   /sites/all/libraries/fckeditor/editor/filemanager/connectors/test.html
   /sites/all/modules/fckeditor/fckeditor/editor/filemanager/connectors/test.html
   /sites/default/files/
+  /sitio
+  /sito
   /sito/wp-includes/wlwmanifest.xml
   /skin/common_files/lib/jquery.cookie.js
   /skin/main/onload.js
@@ -422,6 +424,7 @@ GET_PATHS = %w[
   /wp-includes/wlwmanifest.xml
   /wp-json
   /wp-json/wp/v2/users
+  /wp-old
   /wp/wp-includes/wlwmanifest.xml
   /wp1
   /wp1/wp-includes/wlwmanifest.xml
