@@ -81,6 +81,7 @@ GET_PATH_GLOBS = %w[
   /base/exchange_article/index/classid/1/id/1
   /base/exchange_index/changepwdfirst
   /bc
+  /bin/bash
   /bk
   /blog
   /cache
@@ -93,6 +94,7 @@ GET_PATH_GLOBS = %w[
   /common/template/lottery/lecai/css/style.css
   /components/*b
   /config
+  /configuration.php_old
   /contact
   /contacts
   /cscpLoginWeb/*b
@@ -190,6 +192,7 @@ GET_PATH_GLOBS = %w[
   /pages/console/*b
   /phpMyAdmin
   /phpinfo
+  /phpmyadmin
   /phpmyadmin/*b
   /plugins/*b
   /portal/index/protocol.html

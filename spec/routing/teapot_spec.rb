@@ -136,6 +136,7 @@ GET_PATHS = %w[
   /base/exchange_article/index/classid/1/id/1
   /base/exchange_index/changepwdfirst
   /bc
+  /bin/bash
   /bitcoin/backup/wallet.dat
   /bitcoin/wallet.dat
   /bk
@@ -154,6 +155,7 @@ GET_PATHS = %w[
   /config.js
   /config.json
   /config/aws.yml
+  /configuration.php_old
   /contact
   /contacts
   /cscpLoginWeb/app/home
@@ -283,6 +285,7 @@ GET_PATHS = %w[
   /pages/console/js/common.js
   /phpMyAdmin
   /phpinfo
+  /phpmyadmin/
   /phpmyadmin/fubar
   /plugins/fubar
   /portal/index/protocol.html
