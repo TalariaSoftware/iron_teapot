@@ -1,6 +1,7 @@
 require 'rails_helper'
 
-PATHS = YAML.load_file(IronTeapot::Engine.root.join('spec/routing/test_paths.yml'))
+PATHS =
+  YAML.load_file(IronTeapot::Engine.root.join('spec/routing/test_paths.yml'))
 
 RSpec.describe "teapot routes", type: :routing do
   PATHS['get'].each do |path|
