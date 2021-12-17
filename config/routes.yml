@@ -85,6 +85,7 @@ get:
   - /bk
   - /blog
   - /cache
+  - /ccaef.txt
   - /cdn-cgi/*b
   - /cgi-bin/*b
   - /client/api/findConfigByKey
@@ -281,6 +282,7 @@ post:
   - '*a.php'
   - '*a/mt-xmlrpc.cgi'
   - /
+  - /_ignition/execute-solution
   - /api/app/config_new
   - /api/system/system/config/get
   - /auth/oauth/token

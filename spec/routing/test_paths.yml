@@ -140,6 +140,7 @@ get:
   - /blog
   - /blog/wp-includes/wlwmanifest.xml
   - /cache
+  - /ccaef.txt
   - /cdn-cgi/foobar
   - /cgi-bin/fubar
   - /client/api/findConfigByKey?configKey=level_config
@@ -447,6 +448,7 @@ get:
 
 post:
   - /
+  - /_ignition/execute-solution
   - /api/app/config_new
   - /api/system/system/config/get
   - /auth/oauth/token
