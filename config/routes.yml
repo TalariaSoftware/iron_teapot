@@ -46,6 +46,7 @@ get:
   - /Telerik.Web.UI.WebResource.axd
   - /Template/Mobile/js/main.js
   - /Templates/*b
+  - /WP
   - /_wpeprivate/*b
   - /actions/seomatic/meta-container/all-meta-containers
   - /actuator/env

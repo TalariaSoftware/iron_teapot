@@ -63,6 +63,7 @@ get:
   - /Template/Mobile/js/main.js
   - /Templates/user/finance/css/userPay.css
   - /Templates/user/js/global.js
+  - /WP
   - /_profiler/phpinfo
   - /_wpeprivate/config.json
   - /aa/admin/
