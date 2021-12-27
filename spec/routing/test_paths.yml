@@ -124,6 +124,7 @@ get:
   - /auth
   - /auth/login/admin/
   - /auth/oauth/token
+  - /authentik.yaml
   - /aws.yml
   - /bac
   - /backup
@@ -452,6 +453,7 @@ post:
   - /_ignition/execute-solution
   - /api/app/config_new
   - /api/system/system/config/get
+  - /app/webroot/js/kcfinder/js/helper.js
   - /auth/oauth/token
   - /bin/bash
   - /cgi-bin/mt/mt-xmlrpc.cgi
