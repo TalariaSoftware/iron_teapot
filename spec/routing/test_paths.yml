@@ -114,11 +114,14 @@ get:
   - /apis/api/index
   - /app/common/getRegisterSet
   - /app/etc/local.xml
+  - /app/webroot/js/kcfinder/js/helper.js
   - /app_master/telerik.web.ui.dialoghandler.aspx
   - /appxz/index.html
   - /assets/app-manifest.json
+  - /assets/ckeditor/kcfinder/js/helper.js
   - /assets/dist/static/js/vendor_prod.js
   - /assets/extension/market/css/mt4.css
+  - /assets/kcfinder/js/helper.js
   - /assets/res/mods/room.js
   - /assets/room/css/room_mobile.css
   - /auth
@@ -145,6 +148,7 @@ get:
   - /ccaef.txt
   - /cdn-cgi/foobar
   - /cgi-bin/fubar
+  - /ckeditor/kcfinder/js/helper.js
   - /client/api/findConfigByKey?configKey=level_config
   - /client/api/findFreeTrade
   - /cms
@@ -226,8 +230,10 @@ get:
   - /js/header-rollup-554.js
   - /js/home.js
   - /js/json.js
+  - /js/kcfinder/js/helper.js
   - /js/mage/cookies.js
   - /json/configs/permanent/permanent-lottery-config-list.json
+  - /kcfinder/js/helper.js
   - /kkrp/site/info
   - /kkrps/im_group/show_members
   - /kkrps/im_group/showmembers
@@ -259,6 +265,7 @@ get:
   - /media/system/js/core.js
   - /member/js/lang_zh_CN.js
   - /misc/ajax.js
+  - /modules/ictea_base/include/js/ckeditor/kcfinder/js/helper.js
   - /mt-atom.cgi
   - /mt/mt-atom.cgi
   - /mytio/config/base
@@ -283,6 +290,7 @@ get:
   - /other/codepay/js/codepay_util.js
   - /pages/admin
   - /pages/console/js/common.js
+  - /panel/kcfinder/js/helper.js
   - /phpMyAdmin
   - /phpinfo
   - /phpmyadmin/
@@ -439,6 +447,7 @@ get:
   - /www.sql
   - /www.sql.gz
   - /www.sql.zon
+  - /www/js/kcfinder/js/helper.js
   - /xianyu/index/setp1.html
   - /xmlrpc.php
   - /xxsssseee
@@ -453,7 +462,6 @@ post:
   - /_ignition/execute-solution
   - /api/app/config_new
   - /api/system/system/config/get
-  - /app/webroot/js/kcfinder/js/helper.js
   - /auth/oauth/token
   - /bin/bash
   - /cgi-bin/mt/mt-xmlrpc.cgi

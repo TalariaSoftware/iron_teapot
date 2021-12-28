@@ -16,6 +16,7 @@ get:
   - '*a/fckeditor/*b'
   - '*a/getTheLotteryInitList'
   - '*a/index.php/*b'
+  - '*a/kcfinder/js/helper.js'
   - '*a/magmi'
   - '*a/phpinfo'
   - '*a/queryOfficePage'
@@ -155,6 +156,7 @@ get:
   - /js/json.js
   - /js/mage/cookies.js
   - /json/configs/permanent/permanent-lottery-config-list.json
+  - /kcfinder/js/helper.js
   - /kkrp/site/info
   - /kkrps/im_group/*b
   - /km.asmx/getPlatParam
@@ -287,7 +289,6 @@ post:
   - /_ignition/execute-solution
   - /api/app/config_new
   - /api/system/system/config/get
-  - /app/webroot/js/kcfinder/js/helper.js
   - /auth/oauth/token
   - /bin/bash
   - /index.php/api/other/appSetting
