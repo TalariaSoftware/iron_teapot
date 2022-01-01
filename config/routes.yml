@@ -10,6 +10,7 @@ get:
   - '*a.php'
   - '*a.php/*b'
   - '*a/GetQrCodeInfo'
+  - '*a/Telerik.Web.UI.WebResource.axd'
   - '*a/admin'
   - '*a/admin/*b'
   - '*a/aws.yml'
@@ -27,27 +28,49 @@ get:
   - /.*b
   - /1
   - /1111/feed
+  - /2009
+  - /2010
+  - /2012
+  - /2013
+  - /2014
+  - /2015
+  - /2016
+  - /2017
   - /2018
   - /2019
   - /2020
   - /2021
   - /2022
   - /360/static/js/iku.js
-  - /App_master/Telerik.Web.UI.WebResource.axd
+  - /BACKUP
+  - /BLOG
+  - /Backup
+  - /Blog
   - /Content/*b
+  - /DEMO
+  - /Demo
   - /FCKeditor/*b
+  - /FORUM
   - /Home/Bind/binding
   - /Home/GetAllGameCategory
   - /Home/Index/ajaxTJ
   - /Login
+  - /NEW
+  - /New
+  - /Old
   - /Pc/Lang/index.html
   - /Public/*b
+  - /SHOP
+  - /STORE
   - /Scripts/common.js
   - /Security/login
+  - /Shop
   - /Telerik.Web.UI.WebResource.axd
   - /Template/Mobile/js/main.js
   - /Templates/*b
+  - /WORDPRESS
   - /WP
+  - /WordPress
   - /_wpeprivate/*b
   - /actions/seomatic/meta-container/all-meta-containers
   - /actuator/env
@@ -86,7 +109,10 @@ get:
   - /bc
   - /bin/bash
   - /bk
+  - /bkp
+  - /bkp2
   - /blog
+  - /blogs
   - /cache
   - /ccaef.txt
   - /cdn-cgi/*b
@@ -121,6 +147,7 @@ get:
   - /files
   - /files/pub_rem.js
   - /files/pub_reset.css
+  - /forum
   - /friendGroup/list
   - /gaocc/g445g
   - /guacamole/api/tokens
@@ -147,6 +174,7 @@ get:
   - /ipl/app/flash/publicbmw/ball/FigLeaf.js
   - /jiaoyimao/default.css
   - /js/a.script
+  - /js/app.js
   - /js/app.ling.js
   - /js/basic.js
   - /js/chat/chat.js
@@ -179,6 +207,7 @@ get:
   - /media/system/js/core.js
   - /member/js/lang_zh_CN.js
   - /misc/ajax.js
+  - /mt
   - /mytio/config/base
   - /n/news/banner
   - /new
@@ -190,7 +219,9 @@ get:
   - /old-site
   - /old-wp
   - /old/*b
+  - /old1
   - /oldsite
+  - /oldwebsite
   - /otc
   - /other/codepay/js/codepay_util.js
   - /pages/admin
@@ -214,6 +245,7 @@ get:
   - /s_api/basic/*b
   - /service
   - /sftp-config.json
+  - /shop
   - /shop/*b
   - /simpla
   - /site
@@ -228,6 +260,7 @@ get:
   - /static/*b
   - /statics/js/API.js
   - /stock/search
+  - /store
   - /store/*b
   - /temp
   - /template/920ka/*b
@@ -283,6 +316,7 @@ get:
   - /zso1,php
 
 post:
+  - '*a/perl.alfa'
   - '*a.php'
   - '*a/mt-xmlrpc.cgi'
   - /

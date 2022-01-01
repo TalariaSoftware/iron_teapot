@@ -21,6 +21,14 @@ get:
   - /2002/admin/
   - /2004/admin/
   - /2005/admin/
+  - /2009
+  - /2010
+  - /2012
+  - /2013
+  - /2014
+  - /2015
+  - /2016
+  - /2017
   - /2018
   - /2019
   - /2019/wp-includes/wlwmanifest.xml
@@ -31,18 +39,28 @@ get:
   - /360/static/js/iku.js
   - /@/admin/
   - /App_master/Telerik.Web.UI.WebResource.axd?type=rau
+  - /BACKUP
+  - /BLOG
+  - /Backup
   - /Bitcoin/wallet.dat
+  - /Blog
   - /Content/Wap/base.css
   - /Content/common/web/CommonActivity.css
   - /Content/css/wzwstylel.css
+  - /DEMO
+  - /Demo
   - /DesktopModules/Admin/RadEditorProvider/DialogHandler.aspx
   - /FCKeditor/editor/filemanager/connectors/test.html
+  - /FORUM
   - /Home/Bind/binding
   - /Home/GetAllGameCategory
   - /Home/Index/ajaxTJ
   - /Install/InstallWizard.aspx?__VIEWSTATE=
   - /Login
   - /MT/mt-atom.cgi
+  - /NEW
+  - /New
+  - /Old
   - /Pc/Lang/index.html
   - /Promotions/list.mvc
   - /Public/Home/images/game/pk10.png
@@ -57,13 +75,17 @@ get:
   - /Public/home/wap/css/qdgame.css
   - /Public/js/common.js
   - /Public/mobile/js/config.js
+  - /SHOP
+  - /STORE
   - /Scripts/common.js
   - /Security/login
   - /Telerik.Web.UI.WebResource.axd?type=rau
   - /Template/Mobile/js/main.js
   - /Templates/user/finance/css/userPay.css
   - /Templates/user/js/global.js
+  - /WORDPRESS
   - /WP
+  - /WordPress
   - /_profiler/phpinfo
   - /_wpeprivate/config.json
   - /aa/admin/
@@ -142,8 +164,11 @@ get:
   - /bitcoin/backup/wallet.dat
   - /bitcoin/wallet.dat
   - /bk
+  - /bkp
+  - /bkp2
   - /blog
   - /blog/wp-includes/wlwmanifest.xml
+  - /blogs
   - /cache
   - /ccaef.txt
   - /cdn-cgi/foobar
@@ -190,6 +215,7 @@ get:
   - /files/pub_rem.js
   - /files/pub_reset.css
   - /foo/phpunit/bar
+  - /forum
   - /friendGroup/list
   - /gaocc/g445g
   - /getConfig/listPopFrame.do
@@ -223,6 +249,7 @@ get:
   - /ipl/app/flash/publicbmw/ball/FigLeaf.js?site=member
   - /jiaoyimao/default.css
   - /js/a.script
+  - /js/app.js
   - /js/app.ling.js
   - /js/basic.js
   - /js/common.js
@@ -251,6 +278,7 @@ get:
   - /login/img/nyyh/chkjs.js
   - /m/
   - /m/ticker/usdtqc
+  - /mad/Telerik.Web.UI.WebResource.axd
   - /magento/index.php/admin/
   - /magento/rss/catalog/notifystock
   - /magento/rss/catalog/review
@@ -266,6 +294,7 @@ get:
   - /member/js/lang_zh_CN.js
   - /misc/ajax.js
   - /modules/ictea_base/include/js/ckeditor/kcfinder/js/helper.js
+  - /mt
   - /mt-atom.cgi
   - /mt/mt-atom.cgi
   - /mytio/config/base
@@ -285,7 +314,9 @@ get:
   - /old/rss/catalog/notifystock
   - /old/rss/catalog/review
   - /old/rss/order/new
+  - /old1
   - /oldsite
+  - /oldwebsite
   - /otc/
   - /other/codepay/js/codepay_util.js
   - /pages/admin
@@ -321,6 +352,7 @@ get:
   - /s_api/basic/download/info
   - /sendgrid.env
   - /sftp-config.json
+  - /shop
   - /shop/index.php/admin/
   - /shop/rss/catalog/notifystock
   - /shop/rss/catalog/review
@@ -366,6 +398,7 @@ get:
   - /statics/js/API.js
   - /stock/search.html?keyword=00202
   - /storage/.env
+  - /store
   - /store/index.php/admin/
   - /store/rss/catalog/notifystock
   - /store/rss/catalog/review
@@ -459,7 +492,9 @@ get:
 
 post:
   - /
+  - /ALFA_DATA/alfacgiapi/perl.alfa
   - /_ignition/execute-solution
+  - /alfacgiapi/perl.alfa
   - /api/app/config_new
   - /api/system/system/config/get
   - /auth/oauth/token
