@@ -19,6 +19,7 @@ get:
   - '*a/index.php/*b'
   - '*a/kcfinder/js/helper.js'
   - '*a/magmi'
+  - '*a/perl.alfa'
   - '*a/phpinfo'
   - '*a/queryOfficePage'
   - '*a/wallet.dat'

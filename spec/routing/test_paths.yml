@@ -38,6 +38,7 @@ get:
   - /2022
   - /360/static/js/iku.js
   - /@/admin/
+  - /ALFA_DATA/alfacgiapi/perl.alfa
   - /App_master/Telerik.Web.UI.WebResource.axd?type=rau
   - /BACKUP
   - /BLOG
@@ -113,6 +114,7 @@ get:
   - /adminlogin/admin/
   - /ajax
   - /ajax/allcoin_a/id/0?t=0.3782499195965951
+  - /alfacgiapi/perl.alfa
   - /amfeed/main/download?file=..%2F..%2F..%2Fapp%2Fetc%2Flocal.xml
   - /analytics/jbips/
   - /api.py
