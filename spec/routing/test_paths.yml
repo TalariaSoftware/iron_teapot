@@ -59,6 +59,7 @@ get:
   - /Install/InstallWizard.aspx?__VIEWSTATE=
   - /Login
   - /MT/mt-atom.cgi
+  - /MYzoomsounds
   - /NEW
   - /New
   - /Old
@@ -136,6 +137,7 @@ get:
   - /api/v1/about
   - /api/wallet/redDetail
   - /apis/api/index
+  - /app.js
   - /app/common/getRegisterSet
   - /app/etc/local.xml
   - /app/webroot/js/kcfinder/js/helper.js
@@ -145,6 +147,7 @@ get:
   - /assets/ckeditor/kcfinder/js/helper.js
   - /assets/dist/static/js/vendor_prod.js
   - /assets/extension/market/css/mt4.css
+  - /assets/js/app.js
   - /assets/kcfinder/js/helper.js
   - /assets/res/mods/room.js
   - /assets/room/css/room_mobile.css
@@ -352,6 +355,7 @@ get:
   - /rss/order/new
   - /s_api/basic/config_js?callback=__set_config
   - /s_api/basic/download/info
+  - /scripts/app.js
   - /sendgrid.env
   - /sftp-config.json
   - /shop
@@ -374,6 +378,7 @@ get:
   - /sito/wp-includes/wlwmanifest.xml
   - /skin/common_files/lib/jquery.cookie.js
   - /skin/main/onload.js
+  - /src/app.js
   - /staging/index.php/admin/
   - /staging/rss/catalog/notifystock
   - /staging/rss/catalog/review

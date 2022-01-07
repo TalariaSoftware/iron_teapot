@@ -9,6 +9,7 @@ get:
   - '*a.mvc'
   - '*a.php'
   - '*a.php/*b'
+  - '*a/app.js'
   - '*a/GetQrCodeInfo'
   - '*a/Telerik.Web.UI.WebResource.axd'
   - '*a/admin'
@@ -48,6 +49,7 @@ get:
   - /Backup
   - /Blog
   - /Content/*b
+  - /MYzoomsounds
   - /DEMO
   - /Demo
   - /FCKeditor/*b
@@ -90,6 +92,7 @@ get:
   - /api.py
   - /api/*b
   - /apis/*b
+  - /app.js
   - /app/common/getRegisterSet
   - /app/etc/local.xml
   - /appxz/index.html
