@@ -9,18 +9,19 @@ get:
   - '*a.mvc'
   - '*a.php'
   - '*a.php/*b'
-  - '*a/app.js'
   - '*a/GetQrCodeInfo'
   - '*a/Telerik.Web.UI.WebResource.axd'
   - '*a/admin'
   - '*a/admin/*b'
+  - '*a/alfacgiapi/'
+  - '*a/alfacgiapi/*b'
+  - '*a/app.js'
   - '*a/aws.yml'
   - '*a/fckeditor/*b'
   - '*a/getTheLotteryInitList'
   - '*a/index.php/*b'
   - '*a/kcfinder/js/helper.js'
   - '*a/magmi'
-  - '*a/perl.alfa'
   - '*a/phpinfo'
   - '*a/queryOfficePage'
   - '*a/wallet.dat'
@@ -49,7 +50,6 @@ get:
   - /Backup
   - /Blog
   - /Content/*b
-  - /MYzoomsounds
   - /DEMO
   - /Demo
   - /FCKeditor/*b
@@ -58,6 +58,7 @@ get:
   - /Home/GetAllGameCategory
   - /Home/Index/ajaxTJ
   - /Login
+  - /MYzoomsounds
   - /NEW
   - /New
   - /Old
@@ -87,6 +88,8 @@ get:
   - /administrator/language/en-GB/install.xml
   - /ajax
   - /ajax/*b
+  - /alfacgiapi
+  - /alfacgiapi/*b
   - /amfeed/main/download
   - /analytics/jbips
   - /api.py
