@@ -63,6 +63,7 @@ get:
   - /MYzoomsounds
   - /NEW
   - /New
+  - /OLD
   - /Old
   - /Pc/Lang/index.html
   - /Promotions/list.mvc
@@ -79,16 +80,24 @@ get:
   - /Public/js/common.js
   - /Public/mobile/js/config.js
   - /SHOP
+  - /SITE
   - /STORE
   - /Scripts/common.js
   - /Security/login
+  - /Site
+  - /TEST
   - /Telerik.Web.UI.WebResource.axd?type=rau
   - /Template/Mobile/js/main.js
   - /Templates/user/finance/css/userPay.css
   - /Templates/user/js/global.js
+  - /Test
   - /WORDPRESS
   - /WP
+  - /WWW
   - /WordPress
+  - /Wordpress
+  - /Wp
+  - /Www
   - /_profiler/phpinfo
   - /_wpeprivate/config.json
   - /aa/admin/

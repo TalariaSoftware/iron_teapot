@@ -61,20 +61,29 @@ get:
   - /MYzoomsounds
   - /NEW
   - /New
+  - /OLD
   - /Old
   - /Pc/Lang/index.html
   - /Public/*b
   - /SHOP
+  - /SITE
   - /STORE
   - /Scripts/common.js
   - /Security/login
   - /Shop
+  - /Site
+  - /TEST
   - /Telerik.Web.UI.WebResource.axd
   - /Template/Mobile/js/main.js
   - /Templates/*b
+  - /Test
   - /WORDPRESS
   - /WP
+  - /WWW
   - /WordPress
+  - /Wordpress
+  - /Wp
+  - /Www
   - /_wpeprivate/*b
   - /actions/seomatic/meta-container/all-meta-containers
   - /actuator/env
