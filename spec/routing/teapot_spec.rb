@@ -39,7 +39,7 @@ RSpec.describe "teapot routes", type: :routing do
     end
 
     it "routes a '\\*\\/\\*' mime type to the teappot controller" do
-      expect(get('/')).to route_to('iron_teapot/teapots#coffee')
+      expect(get('/any_path')).to route_to('iron_teapot/teapots#coffee')
     end
   end
 

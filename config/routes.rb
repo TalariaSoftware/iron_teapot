@@ -30,7 +30,7 @@ IronTeapot::Engine.routes.draw do
     delete path, controller: 'teapots', action: 'coffee'
   end
 
-  get '/', controller: 'teapots', action: 'coffee', constraints: {
+  get '/*path', controller: 'teapots', action: 'coffee', constraints: {
     accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,\*\/\*;q=0.8', # rubocop:disable Layout/LineLength
   }
 
