@@ -205,6 +205,7 @@ get:
   - /contacts
   - /cscpLoginWeb/app/home
   - /csjs/bankCheck.js
+  - /css/album.css
   - /css/all.css
   - /css/app.css
   - /css/main.css
@@ -242,6 +243,13 @@ get:
   - /home/GetQrCodeInfo
   - /home/login/login_index.html
   - /homes/
+  - /html.bak
+  - /html.bck
+  - /html.old
+  - /html.rar
+  - /html.tmp
+  - /html.txt
+  - /html.zip
   - /html/js/editor/fckeditor/editor/filemanager/connectors/test.html
   - /iframe/rankgiftgotapi/1005
   - /im/
@@ -308,6 +316,7 @@ get:
   - /market/getStockBaseInfo?stockCodeInternal=2658
   - /market/market-ws/iframe.html
   - /media/system/js/core.js
+  - /member/
   - /member/js/lang_zh_CN.js
   - /misc/ajax.js
   - /modules/ictea_base/include/js/ckeditor/kcfinder/js/helper.js

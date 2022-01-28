@@ -145,6 +145,7 @@ get:
   - /contacts
   - /cscpLoginWeb/*b
   - /csjs/bankCheck.js
+  - /css/album.css
   - /css/all.css
   - /css/app.css
   - /css/main.css
@@ -171,6 +172,13 @@ get:
   - /h5/static/*b
   - /home/login/login_index.html
   - /homes
+  - /html.bak
+  - /html.bck
+  - /html.old
+  - /html.rar
+  - /html.tmp
+  - /html.txt
+  - /html.zip
   - /iframe/rankgiftgotapi/1005
   - /im
   - /im/App/config
@@ -221,6 +229,7 @@ get:
   - /market/getStockBaseInfo
   - /market/market-ws/iframe.html
   - /media/system/js/core.js
+  - /member
   - /member/js/lang_zh_CN.js
   - /misc/ajax.js
   - /mt
