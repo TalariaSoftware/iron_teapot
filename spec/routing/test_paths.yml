@@ -98,6 +98,7 @@ get:
   - /Wordpress
   - /Wp
   - /Www
+  - /_ignition/execute-solution
   - /_profiler/phpinfo
   - /_wpeprivate/config.json
   - /aa/admin/
@@ -225,6 +226,7 @@ get:
   - /dev/rss/catalog/review
   - /dev/rss/order/new
   - /downloader
+  - /elfinder/elfinder.html
   - /env
   - /eval-stdin
   - /fckeditor/editor/filemanager/connectors/test.html

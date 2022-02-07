@@ -84,6 +84,7 @@ get:
   - /Wordpress
   - /Wp
   - /Www
+  - /_ignition/execute-solution
   - /_wpeprivate/*b
   - /actions/seomatic/meta-container/all-meta-containers
   - /actuator/env
@@ -158,6 +159,7 @@ get:
   - /dev/
   - /dev/*b
   - /downloader
+  - /elfinder/elfinder.html
   - /env
   - /eval-stdin
   - /fckeditor/*b
