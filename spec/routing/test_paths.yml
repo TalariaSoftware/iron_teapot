@@ -523,17 +523,26 @@ get:
 post:
   - /
   - /ALFA_DATA/alfacgiapi/perl.alfa
+  - /JQuery-File-Upload/server/php/
   - /_ignition/execute-solution
+  - /admin/plugins/jquery-file-upload/server/php/
+  - /admin/server/php/
   - /alfacgiapi/perl.alfa
   - /api/app/config_new
   - /api/system/system/config/get
+  - /assets/global/plugins/JQuery-File-Upload/server/php/
+  - /assets/global/plugins/jquery-file-upload/server/php/
   - /auth/oauth/token
   - /bin/bash
   - /cgi-bin/mt/mt-xmlrpc.cgi
+  - /file-upload/server/php/
+  - /fileupload/server/php/
   - /index.php/api/other/appSetting
+  - /jquery-file-upload/server/php/
   - /login/kefuxian.mvc
   - /melody/api/v1/pageconfig/list
   - /mt/mt-xmlrpc.cgi
+  - /plugins/jquery-file-upload/server/php/
   - /user/getAllNicknames
   - /wap/banner/details
   - /wp-booking.php

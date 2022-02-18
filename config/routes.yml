@@ -346,6 +346,7 @@ post:
   - '*a/perl.alfa'
   - '*a.php'
   - '*a/mt-xmlrpc.cgi'
+  - '*a/server/php'
   - /
   - /_ignition/execute-solution
   - /api/app/config_new
