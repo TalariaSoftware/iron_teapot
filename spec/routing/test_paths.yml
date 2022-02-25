@@ -123,6 +123,7 @@ get:
   - /administrator/help/en-GB/toc.json
   - /administrator/language/en-GB/en-GB.xml
   - /administrator/language/en-GB/install.xml
+  - /administrator/manifests/files/joomla.xml
   - /adminlogin/admin/
   - /ajax
   - /ajax/allcoin_a/id/0?t=0.3782499195965951
@@ -242,6 +243,7 @@ get:
   - /h5/
   - /h5/static/cert/icon_yanzhengma.png
   - /h5/static/tabbar/txl.png
+  - /home
   - /home/GetQrCodeInfo
   - /home/login/login_index.html
   - /homes/
@@ -293,6 +295,7 @@ get:
   - /kkrps/im_group/showmembers
   - /km.asmx/getPlatParam
   - /langConfig.js
+  - /language/en-GB/en-GB.xml
   - /language/index.html
   - /lanren/css/global.css
   - /laravel/.env

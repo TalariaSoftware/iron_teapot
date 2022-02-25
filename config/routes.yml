@@ -96,6 +96,7 @@ get:
   - /administrator/help/*b
   - /administrator/language/en-GB/en-GB.xml
   - /administrator/language/en-GB/install.xml
+  - /administrator/manifests/files/joomla.xml
   - /ajax
   - /ajax/*b
   - /alfacgiapi
@@ -172,6 +173,7 @@ get:
   - /guacamole/api/tokens
   - /h5
   - /h5/static/*b
+  - /home
   - /home/login/login_index.html
   - /homes
   - /html.bak
@@ -215,6 +217,7 @@ get:
   - /kkrps/im_group/*b
   - /km.asmx/getPlatParam
   - /langConfig.js
+  - /language/en-GB/en-GB.xml
   - /language/index.html
   - /lanren/css/global.css
   - /legal/currency/set
