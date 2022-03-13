@@ -185,6 +185,7 @@ get:
   - /bkp
   - /bkp2
   - /blog
+  - /blog/wp-admin/includes/
   - /blog/wp-includes/wlwmanifest.xml
   - /blogs
   - /cache
@@ -216,6 +217,7 @@ get:
   - /css/view/main/goin.css
   - /css/view/main/style.css
   - /data/json/config.json
+  - /debug/default/view?panel=config
   - /demo/
   - /demo/index.php/admin/
   - /demo/rss/catalog/notifystock
@@ -274,6 +276,7 @@ get:
   - /index/login/register
   - /infe/rest/fig/advertise/common.json?mobile_open=1
   - /infe/rest/flash/getServerIP.json
+  - /info
   - /install/
   - /ipl/app/flash/publicbmw/ball/FigLeaf.js?site=member
   - /jiaoyimao/default.css
@@ -330,6 +333,7 @@ get:
   - /mt/mt-atom.cgi
   - /mytio/config/base
   - /n/news/banner?column_id=303
+  - /nc/wsnc/committees/.git/HEAD
   - /new
   - /new-site
   - /newfolder
@@ -394,6 +398,7 @@ get:
   - /site/
   - /site/admin/
   - /site/get-hq?proNo=btc&panType=1&pid=1
+  - /site/wp-admin/includes/
   - /site/wp-includes/wlwmanifest.xml
   - /sitecore/shell/ClientBin/Reporting/Report.ashx
   - /sites/all/libraries/fckeditor/editor/filemanager/connectors/test.html
@@ -473,6 +478,7 @@ get:
   - /webadmin
   - /website/wp-includes/wlwmanifest.xml
   - /wordpress
+  - /wordpress/wp-admin/includes/
   - /wordpress/wp-includes/wlwmanifest.xml
   - /wp
   - /wp-admin
@@ -502,6 +508,7 @@ get:
   - /wp-json
   - /wp-json/wp/v2/users
   - /wp-old
+  - /wp/wp-admin/includes/
   - /wp/wp-includes/wlwmanifest.xml
   - /wp1
   - /wp1/wp-includes/wlwmanifest.xml
@@ -525,6 +532,7 @@ get:
 
 post:
   - /
+  - /.env
   - /ALFA_DATA/alfacgiapi/perl.alfa
   - /JQuery-File-Upload/server/php/
   - /_ignition/execute-solution
