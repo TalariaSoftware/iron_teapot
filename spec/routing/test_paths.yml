@@ -169,6 +169,7 @@ get:
   - /auth/oauth/token
   - /authentik.yaml
   - /aws.yml
+  - /aws/.credentials
   - /bac
   - /backup
   - /backup/bitcoin/wallet.dat
