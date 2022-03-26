@@ -233,7 +233,9 @@ get:
   - /elfinder/elfinder.html
   - /env
   - /eval-stdin
+  - /explore/projects?non_archived=true&page=1&sort=latest_activity_desc
   - /fckeditor/editor/filemanager/connectors/test.html
+  - /feed/
   - /files/
   - /files/pub_rem.js
   - /files/pub_reset.css
@@ -554,6 +556,7 @@ post:
   - /login/kefuxian.mvc
   - /melody/api/v1/pageconfig/list
   - /mt/mt-xmlrpc.cgi
+  - /paypal/transparent/requestSecureToken
   - /plugins/jquery-file-upload/server/php/
   - /user/getAllNicknames
   - /wap/banner/details

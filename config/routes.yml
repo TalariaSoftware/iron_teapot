@@ -167,7 +167,9 @@ get:
   - /elfinder/elfinder.html
   - /env
   - /eval-stdin
+  - /explore/projects
   - /fckeditor/*b
+  - /feed
   - /files
   - /files/pub_rem.js
   - /files/pub_reset.css
@@ -365,6 +367,7 @@ post:
   - /index.php/api/other/appSetting
   - /login/kefuxian.mvc
   - /melody/api/v1/pageconfig/list
+  - /paypal/transparent/requestSecureToken
   - /user/getAllNicknames
   - /wap/banner/details
 
