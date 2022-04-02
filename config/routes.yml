@@ -12,6 +12,7 @@ get:
   - '*a.php/*b'
   - '*a/GetQrCodeInfo'
   - '*a/Telerik.Web.UI.WebResource.axd'
+  - '*a/_ignition/*b'
   - '*a/admin'
   - '*a/admin/*b'
   - '*a/alfacgiapi/'
@@ -86,7 +87,7 @@ get:
   - /Wordpress
   - /Wp
   - /Www
-  - /_ignition/execute-solution
+  - /_ignition/*b
   - /_wpeprivate/*b
   - /actions/seomatic/meta-container/all-meta-containers
   - /actuator/env
@@ -122,6 +123,7 @@ get:
   - /authentik.yaml
   - /aws.yml
   - /aws/.credentials
+  - /aws/config
   - /bac
   - /backup
   - /bak
@@ -166,6 +168,7 @@ get:
   - /downloader
   - /elfinder/elfinder.html
   - /env
+  - /error_log
   - /eval-stdin
   - /explore/projects
   - /fckeditor/*b
@@ -173,6 +176,7 @@ get:
   - /files
   - /files/pub_rem.js
   - /files/pub_reset.css
+  - /filezilla.xml
   - /forum
   - /friendGroup/list
   - /gaocc/g445g
@@ -229,6 +233,7 @@ get:
   - /lanren/css/global.css
   - /legal/currency/set
   - /lib/client/etc/hometu.jpg
+  - /license.txt
   - /loan
   - /login
   - /login/img/nyyh/chkjs.js
@@ -326,6 +331,7 @@ get:
   - /web/api/getBanner
   - /webadmin
   - /wordpress
+  - /wordpress/license.txt
   - /wp
   - /wp-admin
   - /wp-admin/*b
@@ -340,6 +346,7 @@ get:
   - /wp-json
   - /wp-json/*b
   - /wp-old
+  - /wp/license.txt
   - /wp1
   - /wp2
   - /www

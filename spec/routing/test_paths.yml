@@ -99,6 +99,7 @@ get:
   - /Wp
   - /Www
   - /_ignition/execute-solution
+  - /_ignition/health-check/
   - /_profiler/phpinfo
   - /_wpeprivate/config.json
   - /aa/admin/
@@ -170,6 +171,7 @@ get:
   - /authentik.yaml
   - /aws.yml
   - /aws/.credentials
+  - /aws/config
   - /bac
   - /backup
   - /backup/bitcoin/wallet.dat
@@ -232,6 +234,7 @@ get:
   - /downloader
   - /elfinder/elfinder.html
   - /env
+  - /error_log
   - /eval-stdin
   - /explore/projects?non_archived=true&page=1&sort=latest_activity_desc
   - /fckeditor/editor/filemanager/connectors/test.html
@@ -239,6 +242,7 @@ get:
   - /files/
   - /files/pub_rem.js
   - /files/pub_reset.css
+  - /filezilla.xml
   - /foo/phpunit/bar
   - /forum
   - /friendGroup/list
@@ -305,8 +309,10 @@ get:
   - /language/index.html
   - /lanren/css/global.css
   - /laravel/.env
+  - /laravel/_ignition/health-check/
   - /legal/currency/set
   - /lib/client/etc/hometu.jpg
+  - /license.txt
   - /loan
   - /login
   - /login.asp
@@ -481,6 +487,7 @@ get:
   - /webadmin
   - /website/wp-includes/wlwmanifest.xml
   - /wordpress
+  - /wordpress/license.txt
   - /wordpress/wp-admin/includes/
   - /wordpress/wp-includes/wlwmanifest.xml
   - /wp
@@ -511,6 +518,7 @@ get:
   - /wp-json
   - /wp-json/wp/v2/users
   - /wp-old
+  - /wp/license.txt
   - /wp/wp-admin/includes/
   - /wp/wp-includes/wlwmanifest.xml
   - /wp1
