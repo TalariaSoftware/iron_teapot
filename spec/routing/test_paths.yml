@@ -10,6 +10,7 @@ get:
   - /03/admin/
   - /1
   - /1/admin/
+  - /1/license.txt
   - /10/admin/
   - /100/admin/
   - /1000/admin/
@@ -209,6 +210,7 @@ get:
   - /configuration.php_old
   - /contact
   - /contacts
+  - /cpanel
   - /cscpLoginWeb/app/home
   - /csjs/bankCheck.js
   - /css/album.css
@@ -464,6 +466,7 @@ get:
   - /test/rss/order/new
   - /themes/README.txt
   - /tmp/
+  - /tmp/license.txt
   - /uploads/
   - /user/admin/
   - /user/getAllNicknames

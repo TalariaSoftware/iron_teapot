@@ -23,6 +23,7 @@ get:
   - '*a/getTheLotteryInitList'
   - '*a/index.php/*b'
   - '*a/kcfinder/js/helper.js'
+  - '*a/license.txt'
   - '*a/magmi'
   - '*a/phpinfo'
   - '*a/queryOfficePage'
@@ -150,6 +151,7 @@ get:
   - /configuration.php_old
   - /contact
   - /contacts
+  - /cpanel
   - /cscpLoginWeb/*b
   - /csjs/bankCheck.js
   - /css/album.css
