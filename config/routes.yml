@@ -58,6 +58,7 @@ get:
   - /Demo
   - /FCKeditor/*b
   - /FORUM
+  - /FileZilla
   - /Home/Bind/binding
   - /Home/GetAllGameCategory
   - /Home/Index/ajaxTJ
@@ -88,6 +89,7 @@ get:
   - /Wordpress
   - /Wp
   - /Www
+  - /_aws/credentials
   - /_ignition/*b
   - /_wpeprivate/*b
   - /actions/seomatic/meta-container/all-meta-containers

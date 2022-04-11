@@ -55,6 +55,7 @@ get:
   - /DesktopModules/Admin/RadEditorProvider/DialogHandler.aspx
   - /FCKeditor/editor/filemanager/connectors/test.html
   - /FORUM
+  - /FileZilla.xml
   - /Home/Bind/binding
   - /Home/GetAllGameCategory
   - /Home/Index/ajaxTJ
@@ -99,6 +100,7 @@ get:
   - /Wordpress
   - /Wp
   - /Www
+  - /_aws/credentials
   - /_ignition/execute-solution
   - /_ignition/health-check/
   - /_profiler/phpinfo
