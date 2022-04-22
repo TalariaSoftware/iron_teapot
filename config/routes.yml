@@ -187,6 +187,7 @@ get:
   - /guacamole/api/tokens
   - /h5
   - /h5/static/*b
+  - /hehe
   - /home
   - /home/login/login_index.html
   - /homes
@@ -272,6 +273,7 @@ get:
   - /other/codepay/js/codepay_util.js
   - /pages/admin
   - /pages/console/*b
+  - /password_resets/new
   - /phpMyAdmin
   - /phpinfo
   - /phpmyadmin
@@ -293,6 +295,7 @@ get:
   - /sftp-config.json
   - /shop
   - /shop/*b
+  - /sign-in
   - /simpla
   - /site
   - /site.js
@@ -322,6 +325,7 @@ get:
   - /user/getAllNicknames
   - /user/userlist
   - /users
+  - /users/new
   - /v1
   - /v1/management/tenant/getSpeedDomain
   - /v2
@@ -349,6 +353,7 @@ get:
   - /wp-includes/*b
   - /wp-json
   - /wp-json/*b
+  - /wp-loading.phtml
   - /wp-old
   - /wp/license.txt
   - /wp1

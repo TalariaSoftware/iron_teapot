@@ -256,6 +256,7 @@ get:
   - /h5/
   - /h5/static/cert/icon_yanzhengma.png
   - /h5/static/tabbar/txl.png
+  - /hehe.php%20
   - /home
   - /home/GetQrCodeInfo
   - /home/login/login_index.html
@@ -370,6 +371,7 @@ get:
   - /pages/admin
   - /pages/console/js/common.js
   - /panel/kcfinder/js/helper.js
+  - /password_resets/new
   - /phpMyAdmin
   - /phpinfo
   - /phpmyadmin/
@@ -406,6 +408,7 @@ get:
   - /shop/rss/catalog/notifystock
   - /shop/rss/catalog/review
   - /shop/rss/order/new
+  - /sign-in
   - /simpla/
   - /site.js
   - /site/
@@ -474,6 +477,7 @@ get:
   - /user/getAllNicknames
   - /user/userlist
   - /users/
+  - /users/new
   - /v1/
   - /v1/management/tenant/getSpeedDomain
   - /v2/
@@ -522,6 +526,7 @@ get:
   - /wp-includes/wlwmanifest.xml
   - /wp-json
   - /wp-json/wp/v2/users
+  - /wp-loading.phtml
   - /wp-old
   - /wp/license.txt
   - /wp/wp-admin/includes/
