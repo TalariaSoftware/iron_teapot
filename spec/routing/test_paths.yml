@@ -39,6 +39,7 @@ get:
   - /2022
   - /360/static/js/iku.js
   - /@/admin/
+  - /ALFA_DATA
   - /ALFA_DATA/alfacgiapi/
   - /ALFA_DATA/alfacgiapi/perl.alfa
   - /App_master/Telerik.Web.UI.WebResource.axd?type=rau
@@ -163,9 +164,11 @@ get:
   - /assets/app-manifest.json
   - /assets/ckeditor/kcfinder/js/helper.js
   - /assets/dist/static/js/vendor_prod.js
+  - /assets/elfinder/elfinder.html
   - /assets/extension/market/css/mt4.css
   - /assets/js/app.js
   - /assets/kcfinder/js/helper.js
+  - /assets/plugins/elfinder/elfinder.html
   - /assets/res/mods/room.js
   - /assets/room/css/room_mobile.css
   - /auth
@@ -198,10 +201,12 @@ get:
   - /ccaef.txt
   - /cdn-cgi/foobar
   - /cgi-bin/fubar
+  - /cgialfa
   - /ckeditor/kcfinder/js/helper.js
   - /client/api/findConfigByKey?configKey=level_config
   - /client/api/findFreeTrade
   - /cms
+  - /cms/adMInhtml_page
   - /cms/wp-includes/wlwmanifest.xml
   - /common/member/js/user.util.js
   - /common/template/lottery/lecai/css/style.css
@@ -420,6 +425,8 @@ get:
   - /sites/all/libraries/fckeditor/editor/filemanager/connectors/test.html
   - /sites/all/modules/fckeditor/fckeditor/editor/filemanager/connectors/test.html
   - /sites/default/files/
+  - /sites/default/files/ALFA_DATA
+  - /sites/default/files/cgialfa
   - /sitio
   - /sito
   - /sito/wp-includes/wlwmanifest.xml
@@ -463,6 +470,8 @@ get:
   - /template/css/login.css
   - /template/js/comm/Confrim.js
   - /template/tmp1/js/common.js
+  - /templates/beez3/ALFA_DATA
+  - /templates/beez3/cgialfa
   - /templates/index.html
   - /test/
   - /test/index.php/admin/

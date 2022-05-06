@@ -10,6 +10,7 @@ get:
   - '*a.mvc'
   - '*a.php'
   - '*a.php/*b'
+  - '*a/ALFA_DATA'
   - '*a/GetQrCodeInfo'
   - '*a/Telerik.Web.UI.WebResource.axd'
   - '*a/_ignition/*b'
@@ -19,6 +20,8 @@ get:
   - '*a/alfacgiapi/*b'
   - '*a/app.js'
   - '*a/aws.yml'
+  - '*a/cgialfa'
+  - '*a/elfinder.html'
   - '*a/fckeditor/*b'
   - '*a/getTheLotteryInitList'
   - '*a/index.php/*b'
@@ -49,6 +52,7 @@ get:
   - /2021
   - /2022
   - /360/static/js/iku.js
+  - /ALFA_DATA
   - /BACKUP
   - /BLOG
   - /Backup
@@ -143,9 +147,11 @@ get:
   - /ccaef.txt
   - /cdn-cgi/*b
   - /cgi-bin/*b
+  - /cgialfa
   - /client/api/findConfigByKey
   - /client/api/findFreeTrade
   - /cms
+  - /cms/adMInhtml_page
   - /common/member/js/user.util.js
   - /common/template/lottery/lecai/css/style.css
   - /components/*b
@@ -170,7 +176,6 @@ get:
   - /dev/
   - /dev/*b
   - /downloader
-  - /elfinder/elfinder.html
   - /env
   - /error_log
   - /eval-stdin
