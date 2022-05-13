@@ -564,6 +564,7 @@ post:
   - /
   - /.env
   - /ALFA_DATA/alfacgiapi/perl.alfa
+  - /FCKeditor/editor/filemanager/connectors/asp/connector.asp
   - /JQuery-File-Upload/server/php/
   - /_ignition/execute-solution
   - /admin/plugins/jquery-file-upload/server/php/
@@ -576,6 +577,7 @@ post:
   - /auth/oauth/token
   - /bin/bash
   - /cgi-bin/mt/mt-xmlrpc.cgi
+  - /core/.env
   - /file-upload/server/php/
   - /fileupload/server/php/
   - /index.php/api/other/appSetting

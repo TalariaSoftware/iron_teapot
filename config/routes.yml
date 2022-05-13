@@ -380,11 +380,13 @@ post:
   - '*a/server/php'
   - /
   - /.env
+  - /FCKeditor/editor/filemanager/connectors/asp/connector.asp
   - /_ignition/execute-solution
   - /api/app/config_new
   - /api/system/system/config/get
   - /auth/oauth/token
   - /bin/bash
+  - /core/.env
   - /index.php/api/other/appSetting
   - /login/kefuxian.mvc
   - /melody/api/v1/pageconfig/list
