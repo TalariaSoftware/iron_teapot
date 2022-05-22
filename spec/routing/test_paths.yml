@@ -68,6 +68,7 @@ get:
   - /New
   - /OLD
   - /Old
+  - /Panels.txt
   - /Pc/Lang/index.html
   - /Promotions/list.mvc
   - /Public/Home/images/game/pk10.png
@@ -156,8 +157,15 @@ get:
   - /api/wallet/redDetail
   - /apis/api/index
   - /app.js
+  - /app/.vscode/sftp.json
   - /app/common/getRegisterSet
+  - /app/config.json
+  - /app/config/config.yml
+  - /app/config/configuration.yml
+  - /app/config/parameters.yml
+  - /app/config/storage.yml
   - /app/etc/local.xml
+  - /app/sftp-config.json
   - /app/webroot/js/kcfinder/js/helper.js
   - /app_master/telerik.web.ui.dialoghandler.aspx
   - /appxz/index.html
@@ -213,7 +221,10 @@ get:
   - /components/swim
   - /config.js
   - /config.json
+  - /config/aws.json
   - /config/aws.yml
+  - /config/config.json
+  - /config/config.yml
   - /configuration.php_old
   - /contact
   - /contacts
@@ -243,6 +254,7 @@ get:
   - /downloader
   - /elfinder/elfinder.html
   - /env
+  - /env-config.json
   - /error_log
   - /eval-stdin
   - /explore/projects?non_archived=true&page=1&sort=latest_activity_desc
@@ -383,6 +395,7 @@ get:
   - /phpmyadmin/fubar
   - /plugins/fubar
   - /portal/index/protocol.html
+  - /portal/sftp-config.json
   - /project
   - /protal
   - /providers/htmleditorproviders/telerik/telerik.web.ui.dialoghandler.aspx
