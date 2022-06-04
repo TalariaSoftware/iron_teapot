@@ -10,6 +10,7 @@ get:
   - '*a.mvc'
   - '*a.php'
   - '*a.php/*b'
+  - '*a.php5'
   - '*a/ALFA_DATA'
   - '*a/GetQrCodeInfo'
   - '*a/Telerik.Web.UI.WebResource.axd'
@@ -163,6 +164,7 @@ get:
   - /config
   - /config/*b
   - /configuration.php_old
+  - /configuration/info.xml
   - /contact
   - /contacts
   - /cpanel
@@ -285,6 +287,7 @@ get:
   - /pages/admin
   - /pages/console/*b
   - /password_resets/new
+  - /php.ini
   - /phpMyAdmin
   - /phpinfo
   - /phpmyadmin
@@ -402,4 +405,3 @@ post:
 
 delete:
   - /contacts
-

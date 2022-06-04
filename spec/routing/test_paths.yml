@@ -226,6 +226,7 @@ get:
   - /config/config.json
   - /config/config.yml
   - /configuration.php_old
+  - /configuration/info.xml
   - /contact
   - /contacts
   - /cpanel
@@ -389,10 +390,12 @@ get:
   - /pages/console/js/common.js
   - /panel/kcfinder/js/helper.js
   - /password_resets/new
+  - /php.ini
   - /phpMyAdmin
   - /phpinfo
   - /phpmyadmin/
   - /phpmyadmin/fubar
+  - /pi.php5
   - /plugins/fubar
   - /portal/index/protocol.html
   - /portal/sftp-config.json
