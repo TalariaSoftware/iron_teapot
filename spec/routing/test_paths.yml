@@ -68,6 +68,7 @@ get:
   - /New
   - /OLD
   - /Old
+  - /PSBC-1
   - /Panels.txt
   - /Pc/Lang/index.html
   - /Promotions/list.mvc
@@ -230,6 +231,8 @@ get:
   - /contact
   - /contacts
   - /cpanel
+  - /credentials
+  - /credentials/credentials
   - /cscpLoginWeb/app/home
   - /csjs/bankCheck.js
   - /css/album.css
@@ -321,6 +324,8 @@ get:
   - /js/json.js
   - /js/kcfinder/js/helper.js
   - /js/mage/cookies.js
+  - /js/main.js
+  - /js/pups.js
   - /json/configs/permanent/permanent-lottery-config-list.json
   - /kcfinder/js/helper.js
   - /kkrp/site/info
@@ -363,6 +368,8 @@ get:
   - /mt
   - /mt-atom.cgi
   - /mt/mt-atom.cgi
+  - /mtja.html
+  - /myConfig.js
   - /mytio/config/base
   - /n/news/banner?column_id=303
   - /nc/wsnc/committees/.git/HEAD
@@ -497,7 +504,10 @@ get:
   - /themes/README.txt
   - /tmp/
   - /tmp/license.txt
+  - /tools/.env%20
+  - /uploadify/uploadify.css
   - /uploads/
+  - /user/Login
   - /user/admin/
   - /user/getAllNicknames
   - /user/userlist

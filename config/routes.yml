@@ -25,6 +25,7 @@ get:
   - '*a/config.json'
   - '*a/config/*b'
   - '*a/elfinder.html'
+  - '*a/env'
   - '*a/fckeditor/*b'
   - '*a/getTheLotteryInitList'
   - '*a/index.php/*b'
@@ -38,6 +39,7 @@ get:
   - '*a/wallet.dat'
   - '*a/wp-admin/*b'
   - '*a/wp-includes/*b'
+  - '/tools/.env '
   - /!==this.readyState
   - /*a/phpunit/*b
   - /.*b
@@ -77,6 +79,7 @@ get:
   - /New
   - /OLD
   - /Old
+  - /PSBC-1
   - /Panels.txt
   - /Pc/Lang/index.html
   - /Public/*b
@@ -103,7 +106,6 @@ get:
   - /_ignition/*b
   - /_wpeprivate/*b
   - /actions/seomatic/meta-container/all-meta-containers
-  - /actuator/env
   - /adm
   - /admin
   - /admin/*b
@@ -168,6 +170,8 @@ get:
   - /contact
   - /contacts
   - /cpanel
+  - /credentials
+  - /credentials/*b
   - /cscpLoginWeb/*b
   - /csjs/bankCheck.js
   - /css/album.css
@@ -240,6 +244,8 @@ get:
   - /js/home.js
   - /js/json.js
   - /js/mage/cookies.js
+  - /js/main.js
+  - /js/pups.js
   - /json/configs/permanent/permanent-lottery-config-list.json
   - /kcfinder/js/helper.js
   - /kkrp/site/info
@@ -268,6 +274,8 @@ get:
   - /member/js/lang_zh_CN.js
   - /misc/ajax.js
   - /mt
+  - /mtja.html
+  - /myConfig.js
   - /mytio/config/base
   - /n/news/banner
   - /new
@@ -335,7 +343,9 @@ get:
   - /test/*b
   - /themes/README.txt
   - /tmp
+  - /uploadify/uploadify.css
   - /uploads
+  - /user/Login
   - /user/getAllNicknames
   - /user/userlist
   - /users
