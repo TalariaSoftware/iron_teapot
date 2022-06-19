@@ -259,6 +259,7 @@ get:
   - /elfinder/elfinder.html
   - /env
   - /env-config.json
+  - /environments/environment.ts
   - /error_log
   - /eval-stdin
   - /explore/projects?non_archived=true&page=1&sort=latest_activity_desc
@@ -456,6 +457,7 @@ get:
   - /skin/common_files/lib/jquery.cookie.js
   - /skin/main/onload.js
   - /src/app.js
+  - /src/environments/environment.ts
   - /staging/index.php/admin/
   - /staging/rss/catalog/notifystock
   - /staging/rss/catalog/review

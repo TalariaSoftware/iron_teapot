@@ -26,6 +26,7 @@ get:
   - '*a/config/*b'
   - '*a/elfinder.html'
   - '*a/env'
+  - '*a/environment.ts'
   - '*a/fckeditor/*b'
   - '*a/getTheLotteryInitList'
   - '*a/index.php/*b'
