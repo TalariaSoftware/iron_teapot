@@ -120,6 +120,7 @@ get:
   - /ajax/*b
   - /alfacgiapi
   - /alfacgiapi/*b
+  - /amember/admin-users
   - /amfeed/main/download
   - /analytics/jbips
   - /api.py
@@ -141,6 +142,7 @@ get:
   - /aws/.credentials
   - /aws/config
   - /bac
+  - /back
   - /backup
   - /bak
   - /base/exchange_article/index/classid/1/id/1
@@ -188,6 +190,7 @@ get:
   - /dev/
   - /dev/*b
   - /downloader
+  - /ecoin
   - /env
   - /env-config.json
   - /error_log
@@ -273,6 +276,7 @@ get:
   - /media/system/js/core.js
   - /member
   - /member/js/lang_zh_CN.js
+  - /members/login
   - /misc/ajax.js
   - /mt
   - /mtja.html
@@ -308,6 +312,7 @@ get:
   - /proxy/games
   - /proxy/settings
   - /public/*b
+  - /radio.txt
   - /resources/css/headernav.css
   - /resources/main/common.js
   - /room/getRoomBangFans
@@ -342,6 +347,7 @@ get:
   - /templates/index.html
   - /test
   - /test/*b
+  - /test_404_page
   - /themes/README.txt
   - /tmp
   - /uploadify/uploadify.css

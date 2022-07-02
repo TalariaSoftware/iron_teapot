@@ -136,6 +136,7 @@ get:
   - /ajax/allcoin_a/id/0?t=0.3782499195965951
   - /alfacgiapi/
   - /alfacgiapi/perl.alfa
+  - /amember/admin-users/
   - /amfeed/main/download?file=..%2F..%2F..%2Fapp%2Fetc%2Flocal.xml
   - /analytics/jbips/
   - /api.py
@@ -188,6 +189,7 @@ get:
   - /aws/.credentials
   - /aws/config
   - /bac
+  - /back/
   - /backup
   - /backup/bitcoin/wallet.dat
   - /backup/wallet.dat
@@ -256,6 +258,7 @@ get:
   - /dev/rss/catalog/review
   - /dev/rss/order/new
   - /downloader
+  - /ecoin/
   - /elfinder/elfinder.html
   - /env
   - /env-config.json
@@ -364,6 +367,7 @@ get:
   - /media/system/js/core.js
   - /member/
   - /member/js/lang_zh_CN.js
+  - /members/login/
   - /misc/ajax.js
   - /modules/ictea_base/include/js/ckeditor/kcfinder/js/helper.js
   - /mt
@@ -420,6 +424,7 @@ get:
   - /public/tpl/default/static/css.css
   - /public/web/css/add//index.css
   - /public/web/js/add/com.js
+  - /radio.txt
   - /resources/css/headernav.css
   - /resources/main/common.js
   - /room/getRoomBangFans
@@ -503,6 +508,7 @@ get:
   - /test/rss/catalog/notifystock
   - /test/rss/catalog/review
   - /test/rss/order/new
+  - /test_404_page
   - /themes/README.txt
   - /tmp/
   - /tmp/license.txt
