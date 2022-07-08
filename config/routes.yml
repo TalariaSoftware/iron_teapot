@@ -105,6 +105,7 @@ get:
   - /Www
   - /_aws/credentials
   - /_ignition/*b
+  - /_profiler/empty/search/results
   - /_wpeprivate/*b
   - /actions/seomatic/meta-container/all-meta-containers
   - /adm
@@ -184,6 +185,8 @@ get:
   - /css/nsc/reset.css
   - /css/style.css
   - /css/view/main/*b
+  - /database
+  - /db
   - /debug/default/view
   - /demo
   - /demo/*b
@@ -193,6 +196,8 @@ get:
   - /ecoin
   - /env
   - /env-config.json
+  - /environments/.aws/.credentials
+  - /environments/.credentials
   - /error_log
   - /eval-stdin
   - /explore/projects
@@ -277,10 +282,15 @@ get:
   - /member
   - /member/js/lang_zh_CN.js
   - /members/login
+  - /mentions-legales
+  - /mentionslegales
   - /misc/ajax.js
   - /mt
   - /mtja.html
   - /myConfig.js
+  - /myadmin
+  - /mysql
+  - /mysqladmin
   - /mytio/config/base
   - /n/news/banner
   - /new
@@ -306,6 +316,7 @@ get:
   - /phpmyadmin
   - /phpmyadmin/*b
   - /plugins/*b
+  - /pma
   - /portal/index/protocol.html
   - /project
   - /protal
@@ -333,6 +344,7 @@ get:
   - /sito
   - /skin/common_files/lib/jquery.cookie.js
   - /skin/main/onload.js
+  - /sql
   - /staging/*b
   - /static/*b
   - /statics/js/API.js

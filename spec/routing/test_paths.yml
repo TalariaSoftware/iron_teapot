@@ -106,6 +106,7 @@ get:
   - /_aws/credentials
   - /_ignition/execute-solution
   - /_ignition/health-check/
+  - /_profiler/empty/search/results
   - /_profiler/phpinfo
   - /_wpeprivate/config.json
   - /aa/admin/
@@ -246,6 +247,8 @@ get:
   - /css/view/main/goin.css
   - /css/view/main/style.css
   - /data/json/config.json
+  - /database/
+  - /db/
   - /debug/default/view?panel=config
   - /demo/
   - /demo/index.php/admin/
@@ -262,6 +265,8 @@ get:
   - /elfinder/elfinder.html
   - /env
   - /env-config.json
+  - /environments/.aws/.credentials
+  - /environments/.credentials
   - /environments/environment.ts
   - /error_log
   - /eval-stdin
@@ -368,6 +373,8 @@ get:
   - /member/
   - /member/js/lang_zh_CN.js
   - /members/login/
+  - /mentions-legales
+  - /mentionslegales
   - /misc/ajax.js
   - /modules/ictea_base/include/js/ckeditor/kcfinder/js/helper.js
   - /mt
@@ -375,6 +382,9 @@ get:
   - /mt/mt-atom.cgi
   - /mtja.html
   - /myConfig.js
+  - /myadmin/
+  - /mysql/
+  - /mysqladmin/
   - /mytio/config/base
   - /n/news/banner?column_id=303
   - /nc/wsnc/committees/.git/HEAD
@@ -409,6 +419,7 @@ get:
   - /phpmyadmin/fubar
   - /pi.php5
   - /plugins/fubar
+  - /pma/
   - /portal/index/protocol.html
   - /portal/sftp-config.json
   - /project
@@ -461,6 +472,7 @@ get:
   - /sito/wp-includes/wlwmanifest.xml
   - /skin/common_files/lib/jquery.cookie.js
   - /skin/main/onload.js
+  - /sql/
   - /src/app.js
   - /src/environments/environment.ts
   - /staging/index.php/admin/
