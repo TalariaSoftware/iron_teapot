@@ -163,6 +163,7 @@ get:
   - /app/.vscode/sftp.json
   - /app/common/getRegisterSet
   - /app/config.json
+  - /app/config.yml
   - /app/config/config.yml
   - /app/config/configuration.yml
   - /app/config/parameters.yml
@@ -262,9 +263,11 @@ get:
   - /dev/rss/order/new
   - /downloader
   - /ecoin/
+  - /ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application
   - /elfinder/elfinder.html
   - /env
   - /env-config.json
+  - /env.config.js
   - /environments/.aws/.credentials
   - /environments/.credentials
   - /environments/environment.ts
@@ -327,6 +330,8 @@ get:
   - /js/app.ling.js
   - /js/basic.js
   - /js/common.js
+  - /js/config.js
+  - /js/envConfig.js
   - /js/fckeditor/editor/filemanager/connectors/test.html
   - /js/header-rollup-554.js
   - /js/home.js
@@ -443,10 +448,16 @@ get:
   - /rss/catalog/notifystock
   - /rss/catalog/review
   - /rss/order/new
+  - /s/35342e3230342e3233382e3135/_/;/META-INF/maven/com.atlassian.jira/jira-webapp-dist/pom.properties
+  - /s/35342e3230392e39312e313838/_/;/META-INF/maven/com.atlassian.jira/jira-webapp-dist/pom.properties
+  - /s/35342e3232312e3235312e313438/_/;/META-INF/maven/com.atlassian.jira/jira-webapp-dist/pom.properties
+  - /s/37352e3130312e3138342e3339/_/;/META-INF/maven/com.atlassian.jira/jira-webapp-dist/pom.properties
   - /s_api/basic/config_js?callback=__set_config
   - /s_api/basic/download/info
   - /scripts/app.js
+  - /secrets.yml
   - /sendgrid.env
+  - /server-status
   - /sftp-config.json
   - /shop
   - /shop/index.php/admin/
@@ -506,6 +517,7 @@ get:
   - /store/rss/catalog/notifystock
   - /store/rss/catalog/review
   - /store/rss/order/new
+  - /telescope/requests
   - /temp/
   - /template/920ka/css/lsy.css
   - /template/920ka/js/woodyapp.js

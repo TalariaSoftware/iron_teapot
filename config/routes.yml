@@ -33,6 +33,7 @@ get:
   - '*a/kcfinder/js/helper.js'
   - '*a/license.txt'
   - '*a/magmi'
+  - '*a/maven/com.atlassian.jira/jira-webapp-dist/pom.properties'
   - '*a/phpinfo'
   - '*a/queryOfficePage'
   - '*a/sftp-config.json'
@@ -129,6 +130,7 @@ get:
   - /apis/*b
   - /app.js
   - /app/common/getRegisterSet
+  - /app/config.yml
   - /app/etc/local.xml
   - /appxz/index.html
   - /assets/app-manifest.json
@@ -194,8 +196,10 @@ get:
   - /dev/*b
   - /downloader
   - /ecoin
+  - /ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application
   - /env
   - /env-config.json
+  - /env.config.js
   - /environments/.aws/.credentials
   - /environments/.credentials
   - /error_log
@@ -249,6 +253,8 @@ get:
   - /js/basic.js
   - /js/chat/chat.js
   - /js/common.js
+  - /js/config.js
+  - /js/envConfig.js
   - /js/header-rollup-554.js
   - /js/home.js
   - /js/json.js
@@ -330,6 +336,8 @@ get:
   - /room/script/face.js
   - /rss/*b
   - /s_api/basic/*b
+  - /secrets.yml
+  - /server-status
   - /service
   - /sftp-config.json
   - /shop
@@ -351,6 +359,7 @@ get:
   - /stock/search
   - /store
   - /store/*b
+  - /telescope/requests
   - /temp
   - /template/920ka/*b
   - /template/css/login.css
