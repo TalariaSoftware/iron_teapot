@@ -106,12 +106,14 @@ get:
   - /Www
   - /_aws/credentials
   - /_ignition/*b
+  - /_profiler
   - /_profiler/empty/search/results
   - /_wpeprivate/*b
   - /actions/seomatic/meta-container/all-meta-containers
   - /adm
   - /admin
   - /admin/*b
+  - /adminer
   - /adminer.*b
   - /administrator
   - /administrator/help/*b

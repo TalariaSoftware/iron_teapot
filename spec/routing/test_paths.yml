@@ -106,6 +106,7 @@ get:
   - /_aws/credentials
   - /_ignition/execute-solution
   - /_ignition/health-check/
+  - /_profiler
   - /_profiler/empty/search/results
   - /_profiler/phpinfo
   - /_wpeprivate/config.json
@@ -124,6 +125,7 @@ get:
   - /admin
   - /admin/new
   - /admin_/admin/
+  - /adminer
   - /adminer.sql
   - /adminer.sql.gz
   - /administrator
@@ -250,6 +252,7 @@ get:
   - /data/json/config.json
   - /database/
   - /db/
+  - /debug/default/view
   - /debug/default/view?panel=config
   - /demo/
   - /demo/index.php/admin/
