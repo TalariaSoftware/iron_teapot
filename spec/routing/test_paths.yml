@@ -210,6 +210,7 @@ get:
   - /bkp2
   - /blog
   - /blog/wp-admin/includes/
+  - /blog/wp-content/plugins/instabuilder2/assets/css/instabuilder2.css
   - /blog/wp-includes/wlwmanifest.xml
   - /blogs
   - /cache
@@ -271,6 +272,7 @@ get:
   - /env
   - /env-config.json
   - /env.config.js
+  - /env/config
   - /environments/.aws/.credentials
   - /environments/.credentials
   - /environments/environment.ts
@@ -293,6 +295,7 @@ get:
   - /h5/static/cert/icon_yanzhengma.png
   - /h5/static/tabbar/txl.png
   - /hehe.php%20
+  - /helpers/utility.js
   - /home
   - /home/GetQrCodeInfo
   - /home/login/login_index.html
@@ -568,6 +571,7 @@ get:
   - /wordpress
   - /wordpress/license.txt
   - /wordpress/wp-admin/includes/
+  - /wordpress/wp-content/plugins/instabuilder2/assets/css/instabuilder2.css
   - /wordpress/wp-includes/wlwmanifest.xml
   - /wp
   - /wp-admin
@@ -600,6 +604,7 @@ get:
   - /wp-old
   - /wp/license.txt
   - /wp/wp-admin/includes/
+  - /wp/wp-content/plugins/instabuilder2/assets/css/instabuilder2.css
   - /wp/wp-includes/wlwmanifest.xml
   - /wp1
   - /wp1/wp-includes/wlwmanifest.xml

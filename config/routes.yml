@@ -40,6 +40,7 @@ get:
   - '*a/sftp.json'
   - '*a/wallet.dat'
   - '*a/wp-admin/*b'
+  - '*a/wp-content/*b'
   - '*a/wp-includes/*b'
   - '/tools/.env '
   - /!==this.readyState
@@ -202,6 +203,7 @@ get:
   - /env
   - /env-config.json
   - /env.config.js
+  - /env/config
   - /environments/.aws/.credentials
   - /environments/.credentials
   - /error_log
@@ -220,6 +222,7 @@ get:
   - /h5
   - /h5/static/*b
   - /hehe
+  - /helpers/utility.js
   - /home
   - /home/login/login_index.html
   - /homes
