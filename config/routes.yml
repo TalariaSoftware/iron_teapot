@@ -10,6 +10,7 @@ get:
   - '*a.mvc'
   - '*a.php'
   - '*a.php/*b'
+  - '*a.php4'
   - '*a.php5'
   - '*a/ALFA_DATA'
   - '*a/GetQrCodeInfo'
@@ -17,6 +18,7 @@ get:
   - '*a/_ignition/*b'
   - '*a/admin'
   - '*a/admin/*b'
+  - '*a/ajax.js'
   - '*a/alfacgiapi/'
   - '*a/alfacgiapi/*b'
   - '*a/app.js'
@@ -24,28 +26,42 @@ get:
   - '*a/cgialfa'
   - '*a/config.json'
   - '*a/config/*b'
+  - '*a/dup-installer'
   - '*a/elfinder.html'
+  - '*a/elfinder/*b'
   - '*a/env'
   - '*a/environment.ts'
   - '*a/fckeditor/*b'
+  - '*a/filemanager'
   - '*a/getTheLotteryInitList'
   - '*a/index.php/*b'
+  - '*a/kcfinder'
   - '*a/kcfinder/js/helper.js'
   - '*a/license.txt'
   - '*a/magmi'
   - '*a/maven/com.atlassian.jira/jira-webapp-dist/pom.properties'
   - '*a/phpinfo'
+  - '*a/plupload'
+  - '*a/plupload/*b'
   - '*a/queryOfficePage'
+  - '*a/server/php'
   - '*a/sftp-config.json'
   - '*a/sftp.json'
+  - '*a/tinymce'
   - '*a/wallet.dat'
+  - '*a/wp-admin'
   - '*a/wp-admin/*b'
+  - '*a/wp-content'
   - '*a/wp-content/*b'
+  - '*a/wp-includes'
   - '*a/wp-includes/*b'
+  - '*a/wp-json'
   - '/tools/.env '
   - /!==this.readyState
+  - /*a/phpunit
   - /*a/phpunit/*b
   - /.*b
+  - /0byte
   - /1
   - /1111/feed
   - /2009
@@ -62,11 +78,16 @@ get:
   - /2021
   - /2022
   - /360/static/js/iku.js
+  - /97bwag
   - /ALFA_DATA
   - /BACKUP
+  - /BAK
+  - /BKP
   - /BLOG
+  - /Backoffice
   - /Backup
   - /Blog
+  - /Cache
   - /Content/*b
   - /DEMO
   - /Demo
@@ -81,6 +102,7 @@ get:
   - /NEW
   - /New
   - /OLD
+  - /OLDSITE
   - /Old
   - /PSBC-1
   - /Panels.txt
@@ -98,6 +120,7 @@ get:
   - /Template/Mobile/js/main.js
   - /Templates/*b
   - /Test
+  - /Tmp
   - /WORDPRESS
   - /WP
   - /WWW
@@ -109,6 +132,7 @@ get:
   - /_ignition/*b
   - /_profiler
   - /_profiler/empty/search/results
+  - /_site
   - /_wpeprivate/*b
   - /actions/seomatic/meta-container/all-meta-containers
   - /adm
@@ -116,13 +140,21 @@ get:
   - /admin/*b
   - /adminer
   - /adminer.*b
+  - /administration/vendor/
   - /administrator
+  - /administrator/components/
+  - /administrator/components/com_xcloner-backupandrestore_old/
   - /administrator/help/*b
   - /administrator/language/en-GB/en-GB.xml
   - /administrator/language/en-GB/install.xml
   - /administrator/manifests/files/joomla.xml
+  - /administrator/templates/
+  - /administrator/templates/bluestork/
+  - /administrator/templates/hathor
+  - /administrator/templates/isis/
   - /ajax
   - /ajax/*b
+  - /akismet
   - /alfacgiapi
   - /alfacgiapi/*b
   - /amember/admin-users
@@ -131,40 +163,58 @@ get:
   - /api.py
   - /api/*b
   - /apis/*b
-  - /app.js
-  - /app/common/getRegisterSet
-  - /app/config.yml
-  - /app/etc/local.xml
+  - /app
+  - /app/*b
+  - /application
+  - /application/*b
   - /appxz/index.html
+  - /article/image7/
+  - /assets
   - /assets/app-manifest.json
   - /assets/dist/static/js/vendor_prod.js
   - /assets/extension/market/css/mt4.css
+  - /assets/plugins
   - /assets/res/mods/room.js
   - /assets/room/css/room_mobile.css
+  - /assets/scripts
+  - /assets/server
   - /auth
   - /auth/oauth/token
   - /authentik.yaml
+  - /aws.credentials
   - /aws.yml
   - /aws/.credentials
   - /aws/config
+  - /aws/credentials
   - /bac
   - /back
   - /backup
+  - /backup-new
+  - /backup/vendor
   - /bak
   - /base/exchange_article/index/classid/1/id/1
   - /base/exchange_index/changepwdfirst
   - /bc
+  - /bea_wls_internal
+  - /beta
   - /bin/bash
   - /bk
   - /bkp
+  - /bkp-two
   - /bkp2
+  - /block-patterns
+  - /block-supports
+  - /blocks
   - /blog
   - /blogs
+  - /browser
   - /cache
   - /ccaef.txt
   - /cdn-cgi/*b
   - /cgi-bin/*b
   - /cgialfa
+  - /cjs/*c.js
+  - /cli
   - /client/api/findConfigByKey
   - /client/api/findFreeTrade
   - /cms
@@ -178,6 +228,8 @@ get:
   - /configuration/info.xml
   - /contact
   - /contacts
+  - /copy
+  - /core
   - /cpanel
   - /credentials
   - /credentials/*b
@@ -190,6 +242,7 @@ get:
   - /css/nsc/reset.css
   - /css/style.css
   - /css/view/main/*b
+  - /cubrid
   - /database
   - /db
   - /debug/default/view
@@ -211,21 +264,32 @@ get:
   - /explore/projects
   - /fckeditor/*b
   - /feed
+  - /file
+  - /filemanager
   - /files
   - /files/pub_rem.js
   - /files/pub_reset.css
   - /filezilla.xml
+  - /fonts
+  - /fonts/Playfair_Display
   - /forum
+  - /forum/slide_img_19/
+  - /forums/
   - /friendGroup/list
   - /gaocc/g445g
+  - /graphql
+  - /gsgvvt
   - /guacamole/api/tokens
   - /h5
   - /h5/static/*b
   - /hehe
+  - /helpers
   - /helpers/utility.js
   - /home
   - /home/login/login_index.html
   - /homes
+  - /hooks
+  - /html
   - /html.bak
   - /html.bck
   - /html.old
@@ -233,6 +297,8 @@ get:
   - /html.tmp
   - /html.txt
   - /html.zip
+  - /ibase
+  - /icons
   - /iframe/rankgiftgotapi/1005
   - /im
   - /im/App/config
@@ -240,9 +306,18 @@ get:
   - /im/in/GetUuid
   - /images
   - /images/editor/separator.gif
+  - /images/fenetres/
+  - /images/fenetres/fenetresbb/
   - /images/no.jpg
   - /images/src_images_but_dianz_s.png
+  - /img
   - /img/login.png
+  - /img/pdf/
+  - /include/
+  - /include/mapping_regions/
+  - /includes
+  - /includes/
+  - /index.js
   - /index/Mobile/*b
   - /index/index/purchase.html
   - /index/login/register
@@ -250,7 +325,9 @@ get:
   - /infe/rest/flash/getServerIP.json
   - /info
   - /install
+  - /installation
   - /ipl/app/flash/publicbmw/ball/FigLeaf.js
+  - /jars/upload/
   - /jiaoyimao/default.css
   - /js/a.script
   - /js/app.js
@@ -276,11 +353,14 @@ get:
   - /language/index.html
   - /lanren/css/global.css
   - /legal/currency/set
+  - /lib/assets/compiled/rails-ujs.js
   - /lib/client/etc/hometu.jpg
+  - /lib/index.js
   - /license.txt
   - /loan
   - /login
   - /login/img/nyyh/chkjs.js
+  - /logs
   - /m
   - /m/ticker/usdtqc
   - /magento/*b
@@ -292,16 +372,23 @@ get:
   - /media/system/js/core.js
   - /member
   - /member/js/lang_zh_CN.js
+  - /members
   - /members/login
   - /mentions-legales
   - /mentionslegales
-  - /misc/ajax.js
+  - /misc
+  - /modular/sortable.esm.js
+  - /modules
+  - /modules/columnadverts/
+  - /modules/comment/
+  - /mssql
   - /mt
   - /mtja.html
   - /myConfig.js
   - /myadmin
   - /mysql
   - /mysqladmin
+  - /mysqli
   - /mytio/config/base
   - /n/news/banner
   - /new
@@ -309,11 +396,15 @@ get:
   - /newfolder
   - /newsite
   - /nyyh/*b
+  - /oci8
+  - /odbc
   - /old
   - /old-site
   - /old-wp
   - /old/*b
   - /old1
+  - /old2
+  - /old_files
   - /oldsite
   - /oldwebsite
   - /otc
@@ -321,14 +412,21 @@ get:
   - /pages/admin
   - /pages/console/*b
   - /password_resets/new
+  - /php
   - /php.ini
   - /phpMyAdmin
   - /phpinfo
   - /phpmyadmin
   - /phpmyadmin/*b
+  - /plesk-stat
+  - /plugins
   - /plugins/*b
+  - /plus
   - /pma
+  - /portal
   - /portal/index/protocol.html
+  - /postgre
+  - /products.json
   - /project
   - /protal
   - /proxy/games
@@ -339,11 +437,14 @@ get:
   - /resources/main/common.js
   - /room/getRoomBangFans
   - /room/script/face.js
+  - /roundcube
   - /rss/*b
   - /s_api/basic/*b
   - /secrets.yml
   - /server-status
+  - /server/php
   - /service
+  - /service/extdirect
   - /sftp-config.json
   - /shop
   - /shop/*b
@@ -352,30 +453,55 @@ get:
   - /site
   - /site.js
   - /site/get-hq
+  - /site_old
+  - /sitebackup
   - /sites/default/files
   - /sitio
   - /sito
   - /skin/common_files/lib/jquery.cookie.js
   - /skin/main/onload.js
   - /sql
+  - /sqlite
+  - /sqlite3
+  - /sqlsrv
+  - /src
+  - /staging
   - /staging/*b
+  - /static
   - /static/*b
   - /statics/js/API.js
   - /stock/search
   - /store
   - /store/*b
+  - /subdrivers
+  - /system
+  - /tables
   - /telescope/requests
   - /temp
   - /template/920ka/*b
   - /template/css/login.css
   - /template/js/comm/Confrim.js
   - /template/tmp1/js/common.js
+  - /templates
+  - /templates/beez3
   - /templates/index.html
   - /test
   - /test/*b
   - /test_404_page
+  - /tests
+  - /themes
   - /themes/README.txt
+  - /third_party
+  - /tinc
+  - /tmb/
   - /tmp
+  - /tmpl
+  - /tmps/
+  - /tslib.js
+  - /underscore
+  - /up/
+  - /upload/
+  - /upload/image/
   - /uploadify/uploadify.css
   - /uploads
   - /user/Login
@@ -386,8 +512,10 @@ get:
   - /v1
   - /v1/management/tenant/getSpeedDomain
   - /v2
+  - /v2/_catalog
   - /var/cache/mage--2
   - /var/resource_config.json
+  - /vendor/
   - /views/commData/commonSite.js
   - /wallet.dat
   - /wap/api/exchangerateuserconfig!get.action
@@ -395,8 +523,14 @@ get:
   - /web
   - /web/api/getBanner
   - /webadmin
+  - /webapp
+  - /website/blog
+  - /widwsisw/
+  - /wls-wsat/CoordinatorPortType/
   - /wordpress
+  - /wordpress-old
   - /wordpress/license.txt
+  - /wordpress1
   - /wp
   - /wp-admin
   - /wp-admin/*b
@@ -419,6 +553,7 @@ get:
   - /www.rar
   - /www.sql
   - /xianyu/*b
+  - /xml
   - /xxsssseee
   - /xy
   - /xy/image/jiantou.png
@@ -436,15 +571,18 @@ post:
   - /_ignition/execute-solution
   - /api/app/config_new
   - /api/system/system/config/get
+  - /api/v2/cmdb/system/admin/admin
   - /auth/oauth/token
   - /bin/bash
   - /core/.env
   - /index.php/api/other/appSetting
   - /login/kefuxian.mvc
   - /melody/api/v1/pageconfig/list
+  - /mt-xmlrpc.cgi
   - /paypal/transparent/requestSecureToken
   - /user/getAllNicknames
   - /wap/banner/details
+  - /wp-json/wp_live_chat_support/v1/remote_upload
 
 delete:
   - /contacts

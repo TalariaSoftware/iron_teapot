@@ -8,6 +8,7 @@ get:
   - /01/admin/
   - /02/admin/
   - /03/admin/
+  - /0byte
   - /1
   - /1/admin/
   - /1/license.txt
@@ -31,23 +32,34 @@ get:
   - /2016
   - /2017
   - /2018
+  - /2018/wp-includes/
   - /2019
+  - /2019/wp-includes/
   - /2019/wp-includes/wlwmanifest.xml
   - /2020
+  - /2020/wp-includes/
   - /2020/wp-includes/wlwmanifest.xml
   - /2021
+  - /2021/wp-includes/
   - /2022
+  - /2022/wp-includes/
   - /360/static/js/iku.js
+  - /97bwag/
   - /@/admin/
   - /ALFA_DATA
   - /ALFA_DATA/alfacgiapi/
   - /ALFA_DATA/alfacgiapi/perl.alfa
   - /App_master/Telerik.Web.UI.WebResource.axd?type=rau
   - /BACKUP
+  - /BAK
+  - /BKP
   - /BLOG
+  - /Backoffice
+  - /Backoffice/
   - /Backup
   - /Bitcoin/wallet.dat
   - /Blog
+  - /Cache
   - /Content/Wap/base.css
   - /Content/common/web/CommonActivity.css
   - /Content/css/wzwstylel.css
@@ -67,6 +79,7 @@ get:
   - /NEW
   - /New
   - /OLD
+  - /OLDSITE
   - /Old
   - /PSBC-1
   - /Panels.txt
@@ -96,6 +109,7 @@ get:
   - /Templates/user/finance/css/userPay.css
   - /Templates/user/js/global.js
   - /Test
+  - /Tmp/
   - /WORDPRESS
   - /WP
   - /WWW
@@ -109,11 +123,13 @@ get:
   - /_profiler
   - /_profiler/empty/search/results
   - /_profiler/phpinfo
+  - /_site
   - /_wpeprivate/config.json
   - /aa/admin/
   - /aaa/admin/
   - /abc/admin/
   - /about/admin/
+  - /abruzi.php4
   - /academic/admin/
   - /access/admin/
   - /accessgranted/admin/
@@ -128,15 +144,23 @@ get:
   - /adminer
   - /adminer.sql
   - /adminer.sql.gz
+  - /administration/vendor/
   - /administrator
   - /administrator/admin/
+  - /administrator/components/
+  - /administrator/components/com_xcloner-backupandrestore_old/
   - /administrator/help/en-GB/toc.json
   - /administrator/language/en-GB/en-GB.xml
   - /administrator/language/en-GB/install.xml
   - /administrator/manifests/files/joomla.xml
+  - /administrator/templates/
+  - /administrator/templates/bluestork/
+  - /administrator/templates/hathor
+  - /administrator/templates/isis/
   - /adminlogin/admin/
   - /ajax
   - /ajax/allcoin_a/id/0?t=0.3782499195965951
+  - /akismet
   - /alfacgiapi/
   - /alfacgiapi/perl.alfa
   - /amember/admin-users/
@@ -161,8 +185,13 @@ get:
   - /api/v1/about
   - /api/wallet/redDetail
   - /apis/api/index
+  - /app
   - /app.js
+  - /app/
   - /app/.vscode/sftp.json
+  - /app/Console/
+  - /app/assets/javascripts/action_cable.js
+  - /app/assets/javascripts/activestorage.js
   - /app/common/getRegisterSet
   - /app/config.json
   - /app/config.yml
@@ -170,59 +199,125 @@ get:
   - /app/config/configuration.yml
   - /app/config/parameters.yml
   - /app/config/storage.yml
+  - /app/etc/
   - /app/etc/local.xml
   - /app/sftp-config.json
   - /app/webroot/js/kcfinder/js/helper.js
   - /app_master/telerik.web.ui.dialoghandler.aspx
+  - /application
+  - /application/
+  - /application/config/
+  - /application/configs/application.ini
   - /appxz/index.html
+  - /article/image7/
+  - /article/wp-json/
+  - /articles/wp-json/
+  - /asset/kcfinder/
+  - /assets
+  - /assets/
   - /assets/app-manifest.json
+  - /assets/backend/plugins/jquery-file-upload/server/php/
   - /assets/ckeditor/kcfinder/js/helper.js
   - /assets/dist/static/js/vendor_prod.js
   - /assets/elfinder/elfinder.html
   - /assets/extension/market/css/mt4.css
+  - /assets/file-uploader/server/php/
+  - /assets/filemanager/
+  - /assets/global/plugins/plupload/examples/
   - /assets/js/app.js
+  - /assets/js/elfinder/php/
+  - /assets/js/file-uploader/server/php/
+  - /assets/js/jquery-file-upload/server/php/
+  - /assets/js/kcfinder/
   - /assets/kcfinder/js/helper.js
+  - /assets/plugins/
+  - /assets/plugins/elfinder/connectors/php/
   - /assets/plugins/elfinder/elfinder.html
+  - /assets/plugins/elfinder/src/connectors/php/
+  - /assets/plugins/file-uploader/server/php/
+  - /assets/plugins/filemanager/
+  - /assets/plugins/fileupload/server/php/
+  - /assets/plugins/jQuery-File-Upload/server/php/
+  - /assets/plugins/jquery-file-upload/server/php/
+  - /assets/plugins/jqueryupload/server/php/
+  - /assets/plugins/kcfinder/
+  - /assets/plugins/plupload/
+  - /assets/plugins/plupload/examples/
   - /assets/res/mods/room.js
   - /assets/room/css/room_mobile.css
+  - /assets/scripts/
+  - /assets/scripts/filemanager/
+  - /assets/server/
+  - /assets/server/php/
+  - /assets/tinymce/
+  - /assets/tinymce/plugins/filemanager/
   - /auth
   - /auth/login/admin/
   - /auth/oauth/token
   - /authentik.yaml
+  - /aws.credentials
   - /aws.yml
   - /aws/.credentials
   - /aws/config
+  - /aws/credentials/
   - /bac
   - /back/
+  - /back/dup-installer/
+  - /back/wp-admin/
   - /backup
+  - /backup-new
   - /backup/bitcoin/wallet.dat
+  - /backup/dup-installer/
+  - /backup/vendor/
   - /backup/wallet.dat
+  - /backup/wp-admin/
   - /backups/wallet.dat
   - /bak
   - /base/exchange_article/index/classid/1/id/1
   - /base/exchange_index/changepwdfirst
   - /bc
+  - /bea_wls_internal/
+  - /beta
   - /bin/bash
   - /bitcoin/backup/wallet.dat
   - /bitcoin/wallet.dat
   - /bk
+  - /bk/dup-installer/
+  - /bk/wp-admin/
+  - /bk/wp-content/
+  - /bk/wp-includes/
   - /bkp
+  - /bkp-two
   - /bkp2
+  - /block-patterns/
+  - /block-supports/
+  - /blocks/
   - /blog
+  - /blog/dup-installer/
+  - /blog/wp-admin/
   - /blog/wp-admin/includes/
+  - /blog/wp-content/
   - /blog/wp-content/plugins/instabuilder2/assets/css/instabuilder2.css
+  - /blog/wp-includes/
   - /blog/wp-includes/wlwmanifest.xml
+  - /blog/wp-json/
   - /blogs
+  - /blogs/wp-json/
+  - /browser
   - /cache
   - /ccaef.txt
   - /cdn-cgi/foobar
   - /cgi-bin/fubar
   - /cgialfa
+  - /cjs/UPNG.js
+  - /cjs/index.js
   - /ckeditor/kcfinder/js/helper.js
+  - /cli
   - /client/api/findConfigByKey?configKey=level_config
   - /client/api/findFreeTrade
   - /cms
   - /cms/adMInhtml_page
+  - /cms/wp-includes/
   - /cms/wp-includes/wlwmanifest.xml
   - /common/member/js/user.util.js
   - /common/template/lottery/lecai/css/style.css
@@ -237,6 +332,8 @@ get:
   - /configuration/info.xml
   - /contact
   - /contacts
+  - /copy
+  - /core
   - /cpanel
   - /credentials
   - /credentials/credentials
@@ -250,6 +347,7 @@ get:
   - /css/style.css
   - /css/view/main/goin.css
   - /css/view/main/style.css
+  - /cubrid
   - /data/json/config.json
   - /database/
   - /db/
@@ -266,6 +364,7 @@ get:
   - /dev/rss/catalog/review
   - /dev/rss/order/new
   - /downloader
+  - /e/data/js/ajax.js
   - /ecoin/
   - /ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application
   - /elfinder/elfinder.html
@@ -281,25 +380,37 @@ get:
   - /explore/projects?non_archived=true&page=1&sort=latest_activity_desc
   - /fckeditor/editor/filemanager/connectors/test.html
   - /feed/
+  - /file/
+  - /filemanager/
   - /files/
   - /files/pub_rem.js
   - /files/pub_reset.css
   - /filezilla.xml
+  - /fonts
+  - /fonts/
+  - /fonts/Playfair_Display/
   - /foo/phpunit/bar
   - /forum
+  - /forum/slide_img_19/
+  - /forums/
   - /friendGroup/list
   - /gaocc/g445g
   - /getConfig/listPopFrame.do
+  - /graphql/
+  - /gsgvvt
   - /guacamole/api/tokens
   - /h5/
   - /h5/static/cert/icon_yanzhengma.png
   - /h5/static/tabbar/txl.png
   - /hehe.php%20
+  - /helpers
   - /helpers/utility.js
   - /home
   - /home/GetQrCodeInfo
   - /home/login/login_index.html
   - /homes/
+  - /hooks
+  - /html
   - /html.bak
   - /html.bck
   - /html.old
@@ -308,6 +419,8 @@ get:
   - /html.txt
   - /html.zip
   - /html/js/editor/fckeditor/editor/filemanager/connectors/test.html
+  - /ibase
+  - /icons
   - /iframe/rankgiftgotapi/1005
   - /im/
   - /im/App/config
@@ -316,10 +429,20 @@ get:
   - /images/
   - /images/ALFA_DATA/alfacgiapi/
   - /images/editor/separator.gif
+  - /images/fenetres/
+  - /images/fenetres/fenetresbb/
   - /images/no.jpg
   - /images/src_images_but_dianz_s.png
+  - /img
+  - /img/
   - /img/login.png
+  - /img/pdf/
+  - /include/
   - /include/fckeditor/editor/filemanager/connectors/test.html
+  - /include/mapping_regions/
+  - /includes
+  - /includes/
+  - /index.js
   - /index.php/admin/
   - /index/Mobile/fenshi?code=sz002405
   - /index/Mobile/kline_week
@@ -329,7 +452,9 @@ get:
   - /infe/rest/flash/getServerIP.json
   - /info
   - /install/
+  - /installation/
   - /ipl/app/flash/publicbmw/ball/FigLeaf.js?site=member
+  - /jars/upload/
   - /jiaoyimao/default.css
   - /js/a.script
   - /js/app.js
@@ -359,13 +484,17 @@ get:
   - /laravel/.env
   - /laravel/_ignition/health-check/
   - /legal/currency/set
+  - /lib/assets/compiled/rails-ujs.js
   - /lib/client/etc/hometu.jpg
+  - /lib/index.js
   - /license.txt
   - /loan
   - /login
   - /login.asp
   - /login.html
   - /login/img/nyyh/chkjs.js
+  - /logs
+  - /logs/
   - /m/
   - /m/ticker/usdtqc
   - /mad/Telerik.Web.UI.WebResource.axd
@@ -381,13 +510,21 @@ get:
   - /market/getStockBaseInfo?stockCodeInternal=2658
   - /market/market-ws/iframe.html
   - /media/system/js/core.js
+  - /media/wp-includes/
   - /member/
   - /member/js/lang_zh_CN.js
+  - /members
   - /members/login/
   - /mentions-legales
   - /mentionslegales
+  - /misc
   - /misc/ajax.js
+  - /modular/sortable.esm.js
+  - /modules/
+  - /modules/columnadverts/
+  - /modules/comment/
   - /modules/ictea_base/include/js/ckeditor/kcfinder/js/helper.js
+  - /mssql
   - /mt
   - /mt-atom.cgi
   - /mt/mt-atom.cgi
@@ -396,17 +533,21 @@ get:
   - /myadmin/
   - /mysql/
   - /mysqladmin/
+  - /mysqli
   - /mytio/config/base
   - /n/news/banner?column_id=303
   - /nc/wsnc/committees/.git/HEAD
   - /new
   - /new-site
   - /newfolder
+  - /news/wp-includes/
   - /news/wp-includes/wlwmanifest.xml
   - /newsite
   - /nyyh/chkjs.js
   - /nyyh/game.css
   - /oc/admin/
+  - /oci8
+  - /odbc
   - /old-site
   - /old-wp
   - /old/
@@ -415,6 +556,8 @@ get:
   - /old/rss/catalog/review
   - /old/rss/order/new
   - /old1
+  - /old2
+  - /old_files
   - /oldsite
   - /oldwebsite
   - /otc/
@@ -423,16 +566,27 @@ get:
   - /pages/console/js/common.js
   - /panel/kcfinder/js/helper.js
   - /password_resets/new
+  - /php
   - /php.ini
+  - /php/
   - /phpMyAdmin
   - /phpinfo
   - /phpmyadmin/
   - /phpmyadmin/fubar
   - /pi.php5
+  - /plesk-stat/
+  - /plugins
+  - /plugins/
   - /plugins/fubar
+  - /plus/
   - /pma/
+  - /portal/
   - /portal/index/protocol.html
   - /portal/sftp-config.json
+  - /post/wp-json/
+  - /postgre
+  - /posts/wp-json/
+  - /products.json?limit=1
   - /project
   - /protal
   - /providers/htmleditorproviders/telerik/telerik.web.ui.dialoghandler.aspx
@@ -451,6 +605,7 @@ get:
   - /resources/main/common.js
   - /room/getRoomBangFans
   - /room/script/face.js
+  - /roundcube
   - /rss/catalog/notifystock
   - /rss/catalog/review
   - /rss/order/new
@@ -464,6 +619,8 @@ get:
   - /secrets.yml
   - /sendgrid.env
   - /server-status
+  - /server/php/
+  - /service/extdirect/
   - /sftp-config.json
   - /shop
   - /shop/index.php/admin/
@@ -477,7 +634,10 @@ get:
   - /site/admin/
   - /site/get-hq?proNo=btc&panType=1&pid=1
   - /site/wp-admin/includes/
+  - /site/wp-includes/
   - /site/wp-includes/wlwmanifest.xml
+  - /site_old
+  - /sitebackup
   - /sitecore/shell/ClientBin/Reporting/Report.ashx
   - /sites/all/libraries/fckeditor/editor/filemanager/connectors/test.html
   - /sites/all/modules/fckeditor/fckeditor/editor/filemanager/connectors/test.html
@@ -486,16 +646,23 @@ get:
   - /sites/default/files/cgialfa
   - /sitio
   - /sito
+  - /sito/wp-includes/
   - /sito/wp-includes/wlwmanifest.xml
   - /skin/common_files/lib/jquery.cookie.js
   - /skin/main/onload.js
   - /sql/
+  - /sqlite
+  - /sqlite3
+  - /sqlsrv
+  - /src
   - /src/app.js
   - /src/environments/environment.ts
+  - /staging
   - /staging/index.php/admin/
   - /staging/rss/catalog/notifystock
   - /staging/rss/catalog/review
   - /staging/rss/order/new
+  - /static
   - /static/admincp/js/common.js
   - /static/common/js/common.js
   - /static/common/js/global.js
@@ -523,6 +690,9 @@ get:
   - /store/rss/catalog/notifystock
   - /store/rss/catalog/review
   - /store/rss/order/new
+  - /subdrivers
+  - /system
+  - /tables
   - /telescope/requests
   - /temp/
   - /template/920ka/css/lsy.css
@@ -530,6 +700,9 @@ get:
   - /template/css/login.css
   - /template/js/comm/Confrim.js
   - /template/tmp1/js/common.js
+  - /templates
+  - /templates/
+  - /templates/beez3/
   - /templates/beez3/ALFA_DATA
   - /templates/beez3/cgialfa
   - /templates/index.html
@@ -539,10 +712,22 @@ get:
   - /test/rss/catalog/review
   - /test/rss/order/new
   - /test_404_page
+  - /tests
+  - /themes
   - /themes/README.txt
+  - /third_party
+  - /tinc/
+  - /tmb/
   - /tmp/
   - /tmp/license.txt
+  - /tmpl
+  - /tmps/
   - /tools/.env%20
+  - /tslib.js
+  - /underscore
+  - /up/
+  - /upload/
+  - /upload/image/
   - /uploadify/uploadify.css
   - /uploads/
   - /user/Login
@@ -554,9 +739,12 @@ get:
   - /v1/
   - /v1/management/tenant/getSpeedDomain
   - /v2/
+  - /v2/_catalog
   - /var/cache/mage--2/
   - /var/resource_config.json
+  - /vendor/
   - /vendor/.env
+  - /vendor/phpunit/
   - /views/commData/commonSite.js
   - /wallet.dat
   - /wallet/wallet.dat
@@ -565,14 +753,23 @@ get:
   - /wap/trading/get_newallorder_ajax
   - /web/
   - /web/api/getBanner
+  - /web/wp-includes/
   - /web/wp-includes/wlwmanifest.xml
   - /webadmin
+  - /webapp
+  - /website/blog/
+  - /website/wp-includes/
   - /website/wp-includes/wlwmanifest.xml
+  - /widwsisw/
+  - /wls-wsat/CoordinatorPortType/
   - /wordpress
+  - /wordpress-old
   - /wordpress/license.txt
   - /wordpress/wp-admin/includes/
   - /wordpress/wp-content/plugins/instabuilder2/assets/css/instabuilder2.css
+  - /wordpress/wp-includes/
   - /wordpress/wp-includes/wlwmanifest.xml
+  - /wordpress1
   - /wp
   - /wp-admin
   - /wp-admin/css/
@@ -607,8 +804,10 @@ get:
   - /wp/wp-content/plugins/instabuilder2/assets/css/instabuilder2.css
   - /wp/wp-includes/wlwmanifest.xml
   - /wp1
+  - /wp1/wp-includes/
   - /wp1/wp-includes/wlwmanifest.xml
   - /wp2
+  - /wp2/wp-includes/
   - /wp2/wp-includes/wlwmanifest.xml
   - /ws/index/getTheLotteryInitList
   - /www
@@ -618,6 +817,7 @@ get:
   - /www.sql.zon
   - /www/js/kcfinder/js/helper.js
   - /xianyu/index/setp1.html
+  - /xml
   - /xmlrpc.php
   - /xxsssseee
   - /xy/
@@ -638,6 +838,7 @@ post:
   - /alfacgiapi/perl.alfa
   - /api/app/config_new
   - /api/system/system/config/get
+  - /api/v2/cmdb/system/admin/admin
   - /assets/global/plugins/JQuery-File-Upload/server/php/
   - /assets/global/plugins/jquery-file-upload/server/php/
   - /auth/oauth/token
@@ -650,6 +851,7 @@ post:
   - /jquery-file-upload/server/php/
   - /login/kefuxian.mvc
   - /melody/api/v1/pageconfig/list
+  - /mt-xmlrpc.cgi
   - /mt/mt-xmlrpc.cgi
   - /paypal/transparent/requestSecureToken
   - /plugins/jquery-file-upload/server/php/
@@ -658,6 +860,7 @@ post:
   - /wp-booking.php
   - /wp-content/mu-plugins/db-safe-mode.php
   - /wp-includes/css/wp-config.php
+  - /wp-json/wp_live_chat_support/v1/remote_upload
 
 delete:
   - /contacts
