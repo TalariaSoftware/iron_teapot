@@ -26,6 +26,8 @@ get:
   - '*a/cgialfa'
   - '*a/config.json'
   - '*a/config/*b'
+  - '*a/dropzone-amd-module.*b'
+  - '*a/dropzone.js'
   - '*a/dup-installer'
   - '*a/elfinder.html'
   - '*a/elfinder/*b'
@@ -139,6 +141,7 @@ get:
   - /admin
   - /admin/*b
   - /adminer
+  - /adminer-4.*b
   - /adminer.*b
   - /administration/vendor/
   - /administrator
@@ -171,6 +174,7 @@ get:
   - /article/image7/
   - /assets
   - /assets/app-manifest.json
+  - /assets/ckeditor/samples/index.html
   - /assets/dist/static/js/vendor_prod.js
   - /assets/extension/market/css/mt4.css
   - /assets/plugins
@@ -327,6 +331,7 @@ get:
   - /install
   - /installation
   - /ipl/app/flash/publicbmw/ball/FigLeaf.js
+  - /issmall
   - /jars/upload/
   - /jiaoyimao/default.css
   - /js/a.script
@@ -418,6 +423,7 @@ get:
   - /phpinfo
   - /phpmyadmin
   - /phpmyadmin/*b
+  - /phpmyinfo
   - /plesk-stat
   - /plugins
   - /plugins/*b
@@ -534,10 +540,16 @@ get:
   - /wp
   - /wp-admin
   - /wp-admin/*b
+  - /wp-config
   - /wp-config-backup
+  - /wp-config-backup1.txt
   - /wp-config-good
+  - /wp-config-sample.php~
   - /wp-config.*b
+  - /wp-config_backup
   - /wp-config_good
+  - /wp-configbak
+  - /wp-config~
   - /wp-content
   - /wp-content/*b
   - /wp-includes

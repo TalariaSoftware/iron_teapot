@@ -142,6 +142,13 @@ get:
   - /admin/new
   - /admin_/admin/
   - /adminer
+  - /adminer-4.6.2
+  - /adminer-4.6.3/
+  - /adminer-4.7.1
+  - /adminer-4.7.4
+  - /adminer-4.7.7
+  - /adminer-4.7.8
+  - /adminer-4.8.0
   - /adminer.sql
   - /adminer.sql.gz
   - /administration/vendor/
@@ -218,19 +225,23 @@ get:
   - /assets/app-manifest.json
   - /assets/backend/plugins/jquery-file-upload/server/php/
   - /assets/ckeditor/kcfinder/js/helper.js
+  - /assets/ckeditor/samples/index.html
   - /assets/dist/static/js/vendor_prod.js
+  - /assets/dropzone/dropzone-amd-module.min.js
   - /assets/elfinder/elfinder.html
   - /assets/extension/market/css/mt4.css
   - /assets/file-uploader/server/php/
   - /assets/filemanager/
   - /assets/global/plugins/plupload/examples/
   - /assets/js/app.js
+  - /assets/js/dropzone/dropzone-amd-module.min.js
   - /assets/js/elfinder/php/
   - /assets/js/file-uploader/server/php/
   - /assets/js/jquery-file-upload/server/php/
   - /assets/js/kcfinder/
   - /assets/kcfinder/js/helper.js
   - /assets/plugins/
+  - /assets/plugins/dropzone/dropzone-amd-module.min.js
   - /assets/plugins/elfinder/connectors/php/
   - /assets/plugins/elfinder/elfinder.html
   - /assets/plugins/elfinder/src/connectors/php/
@@ -364,6 +375,8 @@ get:
   - /dev/rss/catalog/review
   - /dev/rss/order/new
   - /downloader
+  - /dropzone/dropzone-amd-module.min.js
+  - /dropzone/dropzone.js
   - /e/data/js/ajax.js
   - /ecoin/
   - /ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application
@@ -454,6 +467,7 @@ get:
   - /install/
   - /installation/
   - /ipl/app/flash/publicbmw/ball/FigLeaf.js?site=member
+  - /issmall/
   - /jars/upload/
   - /jiaoyimao/default.css
   - /js/a.script
@@ -573,6 +587,7 @@ get:
   - /phpinfo
   - /phpmyadmin/
   - /phpmyadmin/fubar
+  - /phpmyinfo
   - /pi.php5
   - /plesk-stat/
   - /plugins
@@ -774,8 +789,11 @@ get:
   - /wp-admin
   - /wp-admin/css/
   - /wp-booking.php
+  - /wp-config
   - /wp-config-backup.txt
+  - /wp-config-backup1.txt
   - /wp-config-good
+  - /wp-config-sample.php~
   - /wp-config.bak
   - /wp-config.good
   - /wp-config.php-bak
@@ -789,7 +807,10 @@ get:
   - /wp-config.php_original
   - /wp-config.phporiginal
   - /wp-config.php~
+  - /wp-config_backup
   - /wp-config_good
+  - /wp-configbak
+  - /wp-config~
   - /wp-content/
   - /wp-content/mu-plugins/db-safe-mode.php
   - /wp-content/plugins/wpdiscuz/themes/default/style-rtl.css
