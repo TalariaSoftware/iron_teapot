@@ -16,6 +16,7 @@ get:
   - /100/admin/
   - /1000/admin/
   - /1111/feed
+  - /123
   - /123/admin/
   - /2/admin/
   - /200/admin/
@@ -155,6 +156,7 @@ get:
   - /administrator
   - /administrator/admin/
   - /administrator/components/
+  - /administrator/components/com_facileforms/libraries/jquery/tooltip.js
   - /administrator/components/com_xcloner-backupandrestore_old/
   - /administrator/help/en-GB/toc.json
   - /administrator/language/en-GB/en-GB.xml
@@ -323,6 +325,7 @@ get:
   - /cjs/UPNG.js
   - /cjs/index.js
   - /ckeditor/kcfinder/js/helper.js
+  - /ckeditor/plugins/imageuploader/styles.min.css
   - /cli
   - /client/api/findConfigByKey?configKey=level_config
   - /client/api/findFreeTrade
@@ -374,6 +377,8 @@ get:
   - /dev/rss/catalog/notifystock
   - /dev/rss/catalog/review
   - /dev/rss/order/new
+  - /devnew
+  - /docs/_sidebar.md
   - /downloader
   - /dropzone/dropzone-amd-module.min.js
   - /dropzone/dropzone.js
@@ -409,6 +414,8 @@ get:
   - /friendGroup/list
   - /gaocc/g445g
   - /getConfig/listPopFrame.do
+  - /good.txt
+  - /good_admin.txt
   - /graphql/
   - /gsgvvt
   - /guacamole/api/tokens
@@ -573,6 +580,8 @@ get:
   - /old2
   - /old_files
   - /oldsite
+  - /oldsiteback
+  - /oldsitehere
   - /oldwebsite
   - /otc/
   - /other/codepay/js/codepay_util.js
@@ -634,6 +643,7 @@ get:
   - /secrets.yml
   - /sendgrid.env
   - /server-status
+  - /server/php
   - /server/php/
   - /service/extdirect/
   - /sftp-config.json
@@ -743,6 +753,7 @@ get:
   - /up/
   - /upload/
   - /upload/image/
+  - /uploadify/jquery.uploadify.v2.1.4.js
   - /uploadify/uploadify.css
   - /uploads/
   - /user/Login
@@ -864,6 +875,8 @@ post:
   - /assets/global/plugins/jquery-file-upload/server/php/
   - /auth/oauth/token
   - /bin/bash
+  - /bin/sh
+  - /cgi-bin/../../../../bin/sh
   - /cgi-bin/mt/mt-xmlrpc.cgi
   - /core/.env
   - /file-upload/server/php/

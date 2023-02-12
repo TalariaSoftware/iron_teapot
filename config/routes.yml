@@ -66,6 +66,7 @@ get:
   - /0byte
   - /1
   - /1111/feed
+  - /123
   - /2009
   - /2010
   - /2012
@@ -146,6 +147,7 @@ get:
   - /administration/vendor/
   - /administrator
   - /administrator/components/
+  - /administrator/components/com_facileforms/libraries/jquery/tooltip.js
   - /administrator/components/com_xcloner-backupandrestore_old/
   - /administrator/help/*b
   - /administrator/language/en-GB/en-GB.xml
@@ -221,6 +223,7 @@ get:
   - /cli
   - /client/api/findConfigByKey
   - /client/api/findFreeTrade
+  - /ckeditor/plugins/imageuploader/styles.min.css
   - /cms
   - /cms/adMInhtml_page
   - /common/member/js/user.util.js
@@ -254,6 +257,8 @@ get:
   - /demo/*b
   - /dev/
   - /dev/*b
+  - /devnew
+  - /docs/_sidebar.md
   - /downloader
   - /ecoin
   - /ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application
@@ -411,6 +416,8 @@ get:
   - /old2
   - /old_files
   - /oldsite
+  - /oldsiteback
+  - /oldsitehere
   - /oldwebsite
   - /otc
   - /other/codepay/js/codepay_util.js
@@ -508,7 +515,7 @@ get:
   - /up/
   - /upload/
   - /upload/image/
-  - /uploadify/uploadify.css
+  - /uploadify/*b
   - /uploads
   - /user/Login
   - /user/getAllNicknames
@@ -544,6 +551,8 @@ get:
   - /wp-config-backup
   - /wp-config-backup1.txt
   - /wp-config-good
+  - /good.txt
+  - /good_admin.txt
   - /wp-config-sample.php~
   - /wp-config.*b
   - /wp-config_backup
@@ -574,6 +583,7 @@ get:
 
 post:
   - '*a.php'
+  - '*a/bin/sh'
   - '*a/mt-xmlrpc.cgi'
   - '*a/perl.alfa'
   - '*a/server/php'
@@ -586,6 +596,7 @@ post:
   - /api/v2/cmdb/system/admin/admin
   - /auth/oauth/token
   - /bin/bash
+  - /bin/sh
   - /core/.env
   - /index.php/api/other/appSetting
   - /login/kefuxian.mvc
