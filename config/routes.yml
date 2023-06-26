@@ -12,6 +12,8 @@ get:
   - '*a.php/*b'
   - '*a.php4'
   - '*a.php5'
+  - '*a.php7'
+  - '*a.sql'
   - '*a/ALFA_DATA'
   - '*a/GetQrCodeInfo'
   - '*a/Telerik.Web.UI.WebResource.axd'
@@ -21,9 +23,11 @@ get:
   - '*a/ajax.js'
   - '*a/alfacgiapi/'
   - '*a/alfacgiapi/*b'
+  - '*a/api-docs'
   - '*a/app.js'
   - '*a/aws.yml'
   - '*a/cgialfa'
+  - '*a/ckeditor/*b'
   - '*a/config.json'
   - '*a/config/*b'
   - '*a/dropzone-amd-module.*b'
@@ -37,16 +41,22 @@ get:
   - '*a/filemanager'
   - '*a/getTheLotteryInitList'
   - '*a/index.php/*b'
+  - '*a/jquery.filer/*b'
   - '*a/kcfinder'
   - '*a/kcfinder/js/helper.js'
   - '*a/license.txt'
   - '*a/magmi'
   - '*a/maven/com.atlassian.jira/jira-webapp-dist/pom.properties'
+  - '*a/media/system/js/core.js'
+  - '*a/mt-static/mt.js'
+  - '*a/nextcloud.log'
+  - '*a/owncloud.log'
   - '*a/phpinfo'
   - '*a/plupload'
   - '*a/plupload/*b'
   - '*a/queryOfficePage'
   - '*a/server/php'
+  - '*a/settings.py'
   - '*a/sftp-config.json'
   - '*a/sftp.json'
   - '*a/tinymce'
@@ -58,6 +68,7 @@ get:
   - '*a/wp-includes'
   - '*a/wp-includes/*b'
   - '*a/wp-json'
+  - '*a/wp-json/*b'
   - '/tools/.env '
   - /!==this.readyState
   - /*a/phpunit
@@ -83,6 +94,7 @@ get:
   - /360/static/js/iku.js
   - /97bwag
   - /ALFA_DATA
+  - /Adminhtml_category
   - /BACKUP
   - /BAK
   - /BKP
@@ -93,6 +105,7 @@ get:
   - /Cache
   - /Content/*b
   - /DEMO
+  - /Deadcode1975xxxxxxxxxxxxxxxxxxxxxxxxxxxx
   - /Demo
   - /FCKeditor/*b
   - /FORUM
@@ -131,12 +144,15 @@ get:
   - /Wordpress
   - /Wp
   - /Www
+  - /_all_dbs
   - /_aws/credentials
   - /_ignition/*b
   - /_profiler
   - /_profiler/empty/search/results
   - /_site
   - /_wpeprivate/*b
+  - /account.json
+  - /accounts.json
   - /actions/seomatic/meta-container/all-meta-containers
   - /adm
   - /admin
@@ -165,6 +181,7 @@ get:
   - /amember/admin-users
   - /amfeed/main/download
   - /analytics/jbips
+  - /api-docs
   - /api.py
   - /api/*b
   - /apis/*b
@@ -174,11 +191,14 @@ get:
   - /application/*b
   - /appxz/index.html
   - /article/image7/
+  - /asset/js/library/filer/examples/default/index.html
   - /assets
   - /assets/app-manifest.json
-  - /assets/ckeditor/samples/index.html
+  - /assets/app.config.json
+  - /assets/credentials.json
   - /assets/dist/static/js/vendor_prod.js
   - /assets/extension/market/css/mt4.css
+  - /assets/js/uploadify/uploadify.css
   - /assets/plugins
   - /assets/res/mods/room.js
   - /assets/room/css/room_mobile.css
@@ -194,8 +214,10 @@ get:
   - /aws/credentials
   - /bac
   - /back
+  - /back.*b
   - /backup
   - /backup-new
+  - /backup.*b
   - /backup/vendor
   - /bak
   - /base/exchange_article/index/classid/1/id/1
@@ -215,22 +237,26 @@ get:
   - /blogs
   - /browser
   - /cache
+  - /cart
   - /ccaef.txt
   - /cdn-cgi/*b
   - /cgi-bin/*b
   - /cgialfa
+  - /ch/upload/upload
   - /cjs/*c.js
+  - /ckeditor/*b
   - /cli
   - /client/api/findConfigByKey
   - /client/api/findFreeTrade
-  - /ckeditor/plugins/imageuploader/styles.min.css
   - /cms
   - /cms/adMInhtml_page
   - /common/member/js/user.util.js
   - /common/template/lottery/lecai/css/style.css
   - /components/*b
+  - /conf.json
   - /config
   - /config/*b
+  - /configuration.json
   - /configuration.php_old
   - /configuration/info.xml
   - /contact
@@ -258,14 +284,19 @@ get:
   - /dev/
   - /dev/*b
   - /devnew
+  - /dist/images/mask/guide/cn/step1.jpg
   - /docs/_sidebar.md
+  - /docs/swagger.json
   - /downloader
+  - /dump.*b
   - /ecoin
+  - /ecosystem.config.json
   - /ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application
   - /env
   - /env-config.json
   - /env.config.js
   - /env/config
+  - /environment.rb
   - /environments/.aws/.credentials
   - /environments/.credentials
   - /error_log
@@ -286,6 +317,8 @@ get:
   - /forums/
   - /friendGroup/list
   - /gaocc/g445g
+  - /good.txt
+  - /good_admin.txt
   - /graphql
   - /gsgvvt
   - /guacamole/api/tokens
@@ -317,7 +350,11 @@ get:
   - /images/editor/separator.gif
   - /images/fenetres/
   - /images/fenetres/fenetresbb/
+  - /images/glogo.jpg
+  - /images/glogo2.png
+  - /images/go-button-gateway.gif
   - /images/no.jpg
+  - /images/petabox-header.png
   - /images/src_images_but_dianz_s.png
   - /img
   - /img/login.png
@@ -339,6 +376,7 @@ get:
   - /issmall
   - /jars/upload/
   - /jiaoyimao/default.css
+  - /jquery.filer/*b
   - /js/a.script
   - /js/app.js
   - /js/app.ling.js
@@ -355,6 +393,8 @@ get:
   - /js/pups.js
   - /json/configs/permanent/permanent-lottery-config-list.json
   - /kcfinder/js/helper.js
+  - /key.json
+  - /keys.json
   - /kkrp/site/info
   - /kkrps/im_group/*b
   - /km.asmx/getPlatParam
@@ -370,6 +410,7 @@ get:
   - /loan
   - /login
   - /login/img/nyyh/chkjs.js
+  - /loginMe
   - /logs
   - /m
   - /m/ticker/usdtqc
@@ -407,6 +448,7 @@ get:
   - /newsite
   - /nyyh/*b
   - /oci8
+  - /ocpu/library/base/R/do.call/json
   - /odbc
   - /old
   - /old-site
@@ -419,6 +461,8 @@ get:
   - /oldsiteback
   - /oldsitehere
   - /oldwebsite
+  - /openapi.json
+  - /openapi.yaml
   - /otc
   - /other/codepay/js/codepay_util.js
   - /pages/admin
@@ -453,12 +497,16 @@ get:
   - /roundcube
   - /rss/*b
   - /s_api/basic/*b
+  - /secret.json
+  - /secrets.json
   - /secrets.yml
   - /server-status
   - /server/php
   - /service
   - /service/extdirect
+  - /settings.py
   - /sftp-config.json
+  - /sftp.json
   - /shop
   - /shop/*b
   - /sign-in
@@ -486,7 +534,12 @@ get:
   - /stock/search
   - /store
   - /store/*b
+  - /stylesheets/archive.css
   - /subdrivers
+  - /swagger-ui
+  - /swagger.*b
+  - /swagger/*b
+  - /sysShell
   - /system
   - /tables
   - /telescope/requests
@@ -498,9 +551,11 @@ get:
   - /templates
   - /templates/beez3
   - /templates/index.html
+  - /templates/system/css/system.css
   - /test
   - /test/*b
   - /test_404_page
+  - /testing
   - /tests
   - /themes
   - /themes/README.txt
@@ -510,10 +565,13 @@ get:
   - /tmp
   - /tmpl
   - /tmps/
+  - /toor.pho
   - /tslib.js
+  - /ui/login
   - /underscore
   - /up/
   - /upload/
+  - /upload/eupload
   - /upload/image/
   - /uploadify/*b
   - /uploads
@@ -524,13 +582,17 @@ get:
   - /users/new
   - /v1
   - /v1/management/tenant/getSpeedDomain
+  - /v1/swagger.*b
   - /v2
   - /v2/_catalog
+  - /v2/swagger.*b
   - /var/cache/mage--2
   - /var/resource_config.json
   - /vendor/
   - /views/commData/commonSite.js
   - /wallet.dat
+  - /wallet.json
+  - /wallets.json
   - /wap/api/exchangerateuserconfig!get.action
   - /wap/trading/get_newallorder_ajax
   - /web
@@ -551,8 +613,6 @@ get:
   - /wp-config-backup
   - /wp-config-backup1.txt
   - /wp-config-good
-  - /good.txt
-  - /good_admin.txt
   - /wp-config-sample.php~
   - /wp-config.*b
   - /wp-config_backup
@@ -572,7 +632,6 @@ get:
   - /wp2
   - /www
   - /www.rar
-  - /www.sql
   - /xianyu/*b
   - /xml
   - /xxsssseee
@@ -580,17 +639,22 @@ get:
   - /xy/image/jiantou.png
   - /zso,php
   - /zso1,php
+  - MicroStrategyWS/happyaxis.jsp
 
 post:
   - '*a.php'
+  - '*a/alfacgiapi/*b'
   - '*a/bin/sh'
+  - '*a/debug/default/view'
   - '*a/mt-xmlrpc.cgi'
   - '*a/perl.alfa'
+  - '*a/render/widget_php'
   - '*a/server/php'
   - /
   - /.env
   - /FCKeditor/editor/filemanager/connectors/asp/connector.asp
   - /_ignition/execute-solution
+  - /alfacgiapi/*b
   - /api/app/config_new
   - /api/system/system/config/get
   - /api/v2/cmdb/system/admin/admin
@@ -598,6 +662,7 @@ post:
   - /bin/bash
   - /bin/sh
   - /core/.env
+  - /debug/default/view
   - /index.php/api/other/appSetting
   - /login/kefuxian.mvc
   - /melody/api/v1/pageconfig/list
@@ -605,6 +670,8 @@ post:
   - /paypal/transparent/requestSecureToken
   - /user/getAllNicknames
   - /wap/banner/details
+  - /wp-config.php-backup
+  - /wp-content/plugins/php-event-calendar/server/file-uploader
   - /wp-json/wp_live_chat_support/v1/remote_upload
 
 delete:
