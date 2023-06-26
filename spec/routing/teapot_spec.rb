@@ -5,7 +5,7 @@ PATHS =
 
 BACKUP_EXTENTIONS = %w[zip txt bak old tmp bck rar].freeze
 
-RSpec.describe "teapot routes", type: :routing do
+RSpec.describe "teapot routes" do
   PATHS['get'].each do |path|
     it "routes GET #{path} to the teapot controller" do
       expect(get(path)).to route_to('iron_teapot/teapots#coffee')

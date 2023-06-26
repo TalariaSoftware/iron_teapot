@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.describe IronTeapot::TeapotsController, type: :controller do
+RSpec.describe IronTeapot::TeapotsController do
   routes { IronTeapot::Engine.routes }
 
   describe "GET #coffee" do

@@ -13,14 +13,10 @@ Gem::Specification.new do |spec|
   spec.metadata['homepage_uri'] = spec.homepage
   spec.metadata['source_code_uri'] = spec.homepage
   spec.metadata['changelog_uri'] = 'https://github.com/TalariaSoftware/iron_teapot/blob/main/CHANGELOG.md'
+  spec.metadata['rubygems_mfa_required'] = 'true'
 
   spec.files = Dir['{app,config,db,lib}/**/*', 'MIT-LICENSE', 'Rakefile',
     'README.md']
 
   spec.add_dependency 'rails', '>= 6.1.4'
-
-  spec.add_development_dependency 'rspec-rails'
-  spec.add_development_dependency 'rubocop-rake'
-  spec.add_development_dependency 'rubocop-rspec'
-  spec.metadata['rubygems_mfa_required'] = 'true'
 end
