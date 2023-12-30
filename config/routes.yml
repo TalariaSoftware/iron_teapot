@@ -4,6 +4,7 @@ get:
   - '*a.aspx'
   - '*a.aspx*b'
   - '*a.cgi'
+  - '*a.com_jce.ini'
   - '*a.do'
   - '*a.env'
   - '*a.git/*b'
@@ -28,6 +29,7 @@ get:
   - '*a/aws.yml'
   - '*a/cgialfa'
   - '*a/ckeditor/*b'
+  - '*a/common.js'
   - '*a/config.json'
   - '*a/config/*b'
   - '*a/dropzone-amd-module.*b'
@@ -60,6 +62,7 @@ get:
   - '*a/sftp-config.json'
   - '*a/sftp.json'
   - '*a/tinymce'
+  - '*a/uploadify/*b'
   - '*a/wallet.dat'
   - '*a/wp-admin'
   - '*a/wp-admin/*b'
@@ -69,8 +72,10 @@ get:
   - '*a/wp-includes/*b'
   - '*a/wp-json'
   - '*a/wp-json/*b'
+  - '*acom_acym*b'
   - '/tools/.env '
   - /!==this.readyState
+  - /$
   - /*a/phpunit
   - /*a/phpunit/*b
   - /.*b
@@ -94,6 +99,7 @@ get:
   - /360/static/js/iku.js
   - /97bwag
   - /ALFA_DATA
+  - /Admin/uploads
   - /Adminhtml_category
   - /BACKUP
   - /BAK
@@ -107,6 +113,7 @@ get:
   - /DEMO
   - /Deadcode1975xxxxxxxxxxxxxxxxxxxxxxxxxxxx
   - /Demo
+  - /Dockerrun.aws.json
   - /FCKeditor/*b
   - /FORUM
   - /FileZilla
@@ -124,10 +131,10 @@ get:
   - /Panels.txt
   - /Pc/Lang/index.html
   - /Public/*b
+  - /SENDGRID.ENV
   - /SHOP
   - /SITE
   - /STORE
-  - /Scripts/common.js
   - /Security/login
   - /Shop
   - /Site
@@ -146,6 +153,7 @@ get:
   - /Www
   - /_all_dbs
   - /_aws/credentials
+  - /_fragment
   - /_ignition/*b
   - /_profiler
   - /_profiler/empty/search/results
@@ -173,6 +181,7 @@ get:
   - /administrator/templates/bluestork/
   - /administrator/templates/hathor
   - /administrator/templates/isis/
+  - /adminpanel
   - /ajax
   - /ajax/*b
   - /akismet
@@ -198,7 +207,6 @@ get:
   - /assets/credentials.json
   - /assets/dist/static/js/vendor_prod.js
   - /assets/extension/market/css/mt4.css
-  - /assets/js/uploadify/uploadify.css
   - /assets/plugins
   - /assets/res/mods/room.js
   - /assets/room/css/room_mobile.css
@@ -208,6 +216,8 @@ get:
   - /auth/oauth/token
   - /authentik.yaml
   - /aws.credentials
+  - /aws.js
+  - /aws.json
   - /aws.yml
   - /aws/.credentials
   - /aws/config
@@ -237,9 +247,12 @@ get:
   - /blogs
   - /browser
   - /cache
+  - /cache-wordpress
   - /cart
   - /ccaef.txt
   - /cdn-cgi/*b
+  - /cekidot
+  - /cgi-bin/
   - /cgi-bin/*b
   - /cgialfa
   - /ch/upload/upload
@@ -250,33 +263,45 @@ get:
   - /client/api/findFreeTrade
   - /cms
   - /cms/adMInhtml_page
+  - /code/scancode
   - /common/member/js/user.util.js
   - /common/template/lottery/lecai/css/style.css
   - /components/*b
   - /conf.json
   - /config
   - /config/*b
+  - /configs/application.ini
+  - /configuration.*b
   - /configuration.json
   - /configuration.php_old
   - /configuration/info.xml
+  - /configurations/.*b
   - /contact
   - /contacts
   - /copy
   - /core
   - /cpanel
+  - /cpanelwebcall/*b
   - /credentials
   - /credentials/*b
+  - /cron.phppython
   - /cscpLoginWeb/*b
   - /csjs/bankCheck.js
   - /css/album.css
   - /css/all.css
   - /css/app.css
+  - /css/conference/templates/basefe7c.css
+  - /css/conferencefe7c.css
+  - /css/font/alfa-rex.php8
+  - /css/jquery/jquery.tipsyfe7c.css
+  - /css/jquery/ui/jquery.uife7c.css
   - /css/main.css
   - /css/nsc/reset.css
   - /css/style.css
   - /css/view/main/*b
   - /cubrid
   - /database
+  - /dayrui/Fcms/Readme.txt
   - /db
   - /debug/default/view
   - /demo
@@ -301,7 +326,9 @@ get:
   - /environments/.credentials
   - /error_log
   - /eval-stdin
+  - /example.com
   - /explore/projects
+  - /fatmous7231231
   - /fckeditor/*b
   - /feed
   - /file
@@ -316,7 +343,10 @@ get:
   - /forum/slide_img_19/
   - /forums/
   - /friendGroup/list
+  - /ftp-sync.json
+  - /ftp.json
   - /gaocc/g445g
+  - /go/golem.com
   - /good.txt
   - /good_admin.txt
   - /graphql
@@ -347,6 +377,7 @@ get:
   - /im/h5
   - /im/in/GetUuid
   - /images
+  - /images/ccx
   - /images/editor/separator.gif
   - /images/fenetres/
   - /images/fenetres/fenetresbb/
@@ -382,7 +413,6 @@ get:
   - /js/app.ling.js
   - /js/basic.js
   - /js/chat/chat.js
-  - /js/common.js
   - /js/config.js
   - /js/envConfig.js
   - /js/header-rollup-554.js
@@ -411,6 +441,7 @@ get:
   - /login
   - /login/img/nyyh/chkjs.js
   - /loginMe
+  - /logon/LogonPoint/tmindex.html
   - /logs
   - /m
   - /m/ticker/usdtqc
@@ -446,6 +477,7 @@ get:
   - /new-site
   - /newfolder
   - /newsite
+  - /null
   - /nyyh/*b
   - /oci8
   - /ocpu/library/base/R/do.call/json
@@ -471,6 +503,7 @@ get:
   - /php
   - /php.ini
   - /phpMyAdmin
+  - /phpdebugbar
   - /phpinfo
   - /phpmyadmin
   - /phpmyadmin/*b
@@ -491,7 +524,6 @@ get:
   - /public/*b
   - /radio.txt
   - /resources/css/headernav.css
-  - /resources/main/common.js
   - /room/getRoomBangFans
   - /room/script/face.js
   - /roundcube
@@ -507,6 +539,7 @@ get:
   - /settings.py
   - /sftp-config.json
   - /sftp.json
+  - /shell20211028/
   - /shop
   - /shop/*b
   - /sign-in
@@ -547,7 +580,6 @@ get:
   - /template/920ka/*b
   - /template/css/login.css
   - /template/js/comm/Confrim.js
-  - /template/tmp1/js/common.js
   - /templates
   - /templates/beez3
   - /templates/index.html
@@ -627,6 +659,7 @@ get:
   - /wp-json/*b
   - /wp-loading.phtml
   - /wp-old
+  - /wp-pano
   - /wp/license.txt
   - /wp1
   - /wp2

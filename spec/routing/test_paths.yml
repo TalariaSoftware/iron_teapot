@@ -1,6 +1,7 @@
 get:
   - .ftpconfig
   - /!==this.readyState
+  - /$
   - /.env
   - /.git
   - //bitrix/admin//admin/
@@ -50,6 +51,8 @@ get:
   - /ALFA_DATA
   - /ALFA_DATA/alfacgiapi/
   - /ALFA_DATA/alfacgiapi/perl.alfa
+  - /Admin/uploads
+  - /Admin/uploads/
   - /Adminhtml_category
   - /App_master/Telerik.Web.UI.WebResource.axd?type=rau
   - /BACKUP
@@ -69,6 +72,7 @@ get:
   - /Deadcode1975xxxxxxxxxxxxxxxxxxxxxxxxxxxx.php%20=%20%3E%3E%20shell%20no%20work
   - /Demo
   - /DesktopModules/Admin/RadEditorProvider/DialogHandler.aspx
+  - /Dockerrun.aws.json
   - /FCKeditor/editor/filemanager/connectors/test.html
   - /FORUM
   - /FileZilla.xml
@@ -102,6 +106,7 @@ get:
   - /Public/home/wap/css/qdgame.css
   - /Public/js/common.js
   - /Public/mobile/js/config.js
+  - /SENDGRID.ENV
   - /SHOP
   - /SITE
   - /STORE
@@ -124,6 +129,7 @@ get:
   - /Www
   - /_all_dbs
   - /_aws/credentials
+  - /_fragment
   - /_ignition/execute-solution
   - /_ignition/health-check/
   - /_profiler
@@ -167,6 +173,7 @@ get:
   - /administrator/components/com_facileforms/libraries/jquery/tooltip.js
   - /administrator/components/com_xcloner-backupandrestore_old/
   - /administrator/help/en-GB/toc.json
+  - /administrator/language/en-GB/en-GB.com_jce.ini
   - /administrator/language/en-GB/en-GB.xml
   - /administrator/language/en-GB/install.xml
   - /administrator/manifests/files/joomla.xml
@@ -175,6 +182,7 @@ get:
   - /administrator/templates/hathor
   - /administrator/templates/isis/
   - /adminlogin/admin/
+  - /adminpanel/
   - /ajax
   - /ajax/allcoin_a/id/0?t=0.3782499195965951
   - /akismet
@@ -240,6 +248,7 @@ get:
   - /assets/app-manifest.json
   - /assets/app.config.json
   - /assets/backend/plugins/jquery-file-upload/server/php/
+  - /assets/backend/plugins/uploadify/uploadify.css
   - /assets/ckeditor/kcfinder/js/helper.js
   - /assets/ckeditor/samples/index.html
   - /assets/credentials.json
@@ -287,6 +296,8 @@ get:
   - /auth/oauth/token
   - /authentik.yaml
   - /aws.credentials
+  - /aws.js
+  - /aws.json
   - /aws.yml
   - /aws/.credentials
   - /aws/config
@@ -341,10 +352,14 @@ get:
   - /bower_components/jquery.filer/examples/default/index.html
   - /browser
   - /cache
+  - /cache-wordpress
   - /cart
+  - /catalog/view/javascript/common.js
   - /ccaef.txt
   - /cdn-cgi/foobar
+  - /cekidot
   - /cf_scripts/scripts/ajax/ckeditor/plugins/filemanager/iedit.cfc
+  - /cgi-bin
   - /cgi-bin/fubar
   - /cgialfa
   - /ch/upload/upload
@@ -359,6 +374,7 @@ get:
   - /cms/adMInhtml_page
   - /cms/wp-includes/
   - /cms/wp-includes/wlwmanifest.xml
+  - /code/scancode
   - /common/member/js/user.util.js
   - /common/template/lottery/lecai/css/style.css
   - /components/swim
@@ -369,21 +385,47 @@ get:
   - /config/aws.yml
   - /config/config.json
   - /config/config.yml
+  - /configs/application.ini
+  - /configuration.7z
+  - /configuration.bz2
+  - /configuration.db
+  - /configuration.gz
   - /configuration.json
+  - /configuration.lz
   - /configuration.php_old
+  - /configuration.rar
+  - /configuration.sqlite
+  - /configuration.sqlitedb
+  - /configuration.tar.bz2
+  - /configuration.tar.gz
+  - /configuration.tar.z
+  - /configuration.xz
+  - /configuration.z
+  - /configuration.zip
   - /configuration/info.xml
+  - /configurations/.env.dev.local
+  - /configurations/.env.prod.bak
+  - /configurations/.env.test.bak
+  - /configurations/.env.test.local
   - /contact
   - /contacts
   - /copy
   - /core
   - /cpanel
+  - /cpanelwebcall/%3Cimg%20src=x%20onerror=%22prompt%28document.domain%29%22%3E
   - /credentials
   - /credentials/credentials
+  - /cron.phppython
   - /cscpLoginWeb/app/home
   - /csjs/bankCheck.js
   - /css/album.css
   - /css/all.css
   - /css/app.css
+  - /css/conference/templates/basefe7c.css
+  - /css/conferencefe7c.css
+  - /css/font/alfa-rex.php8
+  - /css/jquery/jquery.tipsyfe7c.css
+  - /css/jquery/ui/jquery.uife7c.css?1.15.3=
   - /css/main.css
   - /css/nsc/reset.css
   - /css/style.css
@@ -395,6 +437,7 @@ get:
   - /data/nextcloud.log
   - /data/owncloud.log
   - /database/
+  - /dayrui/Fcms/Readme.txt
   - /db/
   - /db_backup.sql
   - /dbdump.sql
@@ -437,7 +480,10 @@ get:
   - /environments/environment.ts
   - /error_log
   - /eval-stdin
+  - /example.com
   - /explore/projects?non_archived=true&page=1&sort=latest_activity_desc
+  - /fatmous7231231
+  - /fatmous7231231/
   - /fckeditor/editor/filemanager/connectors/test.html
   - /feed/
   - /file/
@@ -454,8 +500,11 @@ get:
   - /forum/slide_img_19/
   - /forums/
   - /friendGroup/list
+  - /ftp-sync.json
+  - /ftp.json
   - /gaocc/g445g
   - /getConfig/listPopFrame.do
+  - /go//golem.com
   - /good.txt
   - /good_admin.txt
   - /graphql/
@@ -490,6 +539,7 @@ get:
   - /im/in/GetUuid
   - /images/
   - /images/ALFA_DATA/alfacgiapi/
+  - /images/ccx
   - /images/editor/separator.gif
   - /images/fenetres/
   - /images/fenetres/fenetresbb/
@@ -549,6 +599,8 @@ get:
   - /kkrps/im_group/showmembers
   - /km.asmx/getPlatParam
   - /langConfig.js
+  - /language/en-GB/en-GB.com_acym.ini
+  - /language/en-GB/en-GB.com_jce.ini
   - /language/en-GB/en-GB.xml
   - /language/index.html
   - /lanren/css/global.css
@@ -566,6 +618,7 @@ get:
   - /login.html
   - /login/img/nyyh/chkjs.js
   - /loginMe
+  - /logon/LogonPoint/tmindex.html
   - /logs
   - /logs/
   - /m/
@@ -582,6 +635,8 @@ get:
   - /manager/
   - /market/getStockBaseInfo?stockCodeInternal=2658
   - /market/market-ws/iframe.html
+  - /media/com_acym/css/libraries/foundation_email.min.css
+  - /media/com_acym/js/global.min.js
   - /media/system/js/core.js
   - /media/wp-includes/
   - /member/
@@ -597,6 +652,8 @@ get:
   - /modules/columnadverts/
   - /modules/comment/
   - /modules/ictea_base/include/js/ckeditor/kcfinder/js/helper.js
+  - /modules/mod_simplefileuploadv1.3/elements
+  - /modules/mod_simplefileuploadv1.3/elements/
   - /mssql
   - /mt
   - /mt-atom.cgi
@@ -622,6 +679,7 @@ get:
   - /news/wp-includes/wlwmanifest.xml
   - /newsite
   - /nextcloud/data/nextcloud.log
+  - /null
   - /nyyh/chkjs.js
   - /nyyh/game.css
   - /oc/admin/
@@ -650,11 +708,15 @@ get:
   - /pages/admin
   - /pages/console/js/common.js
   - /panel/kcfinder/js/helper.js
+  - /parameters.yml
+  - /parameters.yml.dist
   - /password_resets/new
+  - /passwords.txt
   - /php
   - /php.ini
   - /php/
   - /phpMyAdmin
+  - /phpdebugbar
   - /phpinfo
   - /phpmyadmin/
   - /phpmyadmin/fubar
@@ -678,6 +740,22 @@ get:
   - /providers/htmleditorproviders/telerik/telerik.web.ui.dialoghandler.aspx
   - /proxy/games
   - /proxy/settings
+  - /public.7z
+  - /public.bz2
+  - /public.db
+  - /public.gz
+  - /public.lz
+  - /public.rar
+  - /public.sql.tar.gz
+  - /public.sql.tar.z
+  - /public.sqlite
+  - /public.sqlitedb
+  - /public.tar.bz2
+  - /public.tar.gz
+  - /public.tar.z
+  - /public.xz
+  - /public.z
+  - /public.zip
   - /public/.env
   - /public/appapi/images/error.jpg
   - /public/h5static/js/main.js
@@ -686,6 +764,22 @@ get:
   - /public/tpl/default/static/css.css
   - /public/web/css/add//index.css
   - /public/web/js/add/com.js
+  - /public_html.7z
+  - /public_html.bz2
+  - /public_html.db
+  - /public_html.gz
+  - /public_html.lz
+  - /public_html.rar
+  - /public_html.sql.tar.gz
+  - /public_html.sql.tar.z
+  - /public_html.sqlite
+  - /public_html.sqlitedb
+  - /public_html.tar.bz2
+  - /public_html.tar.gz
+  - /public_html.tar.z
+  - /public_html.xz
+  - /public_html.z
+  - /public_html.zip
   - /radio.txt
   - /resources/css/headernav.css
   - /resources/main/common.js
@@ -699,6 +793,7 @@ get:
   - /s/35342e3230392e39312e313838/_/;/META-INF/maven/com.atlassian.jira/jira-webapp-dist/pom.properties
   - /s/35342e3232312e3235312e313438/_/;/META-INF/maven/com.atlassian.jira/jira-webapp-dist/pom.properties
   - /s/37352e3130312e3138342e3339/_/;/META-INF/maven/com.atlassian.jira/jira-webapp-dist/pom.properties
+  - /s3cmd.ini
   - /s_api/basic/config_js?callback=__set_config
   - /s_api/basic/download/info
   - /scripts/app.js
@@ -711,9 +806,25 @@ get:
   - /server/php/
   - /service/extdirect/
   - /settings.py
+  - /settings/.env.dev.bak
+  - /settings/.env.prod.bak
+  - /settings/.env.prod.local
+  - /settings/.env.stage.bak
+  - /settings/.env.stage.local
+  - /settings/.env.test.bak
+  - /settings/.env.test.local
   - /settings/settings.py
+  - /setup/.env.dev.bak
+  - /setup/.env.dev.local
+  - /setup/.env.prod.bak
+  - /setup/.env.prod.local
+  - /setup/.env.stage.bak
+  - /setup/.env.stage.local
+  - /setup/.env.test.bak
+  - /setup/.env.test.local
   - /sftp-config.json
   - /sftp.json
+  - /shell20211028/
   - /shop
   - /shop/index.php/admin/
   - /shop/rss/catalog/notifystock
@@ -731,6 +842,7 @@ get:
   - /site_old
   - /sitebackup
   - /sitecore/shell/ClientBin/Reporting/Report.ashx
+  - /sitemap.xml.gz
   - /sites/all/libraries/fckeditor/editor/filemanager/connectors/test.html
   - /sites/all/modules/fckeditor/fckeditor/editor/filemanager/connectors/test.html
   - /sites/default/files/
@@ -749,6 +861,7 @@ get:
   - /src
   - /src/app.js
   - /src/environments/environment.ts
+  - /ssh.json
   - /staging
   - /staging/index.php/admin/
   - /staging/rss/catalog/notifystock
@@ -816,6 +929,8 @@ get:
   - /test_404_page
   - /testing
   - /tests
+  - /text/plain
+  - /theme/assets/global/plugins/uploadify/uploadify.css
   - /themes
   - /themes/README.txt
   - /third_party
@@ -832,6 +947,7 @@ get:
   - /ui/login
   - /underscore
   - /up/
+  - /up/.well-known
   - /upload/
   - /upload/eupload
   - /upload/image/
@@ -867,6 +983,9 @@ get:
   - /wallets/wallet.dat
   - /wap/api/exchangerateuserconfig!get.action
   - /wap/trading/get_newallorder_ajax
+  - /web.sql.tar.gz
+  - /web.sql.tar.z
+  - /web.tar.z
   - /web/
   - /web/api/getBanner
   - /web/settings/settings.py
@@ -874,6 +993,22 @@ get:
   - /web/wp-includes/wlwmanifest.xml
   - /webadmin
   - /webapp
+  - /webapps.7z
+  - /webapps.bz2
+  - /webapps.db
+  - /webapps.gz
+  - /webapps.lz
+  - /webapps.rar
+  - /webapps.sql.tar.gz
+  - /webapps.sql.tar.z
+  - /webapps.sqlite
+  - /webapps.sqlitedb
+  - /webapps.tar.bz2
+  - /webapps.tar.gz
+  - /webapps.tar.z
+  - /webapps.xz
+  - /webapps.z
+  - /webapps.zip
   - /website/blog/
   - /website/wp-includes/
   - /website/wp-includes/wlwmanifest.xml
@@ -887,6 +1022,7 @@ get:
   - /wordpress/wp-includes/
   - /wordpress/wp-includes/wlwmanifest.xml
   - /wordpress1
+  - /worm.PhP7
   - /wp
   - /wp-admin
   - /wp-admin/css/
@@ -916,12 +1052,15 @@ get:
   - /wp-content/
   - /wp-content/mu-plugins/db-safe-mode.php
   - /wp-content/plugins/wpdiscuz/themes/default/style-rtl.css
+  - /wp-diambar/includes
   - /wp-includes/css/wp-config.php
   - /wp-includes/wlwmanifest.xml
   - /wp-json
   - /wp-json/wp/v2/users
   - /wp-loading.phtml
   - /wp-old
+  - /wp-pano
+  - /wp-touch.js
   - /wp/license.txt
   - /wp/wp-admin/includes/
   - /wp/wp-content/plugins/instabuilder2/assets/css/instabuilder2.css
