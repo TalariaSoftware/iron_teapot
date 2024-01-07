@@ -842,7 +842,6 @@ get:
   - /site_old
   - /sitebackup
   - /sitecore/shell/ClientBin/Reporting/Report.ashx
-  - /sitemap.xml.gz
   - /sites/all/libraries/fckeditor/editor/filemanager/connectors/test.html
   - /sites/all/modules/fckeditor/fckeditor/editor/filemanager/connectors/test.html
   - /sites/default/files/
@@ -929,7 +928,6 @@ get:
   - /test_404_page
   - /testing
   - /tests
-  - /text/plain
   - /theme/assets/global/plugins/uploadify/uploadify.css
   - /themes
   - /themes/README.txt
@@ -947,7 +945,6 @@ get:
   - /ui/login
   - /underscore
   - /up/
-  - /up/.well-known
   - /upload/
   - /upload/eupload
   - /upload/image/

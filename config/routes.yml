@@ -4,6 +4,7 @@ get:
   - '*a.aspx'
   - '*a.aspx*b'
   - '*a.cgi'
+  - '*a.com_acym.*b'
   - '*a.com_jce.ini'
   - '*a.do'
   - '*a.env'
@@ -15,6 +16,7 @@ get:
   - '*a.php5'
   - '*a.php7'
   - '*a.sql'
+  - '*a/.env.*b'
   - '*a/ALFA_DATA'
   - '*a/GetQrCodeInfo'
   - '*a/Telerik.Web.UI.WebResource.axd'
@@ -29,6 +31,7 @@ get:
   - '*a/aws.yml'
   - '*a/cgialfa'
   - '*a/ckeditor/*b'
+  - '*a/com_acym/*b'
   - '*a/common.js'
   - '*a/config.json'
   - '*a/config/*b'
@@ -72,13 +75,13 @@ get:
   - '*a/wp-includes/*b'
   - '*a/wp-json'
   - '*a/wp-json/*b'
-  - '*acom_acym*b'
   - '/tools/.env '
   - /!==this.readyState
   - /$
   - /*a/phpunit
   - /*a/phpunit/*b
   - /.*b
+  - /.env.*b
   - /0byte
   - /1
   - /1111/feed
@@ -463,6 +466,7 @@ get:
   - /modules
   - /modules/columnadverts/
   - /modules/comment/
+  - /modules/mod_simplefileuploadv1.3/elements
   - /mssql
   - /mt
   - /mtja.html
@@ -499,7 +503,9 @@ get:
   - /other/codepay/js/codepay_util.js
   - /pages/admin
   - /pages/console/*b
+  - /parameters.yml
   - /password_resets/new
+  - /passwords.txt
   - /php
   - /php.ini
   - /phpMyAdmin
@@ -521,13 +527,28 @@ get:
   - /protal
   - /proxy/games
   - /proxy/settings
+  - /public.7z
+  - /public.bz2
+  - /public.db
+  - /public.gz
+  - /public.lz
+  - /public.rar
+  - /public.sql.tar.*b
+  - /public.sqlite
+  - /public.sqlitedb
+  - /public.tar.*b
+  - /public.xz
+  - /public.z
+  - /public.zip
   - /public/*b
+  - /public_html.*b
   - /radio.txt
   - /resources/css/headernav.css
   - /room/getRoomBangFans
   - /room/script/face.js
   - /roundcube
   - /rss/*b
+  - /s3cmd.ini
   - /s_api/basic/*b
   - /secret.json
   - /secrets.json
@@ -559,6 +580,7 @@ get:
   - /sqlite3
   - /sqlsrv
   - /src
+  - /ssh.json
   - /staging
   - /staging/*b
   - /static
@@ -628,9 +650,11 @@ get:
   - /wap/api/exchangerateuserconfig!get.action
   - /wap/trading/get_newallorder_ajax
   - /web
+  - /web.*b
   - /web/api/getBanner
   - /webadmin
   - /webapp
+  - /webapps.*b
   - /website/blog
   - /widwsisw/
   - /wls-wsat/CoordinatorPortType/
@@ -638,6 +662,7 @@ get:
   - /wordpress-old
   - /wordpress/license.txt
   - /wordpress1
+  - /worm.PhP7
   - /wp
   - /wp-admin
   - /wp-admin/*b
@@ -653,6 +678,7 @@ get:
   - /wp-config~
   - /wp-content
   - /wp-content/*b
+  - /wp-diambar/includes
   - /wp-includes
   - /wp-includes/*b
   - /wp-json
@@ -660,6 +686,7 @@ get:
   - /wp-loading.phtml
   - /wp-old
   - /wp-pano
+  - /wp-touch.js
   - /wp/license.txt
   - /wp1
   - /wp2
