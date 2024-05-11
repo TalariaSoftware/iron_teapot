@@ -1,8 +1,10 @@
 get:
+  - '*a.PhP7'
   - '*a.ashx'
   - '*a.asp'
   - '*a.aspx'
   - '*a.aspx*b'
+  - '*a.bash_history'
   - '*a.cgi'
   - '*a.com_acym.*b'
   - '*a.com_jce.ini'
@@ -18,6 +20,7 @@ get:
   - '*a.sql'
   - '*a/.env.*b'
   - '*a/ALFA_DATA'
+  - '*a/FCKeditor/*b'
   - '*a/GetQrCodeInfo'
   - '*a/Telerik.Web.UI.WebResource.axd'
   - '*a/_ignition/*b'
@@ -104,13 +107,16 @@ get:
   - /ALFA_DATA
   - /Admin/uploads
   - /Adminhtml_category
+  - /Assets
   - /BACKUP
   - /BAK
   - /BKP
   - /BLOG
   - /Backoffice
   - /Backup
+  - /BlockCypher.log
   - /Blog
+  - /CFIDE/*b
   - /Cache
   - /Content/*b
   - /DEMO
@@ -133,6 +139,7 @@ get:
   - /PSBC-1
   - /Panels.txt
   - /Pc/Lang/index.html
+  - /Psmith
   - /Public/*b
   - /SENDGRID.ENV
   - /SHOP
@@ -146,6 +153,7 @@ get:
   - /Template/Mobile/js/main.js
   - /Templates/*b
   - /Test
+  - /Tiny File Manager
   - /Tmp
   - /WORDPRESS
   - /WP
@@ -228,11 +236,33 @@ get:
   - /bac
   - /back
   - /back.*b
+  - /back/*c.gz
+  - /back/*c.rar
+  - /back/*c.tar
+  - /back/*c.zip
+  - /back/config.js
   - /backup
   - /backup-new
   - /backup.*b
+  - /backup/*c.gz
+  - /backup/*c.rar
+  - /backup/*c.tar
+  - /backup/*c.zip
   - /backup/vendor
+  - /backups/*c.gz
+  - /backups/*c.rar
+  - /backups/*c.tar
+  - /backups/*c.zip
+  - /backups/.well-known.zip
+  - /backups/config.js
+  - /backups/credentials.txt
   - /bak
+  - /bak.tar.gz
+  - /bak/*c.gz
+  - /bak/*c.rar
+  - /bak/*c.tar
+  - /bak/*c.zip
+  - /bak/config.js
   - /base/exchange_article/index/classid/1/id/1
   - /base/exchange_index/changepwdfirst
   - /bc
@@ -259,6 +289,7 @@ get:
   - /cgi-bin/*b
   - /cgialfa
   - /ch/upload/upload
+  - /chosen
   - /cjs/*c.js
   - /ckeditor/*b
   - /cli
@@ -306,20 +337,27 @@ get:
   - /database
   - /dayrui/Fcms/Readme.txt
   - /db
+  - /debug/default/index
   - /debug/default/view
   - /demo
   - /demo/*b
   - /dev/
   - /dev/*b
   - /devnew
+  - /directory.rar
+  - /directory.tar
+  - /directory.tar.gz
+  - /directory.zip
   - /dist/images/mask/guide/cn/step1.jpg
   - /docs/_sidebar.md
   - /docs/swagger.json
   - /downloader
   - /dump.*b
+  - /e/data/html/postinfo.js
   - /ecoin
   - /ecosystem.config.json
   - /ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application
+  - /elrte/src/elrte.src.html
   - /env
   - /env-config.json
   - /env.config.js
@@ -348,6 +386,8 @@ get:
   - /friendGroup/list
   - /ftp-sync.json
   - /ftp.json
+  - /ftpsync.settings
+  - /full_backup.zip
   - /gaocc/g445g
   - /go/golem.com
   - /good.txt
@@ -450,6 +490,7 @@ get:
   - /m/ticker/usdtqc
   - /magento/*b
   - /magento_version
+  - /mailman/listinfo/mailman
   - /main
   - /manager
   - /market/getStockBaseInfo
@@ -466,6 +507,8 @@ get:
   - /modules
   - /modules/columnadverts/
   - /modules/comment/
+  - /modules/mod_rebug/manifest.xml
+  - /modules/mod_review/manifest.xml
   - /modules/mod_simplefileuploadv1.3/elements
   - /mssql
   - /mt
@@ -504,6 +547,7 @@ get:
   - /pages/admin
   - /pages/console/*b
   - /parameters.yml
+  - /password.txt
   - /password_resets/new
   - /passwords.txt
   - /php
@@ -544,6 +588,11 @@ get:
   - /public_html.*b
   - /radio.txt
   - /resources/css/headernav.css
+  - /restore/*c.gz
+  - /restore/*c.rar
+  - /restore/*c.tar
+  - /restore/*c.zip
+  - /restore/config.js
   - /room/getRoomBangFans
   - /room/script/face.js
   - /roundcube
@@ -643,6 +692,7 @@ get:
   - /var/cache/mage--2
   - /var/resource_config.json
   - /vendor/
+  - /vendor/laravel-filemanager/js/script.js
   - /views/commData/commonSite.js
   - /wallet.dat
   - /wallet.json
@@ -662,7 +712,6 @@ get:
   - /wordpress-old
   - /wordpress/license.txt
   - /wordpress1
-  - /worm.PhP7
   - /wp
   - /wp-admin
   - /wp-admin/*b
@@ -702,6 +751,7 @@ get:
   - MicroStrategyWS/happyaxis.jsp
 
 post:
+  - '*a.asp'
   - '*a.php'
   - '*a/alfacgiapi/*b'
   - '*a/bin/sh'
@@ -732,7 +782,7 @@ post:
   - /wap/banner/details
   - /wp-config.php-backup
   - /wp-content/plugins/php-event-calendar/server/file-uploader
-  - /wp-json/wp_live_chat_support/v1/remote_upload
+  - /wp-json/*b
 
 delete:
   - /contacts

@@ -55,6 +55,7 @@ get:
   - /Admin/uploads/
   - /Adminhtml_category
   - /App_master/Telerik.Web.UI.WebResource.axd?type=rau
+  - /Assets
   - /BACKUP
   - /BAK
   - /BKP
@@ -63,7 +64,10 @@ get:
   - /Backoffice/
   - /Backup
   - /Bitcoin/wallet.dat
+  - /BlockCypher.log
   - /Blog
+  - /CFIDE/administrator/index.cfm
+  - /CFIDE/scripts/ajax/FCKeditor/editor/filemanager/browser/default/browser.html
   - /Cache
   - /Content/Wap/base.css
   - /Content/common/web/CommonActivity.css
@@ -94,6 +98,7 @@ get:
   - /Panels.txt
   - /Pc/Lang/index.html
   - /Promotions/list.mvc
+  - /Psmith
   - /Public/Home/images/game/pk10.png
   - /Public/Home/js/cls.js
   - /Public/Home/js/common.js
@@ -119,6 +124,7 @@ get:
   - /Templates/user/finance/css/userPay.css
   - /Templates/user/js/global.js
   - /Test
+  - /Tiny%20File%20Manager
   - /Tmp/
   - /WORDPRESS
   - /WP
@@ -305,18 +311,92 @@ get:
   - /bac
   - /back.tar.gz
   - /back/
+  - /back/.bash_history
+  - /back/.well-known.zip
+  - /back/Archive.zip
+  - /back/application.zip
+  - /back/backup.tar
+  - /back/backup.tar.gz
+  - /back/backup.zip
+  - /back/bak.gz
+  - /back/bak.rar
+  - /back/bak.tar
+  - /back/config.js
+  - /back/directory.gz
+  - /back/directory.tar
+  - /back/directory.tar.gz
   - /back/dup-installer/
+  - /back/public_html.rar
+  - /back/public_html.zip
+  - /back/somebadapples.org.zip
+  - /back/website.rar
+  - /back/website.zip
   - /back/wp-admin/
+  - /back/www.gz
+  - /back/www.tar
+  - /back/www.zip
   - /backup
   - /backup-new
   - /backup.tar.gz
+  - /backup/archive.zip
+  - /backup/backup.gz
+  - /backup/backup.rar
+  - /backup/bak.gz
+  - /backup/bak.tar.gz
   - /backup/bitcoin/wallet.dat
+  - /backup/directory.tar.gz
   - /backup/dup-installer/
   - /backup/vendor/
   - /backup/wallet.dat
+  - /backup/wallet.zip
+  - /backup/website.rar
+  - /backup/website.tar
+  - /backup/website.zip
   - /backup/wp-admin/
+  - /backup/www.gz
+  - /backup/www.tar
+  - /backup/www.tar.gz
+  - /backups/.bash_history
+  - /backups/.well-known.zip
+  - /backups/Archive.zip
+  - /backups/application.zip
+  - /backups/backup.rar
+  - /backups/backup.zip
+  - /backups/bak.gz
+  - /backups/config.js
+  - /backups/credentials.txt
+  - /backups/directory.rar
+  - /backups/directory.zip
+  - /backups/full_backup.zip
+  - /backups/index.zip
+  - /backups/public_html.zip
+  - /backups/somebadapples.org.tar.gz
+  - /backups/somebadapples.org.zip
   - /backups/wallet.dat
+  - /backups/website.rar
+  - /backups/website.tar
+  - /backups/website.tar.gz
+  - /backups/well-known.zip
+  - /backups/www.gz
+  - /backups/www.tar.gz
+  - /backups/www.zip
   - /bak
+  - /bak.tar.gz
+  - /bak/backup.tar
+  - /bak/backup.tar.gz
+  - /bak/backup.zip
+  - /bak/bak.rar
+  - /bak/config.js
+  - /bak/directory.gz
+  - /bak/directory.rar
+  - /bak/directory.tar
+  - /bak/directory.tar.gz
+  - /bak/index.zip
+  - /bak/public_html.tar.gz
+  - /bak/public_html.zip
+  - /bak/website.tar
+  - /bak/well-known.zip
+  - /bak/www.gz
   - /base/exchange_article/index/classid/1/id/1
   - /base/exchange_index/changepwdfirst
   - /bc
@@ -363,6 +443,7 @@ get:
   - /cgi-bin/fubar
   - /cgialfa
   - /ch/upload/upload
+  - /chosen
   - /cjs/UPNG.js
   - /cjs/index.js
   - /ckeditor/kcfinder/js/helper.js
@@ -441,6 +522,7 @@ get:
   - /db/
   - /db_backup.sql
   - /dbdump.sql
+  - /debug/default/index
   - /debug/default/view
   - /debug/default/view?panel=config
   - /demo/
@@ -454,6 +536,9 @@ get:
   - /dev/rss/catalog/review
   - /dev/rss/order/new
   - /devnew
+  - /directory.rar
+  - /directory.tar.gz
+  - /directory.zip
   - /dist/images/mask/guide/cn/step1.jpg
   - /django/settings.py
   - /docs/_sidebar.md
@@ -464,11 +549,13 @@ get:
   - /dump.gz
   - /dump.sql
   - /dump.tar.gz
+  - /e/data/html/postinfo.js
   - /e/data/js/ajax.js
   - /ecoin/
   - /ecosystem.config.json
   - /ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application
   - /elfinder/elfinder.html
+  - /elrte/src/elrte.src.html
   - /env
   - /env-admin/assets/vendor/jquery.filer/examples/default/index.html
   - /env-config.json
@@ -502,7 +589,10 @@ get:
   - /friendGroup/list
   - /ftp-sync.json
   - /ftp.json
+  - /ftpsync.settings
+  - /full_backup.zip
   - /gaocc/g445g
+  - /gawean.PhP7
   - /getConfig/listPopFrame.do
   - /go//golem.com
   - /good.txt
@@ -598,6 +688,7 @@ get:
   - /kkrps/im_group/show_members
   - /kkrps/im_group/showmembers
   - /km.asmx/getPlatParam
+  - /koko.PhP7
   - /langConfig.js
   - /language/en-GB/en-GB.com_acym.ini
   - /language/en-GB/en-GB.com_jce.ini
@@ -610,6 +701,7 @@ get:
   - /lib/assets/compiled/rails-ujs.js
   - /lib/client/etc/hometu.jpg
   - /lib/index.js
+  - /library/editor/FCKeditor/editor/filemanager/browser/default/browser.html
   - /license.txt
   - /loan
   - /localhost.sql
@@ -631,6 +723,7 @@ get:
   - /magento_version
   - /magmi-importer/conf/magmi.ini
   - /magmi/conf/magmi.ini
+  - /mailman/listinfo/mailman
   - /main
   - /manager/
   - /market/getStockBaseInfo?stockCodeInternal=2658
@@ -652,6 +745,8 @@ get:
   - /modules/columnadverts/
   - /modules/comment/
   - /modules/ictea_base/include/js/ckeditor/kcfinder/js/helper.js
+  - /modules/mod_rebug/manifest.xml
+  - /modules/mod_review/manifest.xml
   - /modules/mod_simplefileuploadv1.3/elements
   - /modules/mod_simplefileuploadv1.3/elements/
   - /mssql
@@ -710,6 +805,7 @@ get:
   - /panel/kcfinder/js/helper.js
   - /parameters.yml
   - /parameters.yml.dist
+  - /password.txt
   - /password_resets/new
   - /passwords.txt
   - /php
@@ -774,6 +870,7 @@ get:
   - /public_html.sql.tar.z
   - /public_html.sqlite
   - /public_html.sqlitedb
+  - /public_html.tar
   - /public_html.tar.bz2
   - /public_html.tar.gz
   - /public_html.tar.z
@@ -783,6 +880,24 @@ get:
   - /radio.txt
   - /resources/css/headernav.css
   - /resources/main/common.js
+  - /restore/Archive.zip
+  - /restore/backup.gz
+  - /restore/backup.rar
+  - /restore/backup.tar
+  - /restore/backup.zip
+  - /restore/bak.gz
+  - /restore/bak.tar.gz
+  - /restore/config.js
+  - /restore/directory.gz
+  - /restore/full_backup.zip
+  - /restore/public_html.zip
+  - /restore/somebadapples.org.rar
+  - /restore/web.zip
+  - /restore/website.tar.gz
+  - /restore/website.zip
+  - /restore/well-known.zip
+  - /restore/www.rar
+  - /restore/www.zip
   - /room/getRoomBangFans
   - /room/script/face.js
   - /roundcube
@@ -971,6 +1086,7 @@ get:
   - /vendor/
   - /vendor/.env
   - /vendor/jquery.filer/index.html
+  - /vendor/laravel-filemanager/js/script.js
   - /vendor/phpunit/
   - /views/commData/commonSite.js
   - /wallet.dat
@@ -980,6 +1096,7 @@ get:
   - /wallets/wallet.dat
   - /wap/api/exchangerateuserconfig!get.action
   - /wap/trading/get_newallorder_ajax
+  - /warm.PhP7
   - /web.sql.tar.gz
   - /web.sql.tar.z
   - /web.tar.z
@@ -1020,6 +1137,7 @@ get:
   - /wordpress/wp-includes/wlwmanifest.xml
   - /wordpress1
   - /worm.PhP7
+  - /worm0.PhP7
   - /wp
   - /wp-admin
   - /wp-admin/css/
@@ -1053,6 +1171,7 @@ get:
   - /wp-includes/css/wp-config.php
   - /wp-includes/wlwmanifest.xml
   - /wp-json
+  - /wp-json/bricks/v1/render_element
   - /wp-json/wp/v2/users
   - /wp-loading.phtml
   - /wp-old
@@ -1081,6 +1200,7 @@ get:
   - /xxsssseee
   - /xy/
   - /xy/image/jiantou.png
+  - /ynz.PhP7
   - /zso,php
   - /zso1,php
   - js/chat/chat.js
@@ -1111,9 +1231,11 @@ post:
   - /bin/sh
   - /cgi-bin/../../../../bin/sh
   - /cgi-bin/mt/mt-xmlrpc.cgi
+  - /config/AspCms_Config.asp
   - /core/.env
   - /css/ALFA_DATA/alfacgiapi/bash.alfa
   - /css/ALFA_DATA/alfacgiapi/py.alfa
+  - /data/s.asp
   - /debug/default/view
   - /debug/default/view.html
   - /file-upload/server/php/
@@ -1133,6 +1255,7 @@ post:
   - /paypal/transparent/requestSecureToken
   - /plugins/jquery-file-upload/server/php/
   - /sapi/debug/default/view
+  - /sitemap/templates/met/SqlIn.asp
   - /user/getAllNicknames
   - /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
   - /wap/banner/details
@@ -1141,6 +1264,8 @@ post:
   - /wp-config.php-backup
   - /wp-content/mu-plugins/db-safe-mode.php
   - /wp-includes/css/wp-config.php
+  - /wp-json/bricks/v1/render_element
+  - /wp-json/litespeed/v1/cdn_status
   - /wp-json/wp_live_chat_support/v1/remote_upload
 
 delete:
