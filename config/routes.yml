@@ -1,4 +1,5 @@
 get:
+  - '*a.PHP7'
   - '*a.PhP7'
   - '*a.ashx'
   - '*a.asp'
@@ -41,6 +42,7 @@ get:
   - '*a/dropzone-amd-module.*b'
   - '*a/dropzone.js'
   - '*a/dup-installer'
+  - '*a/e/data/html/postinfo.js'
   - '*a/elfinder.html'
   - '*a/elfinder/*b'
   - '*a/env'
@@ -209,6 +211,7 @@ get:
   - /app/*b
   - /application
   - /application/*b
+  - /appsettings.json
   - /appxz/index.html
   - /article/image7/
   - /asset/js/library/filer/examples/default/index.html
@@ -358,6 +361,8 @@ get:
   - /ecosystem.config.json
   - /ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application
   - /elrte/src/elrte.src.html
+  - /enhance
+  - /enhancecp
   - /env
   - /env-config.json
   - /env.config.js
@@ -366,6 +371,8 @@ get:
   - /environments/.aws/.credentials
   - /environments/.credentials
   - /error_log
+  - /etc/shadow
+  - /etc/ssl/private/server.key
   - /eval-stdin
   - /example.com
   - /explore/projects
@@ -602,7 +609,9 @@ get:
   - /secret.json
   - /secrets.json
   - /secrets.yml
+  - /sellers.json
   - /server-status
+  - /server.key
   - /server/php
   - /service
   - /service/extdirect
@@ -660,6 +669,7 @@ get:
   - /test_404_page
   - /testing
   - /tests
+  - /theme/v2board/assets/umi.css
   - /themes
   - /themes/README.txt
   - /third_party

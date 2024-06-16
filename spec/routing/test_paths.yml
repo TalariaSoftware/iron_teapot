@@ -195,6 +195,7 @@ get:
   - /alfa-rex.php7
   - /alfacgiapi/
   - /alfacgiapi/perl.alfa
+  - /alfanew.PHP7
   - /alfanew.php7
   - /amember/admin-users/
   - /amfeed/main/download?file=..%2F..%2F..%2Fapp%2Fetc%2Flocal.xml
@@ -243,6 +244,7 @@ get:
   - /application/
   - /application/config/
   - /application/configs/application.ini
+  - /appsettings.json
   - /appxz/index.html
   - /article/image7/
   - /article/wp-json/
@@ -556,6 +558,8 @@ get:
   - /ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application
   - /elfinder/elfinder.html
   - /elrte/src/elrte.src.html
+  - /enhance
+  - /enhancecp
   - /env
   - /env-admin/assets/vendor/jquery.filer/examples/default/index.html
   - /env-config.json
@@ -566,6 +570,8 @@ get:
   - /environments/.credentials
   - /environments/environment.ts
   - /error_log
+  - /etc/shadow
+  - /etc/ssl/private/server.key
   - /eval-stdin
   - /example.com
   - /explore/projects?non_archived=true&page=1&sort=latest_activity_desc
@@ -915,8 +921,10 @@ get:
   - /secret.json
   - /secrets.json
   - /secrets.yml
+  - /sellers.json
   - /sendgrid.env
   - /server-status
+  - /server.key
   - /server/php
   - /server/php/
   - /service/extdirect/
@@ -1044,6 +1052,7 @@ get:
   - /testing
   - /tests
   - /theme/assets/global/plugins/uploadify/uploadify.css
+  - /theme/v2board/assets/umi.css?v=1.6.0%2F
   - /themes
   - /themes/README.txt
   - /third_party
@@ -1061,6 +1070,7 @@ get:
   - /underscore
   - /up/
   - /upload/
+  - /upload/e/data/html/postinfo.js
   - /upload/eupload
   - /upload/image/
   - /uploadify/jquery.uploadify.v2.1.4.js
@@ -1267,6 +1277,8 @@ post:
   - /wp-json/bricks/v1/render_element
   - /wp-json/litespeed/v1/cdn_status
   - /wp-json/wp_live_chat_support/v1/remote_upload
+
+
 
 delete:
   - /contacts
