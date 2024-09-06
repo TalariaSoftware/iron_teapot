@@ -1,7 +1,10 @@
 get:
+  - '/fresh:'
+  - '/used:'
   - .ftpconfig
   - /!==this.readyState
   - /$
+  - /%09/google.com
   - /.env
   - /.git
   - //bitrix/admin//admin/
@@ -49,6 +52,7 @@ get:
   - /97bwag/
   - /@/admin/
   - /ALFA_DATA
+  - /ALFA_DATA/alfa_shtml/alfa_ssi.shtml
   - /ALFA_DATA/alfacgiapi/
   - /ALFA_DATA/alfacgiapi/perl.alfa
   - /Admin/uploads
@@ -192,7 +196,9 @@ get:
   - /ajax
   - /ajax/allcoin_a/id/0?t=0.3782499195965951
   - /akismet
+  - /alfa-rex.php56
   - /alfa-rex.php7
+  - /alfa-rex.php8
   - /alfacgiapi/
   - /alfacgiapi/perl.alfa
   - /alfanew.PHP7
@@ -249,6 +255,7 @@ get:
   - /article/image7/
   - /article/wp-json/
   - /articles/wp-json/
+  - /aspera/faspex/
   - /asset/js/library/filer/examples/default/index.html
   - /asset/kcfinder/
   - /assets
@@ -453,11 +460,13 @@ get:
   - /cli
   - /client/api/findConfigByKey?configKey=level_config
   - /client/api/findFreeTrade
+  - /client_secrets.json
   - /cms
   - /cms/adMInhtml_page
   - /cms/wp-includes/
   - /cms/wp-includes/wlwmanifest.xml
   - /code/scancode
+  - /codebuild.yml
   - /common/member/js/user.util.js
   - /common/template/lottery/lecai/css/style.css
   - /components/swim
@@ -543,9 +552,11 @@ get:
   - /directory.zip
   - /dist/images/mask/guide/cn/step1.jpg
   - /django/settings.py
+  - /docker-compose.yml
   - /docs/_sidebar.md
   - /docs/swagger.json
   - /downloader
+  - /dropdown.ph
   - /dropzone/dropzone-amd-module.min.js
   - /dropzone/dropzone.js
   - /dump.gz
@@ -556,6 +567,7 @@ get:
   - /ecoin/
   - /ecosystem.config.json
   - /ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application
+  - /elfinder
   - /elfinder/elfinder.html
   - /elrte/src/elrte.src.html
   - /enhance
@@ -564,7 +576,13 @@ get:
   - /env-admin/assets/vendor/jquery.filer/examples/default/index.html
   - /env-config.json
   - /env.config.js
+  - /env.dev.js
+  - /env.development.js
+  - /env.prod.js
+  - /env.production.js
+  - /env.test.js
   - /env/config
+  - /environment
   - /environment.rb
   - /environments/.aws/.credentials
   - /environments/.credentials
@@ -593,6 +611,7 @@ get:
   - /forum/slide_img_19/
   - /forums/
   - /friendGroup/list
+  - /frontend/web/debug/default/view
   - /ftp-sync.json
   - /ftp.json
   - /ftpsync.settings
@@ -609,6 +628,8 @@ get:
   - /h5/
   - /h5/static/cert/icon_yanzhengma.png
   - /h5/static/tabbar/txl.png
+  - /hardhat.config.js
+  - /hardhat.config.ts
   - /hehe.php%20
   - /helpers
   - /helpers/utility.js
@@ -690,6 +711,7 @@ get:
   - /kcfinder/js/helper.js
   - /key.json
   - /keys.json
+  - /keystore.json
   - /kkrp/site/info
   - /kkrps/im_group/show_members
   - /kkrps/im_group/showmembers
@@ -709,6 +731,7 @@ get:
   - /lib/index.js
   - /library/editor/FCKeditor/editor/filemanager/browser/default/browser.html
   - /license.txt
+  - /live_env
   - /loan
   - /localhost.sql
   - /login
@@ -744,13 +767,18 @@ get:
   - /members/login/
   - /mentions-legales
   - /mentionslegales
+  - /meta.json
+  - /mina-env
   - /misc
   - /misc/ajax.js
   - /modular/sortable.esm.js
   - /modules/
+  - /modules/blockwishlist/config.xml
   - /modules/columnadverts/
   - /modules/comment/
   - /modules/ictea_base/include/js/ckeditor/kcfinder/js/helper.js
+  - /modules/jmarketplace/Readme.md
+  - /modules/jmarketplace/views/js/multipleshipping.js
   - /modules/mod_rebug/manifest.xml
   - /modules/mod_review/manifest.xml
   - /modules/mod_simplefileuploadv1.3/elements
@@ -780,6 +808,7 @@ get:
   - /news/wp-includes/wlwmanifest.xml
   - /newsite
   - /nextcloud/data/nextcloud.log
+  - /nohup.out
   - /null
   - /nyyh/chkjs.js
   - /nyyh/game.css
@@ -805,6 +834,11 @@ get:
   - /openapi.yaml
   - /otc/
   - /other/codepay/js/codepay_util.js
+  - /out
+  - /out/google.com
+  - /out/https:google.com
+  - /out?google%252ecom=
+  - /ova.phpalfa
   - /owncloud/data/owncloud.log
   - /pages/admin
   - /pages/console/js/common.js
@@ -818,6 +852,7 @@ get:
   - /php.ini
   - /php/
   - /phpMyAdmin
+  - /php_info
   - /phpdebugbar
   - /phpinfo
   - /phpmyadmin/
@@ -884,6 +919,11 @@ get:
   - /public_html.z
   - /public_html.zip
   - /radio.txt
+  - /randkeyword.PhP8
+  - /redirect/%09/google.com
+  - /redirect/%2F%2Fgoogle.com
+  - /redirect/google%00.com
+  - /register
   - /resources/css/headernav.css
   - /resources/main/common.js
   - /restore/Archive.zip
@@ -917,7 +957,11 @@ get:
   - /s3cmd.ini
   - /s_api/basic/config_js?callback=__set_config
   - /s_api/basic/download/info
+  - /sapi/debug/default/view
   - /scripts/app.js
+  - /scripts/hardhat.config.js
+  - /scripts/hardhat.config.ts
+  - /search/label/PHP-Shells
   - /secret.json
   - /secrets.json
   - /secrets.yml
@@ -947,6 +991,7 @@ get:
   - /setup/.env.test.local
   - /sftp-config.json
   - /sftp.json
+  - /shell/AnonymousFox-shell
   - /shell20211028/
   - /shop
   - /shop/index.php/admin/
@@ -983,6 +1028,8 @@ get:
   - /src
   - /src/app.js
   - /src/environments/environment.ts
+  - /src/hardhat.config.js
+  - /src/hardhat.config.ts
   - /ssh.json
   - /staging
   - /staging/index.php/admin/
@@ -1051,6 +1098,7 @@ get:
   - /test_404_page
   - /testing
   - /tests
+  - /theme/Bob-Theme-Argon/js/chunk-vendors.3a585bb2.js
   - /theme/assets/global/plugins/uploadify/uploadify.css
   - /theme/v2board/assets/umi.css?v=1.6.0%2F
   - /themes
@@ -1096,9 +1144,11 @@ get:
   - /vendor/
   - /vendor/.env
   - /vendor/jquery.filer/index.html
+  - /vendor/laravel-filemanager/js/cropper.min.js
   - /vendor/laravel-filemanager/js/script.js
   - /vendor/phpunit/
   - /views/commData/commonSite.js
+  - /wallet.bak
   - /wallet.dat
   - /wallet.json
   - /wallet/wallet.dat
@@ -1112,6 +1162,7 @@ get:
   - /web.tar.z
   - /web/
   - /web/api/getBanner
+  - /web/debug/default/view
   - /web/settings/settings.py
   - /web/wp-includes/
   - /web/wp-includes/wlwmanifest.xml
@@ -1136,6 +1187,8 @@ get:
   - /website/blog/
   - /website/wp-includes/
   - /website/wp-includes/wlwmanifest.xml
+  - /webtools/control/forgotPassword;/ProgramExport
+  - /webtools/control/main/ProgramExport
   - /widwsisw/
   - /wls-wsat/CoordinatorPortType/
   - /wordpress
@@ -1263,9 +1316,12 @@ post:
   - /mt-xmlrpc.cgi
   - /mt/mt-xmlrpc.cgi
   - /paypal/transparent/requestSecureToken
+  - /php-cgi/php-cgi.exe?%EF%BF%BDd+cgi.force_redirect%3D0+%EF%BF%BDd+disable_functions%3D%22%22+%EF%BF%BDd+allow_url_include%3D1+%EF%BF%BDd+auto_prepend_file%3Dphp%3A%2F%2Finput=
   - /plugins/jquery-file-upload/server/php/
+  - /redmine/.env
   - /sapi/debug/default/view
   - /sitemap/templates/met/SqlIn.asp
+  - /tests/test-become/.env
   - /user/getAllNicknames
   - /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
   - /wap/banner/details
@@ -1277,8 +1333,6 @@ post:
   - /wp-json/bricks/v1/render_element
   - /wp-json/litespeed/v1/cdn_status
   - /wp-json/wp_live_chat_support/v1/remote_upload
-
-
 
 delete:
   - /contacts

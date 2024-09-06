@@ -1,6 +1,7 @@
 get:
   - '*a.PHP7'
   - '*a.PhP7'
+  - '*a.PhP8'
   - '*a.ashx'
   - '*a.asp'
   - '*a.aspx'
@@ -18,6 +19,7 @@ get:
   - '*a.php4'
   - '*a.php5'
   - '*a.php7'
+  - '*a.php8'
   - '*a.sql'
   - '*a/.env.*b'
   - '*a/ALFA_DATA'
@@ -39,6 +41,7 @@ get:
   - '*a/common.js'
   - '*a/config.json'
   - '*a/config/*b'
+  - '*a/debug/default/view'
   - '*a/dropzone-amd-module.*b'
   - '*a/dropzone.js'
   - '*a/dup-installer'
@@ -50,6 +53,7 @@ get:
   - '*a/fckeditor/*b'
   - '*a/filemanager'
   - '*a/getTheLotteryInitList'
+  - '*a/hardhat.*b'
   - '*a/index.php/*b'
   - '*a/jquery.filer/*b'
   - '*a/kcfinder'
@@ -80,7 +84,10 @@ get:
   - '*a/wp-includes/*b'
   - '*a/wp-json'
   - '*a/wp-json/*b'
+  - '/*a/google.com'
+  - '/fresh:'
   - '/tools/.env '
+  - '/used:'
   - /!==this.readyState
   - /$
   - /*a/phpunit
@@ -107,6 +114,7 @@ get:
   - /360/static/js/iku.js
   - /97bwag
   - /ALFA_DATA
+  - /ALFA_DATA/*b
   - /Admin/uploads
   - /Adminhtml_category
   - /Assets
@@ -198,6 +206,7 @@ get:
   - /ajax
   - /ajax/*b
   - /akismet
+  - /alfa-rex.php56
   - /alfacgiapi
   - /alfacgiapi/*b
   - /amember/admin-users
@@ -214,6 +223,7 @@ get:
   - /appsettings.json
   - /appxz/index.html
   - /article/image7/
+  - /aspera/faspex
   - /asset/js/library/filer/examples/default/index.html
   - /assets
   - /assets/app-manifest.json
@@ -298,9 +308,11 @@ get:
   - /cli
   - /client/api/findConfigByKey
   - /client/api/findFreeTrade
+  - /client_secrets.json
   - /cms
   - /cms/adMInhtml_page
   - /code/scancode
+  - /codebuild.yml
   - /common/member/js/user.util.js
   - /common/template/lottery/lecai/css/style.css
   - /components/*b
@@ -352,21 +364,26 @@ get:
   - /directory.tar.gz
   - /directory.zip
   - /dist/images/mask/guide/cn/step1.jpg
+  - /docker-compose.yml
   - /docs/_sidebar.md
   - /docs/swagger.json
   - /downloader
+  - /dropdown.ph
   - /dump.*b
   - /e/data/html/postinfo.js
   - /ecoin
   - /ecosystem.config.json
   - /ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application
+  - /elfinder
   - /elrte/src/elrte.src.html
   - /enhance
   - /enhancecp
   - /env
   - /env-config.json
+  - /env.*b
   - /env.config.js
   - /env/config
+  - /environment
   - /environment.rb
   - /environments/.aws/.credentials
   - /environments/.credentials
@@ -399,11 +416,13 @@ get:
   - /go/golem.com
   - /good.txt
   - /good_admin.txt
+  - /google%252ecom
   - /graphql
   - /gsgvvt
   - /guacamole/api/tokens
   - /h5
   - /h5/static/*b
+  - /hardhat.*a
   - /hehe
   - /helpers
   - /helpers/utility.js
@@ -475,6 +494,7 @@ get:
   - /kcfinder/js/helper.js
   - /key.json
   - /keys.json
+  - /keystore.json
   - /kkrp/site/info
   - /kkrps/im_group/*b
   - /km.asmx/getPlatParam
@@ -487,6 +507,7 @@ get:
   - /lib/client/etc/hometu.jpg
   - /lib/index.js
   - /license.txt
+  - /live_env
   - /loan
   - /login
   - /login/img/nyyh/chkjs.js
@@ -509,11 +530,15 @@ get:
   - /members/login
   - /mentions-legales
   - /mentionslegales
+  - /meta.json
+  - /mina-env
   - /misc
   - /modular/sortable.esm.js
   - /modules
+  - /modules/blockwishlist/config.xml
   - /modules/columnadverts/
   - /modules/comment/
+  - /modules/jmarketplace/*b
   - /modules/mod_rebug/manifest.xml
   - /modules/mod_review/manifest.xml
   - /modules/mod_simplefileuploadv1.3/elements
@@ -531,6 +556,7 @@ get:
   - /new-site
   - /newfolder
   - /newsite
+  - /nohup.out
   - /null
   - /nyyh/*b
   - /oci8
@@ -551,6 +577,9 @@ get:
   - /openapi.yaml
   - /otc
   - /other/codepay/js/codepay_util.js
+  - /out
+  - /out/*b
+  - /ova.phpalfa
   - /pages/admin
   - /pages/console/*b
   - /parameters.yml
@@ -560,6 +589,7 @@ get:
   - /php
   - /php.ini
   - /phpMyAdmin
+  - /php_info
   - /phpdebugbar
   - /phpinfo
   - /phpmyadmin
@@ -594,6 +624,8 @@ get:
   - /public/*b
   - /public_html.*b
   - /radio.txt
+  - /redirect/*b
+  - /register
   - /resources/css/headernav.css
   - /restore/*c.gz
   - /restore/*c.rar
@@ -606,6 +638,7 @@ get:
   - /rss/*b
   - /s3cmd.ini
   - /s_api/basic/*b
+  - /search/label/PHP-Shells
   - /secret.json
   - /secrets.json
   - /secrets.yml
@@ -618,6 +651,7 @@ get:
   - /settings.py
   - /sftp-config.json
   - /sftp.json
+  - /shell/AnonymousFox-shell
   - /shell20211028/
   - /shop
   - /shop/*b
@@ -669,6 +703,7 @@ get:
   - /test_404_page
   - /testing
   - /tests
+  - /theme/Bob-Theme-Argon/js/chunk-vendors.3a585bb2.js
   - /theme/v2board/assets/umi.css
   - /themes
   - /themes/README.txt
@@ -702,8 +737,9 @@ get:
   - /var/cache/mage--2
   - /var/resource_config.json
   - /vendor/
-  - /vendor/laravel-filemanager/js/script.js
+  - /vendor/laravel-filemanager/js/*b
   - /views/commData/commonSite.js
+  - /wallet.bak
   - /wallet.dat
   - /wallet.json
   - /wallets.json
@@ -716,6 +752,7 @@ get:
   - /webapp
   - /webapps.*b
   - /website/blog
+  - /webtools/control/*b
   - /widwsisw/
   - /wls-wsat/CoordinatorPortType/
   - /wordpress
@@ -788,6 +825,9 @@ post:
   - /melody/api/v1/pageconfig/list
   - /mt-xmlrpc.cgi
   - /paypal/transparent/requestSecureToken
+  - /php-cgi/php-cgi.exe
+  - /redmine/.env
+  - /tests/test-become/.env
   - /user/getAllNicknames
   - /wap/banner/details
   - /wp-config.php-backup
