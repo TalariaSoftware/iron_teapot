@@ -22,6 +22,7 @@ get:
   - /1111/feed
   - /123
   - /123/admin/
+  - /1975.phP
   - /2/admin/
   - /200/admin/
   - /2001/admin/
@@ -49,6 +50,7 @@ get:
   - /2022
   - /2022/wp-includes/
   - /360/static/js/iku.js
+  - /404.shtml
   - /97bwag/
   - /@/admin/
   - /ALFA_DATA
@@ -72,6 +74,7 @@ get:
   - /Blog
   - /CFIDE/administrator/index.cfm
   - /CFIDE/scripts/ajax/FCKeditor/editor/filemanager/browser/default/browser.html
+  - /CGI/Java/Serviceability
   - /Cache
   - /Content/Wap/base.css
   - /Content/common/web/CommonActivity.css
@@ -80,10 +83,13 @@ get:
   - /Deadcode1975xxxxxxxxxxxxxxxxxxxxxxxxxxxx.php%20=%20%3E%3E%20shell%20no%20work
   - /Demo
   - /DesktopModules/Admin/RadEditorProvider/DialogHandler.aspx
+  - /Dockerfile
   - /Dockerrun.aws.json
   - /FCKeditor/editor/filemanager/connectors/test.html
   - /FORUM
   - /FileZilla.xml
+  - /Gruntfile.coffee
+  - /Gruntfile.js
   - /Home/Bind/binding
   - /Home/GetAllGameCategory
   - /Home/Index/ajaxTJ
@@ -95,11 +101,13 @@ get:
   - /MicroStrategyWS/happyaxis.jsp
   - /NEW
   - /New
+  - /OA_HTML/jtfwrepo.xml
   - /OLD
   - /OLDSITE
   - /Old
   - /PSBC-1
   - /Panels.txt
+  - /Partners/application/configs/application.ini
   - /Pc/Lang/index.html
   - /Promotions/list.mvc
   - /Psmith
@@ -123,6 +131,7 @@ get:
   - /Security/login
   - /Site
   - /TEST
+  - /Telerik.Web.UI.WebResource.axd%3Ftype=rau
   - /Telerik.Web.UI.WebResource.axd?type=rau
   - /Template/Mobile/js/main.js
   - /Templates/user/finance/css/userPay.css
@@ -133,6 +142,7 @@ get:
   - /WORDPRESS
   - /WP
   - /WWW
+  - /Wiki.jsp?page=SystemInfo
   - /WordPress
   - /Wordpress
   - /Wp
@@ -140,16 +150,22 @@ get:
   - /_all_dbs
   - /_aws/credentials
   - /_fragment
+  - /_framework/blazor.boot.json
   - /_ignition/execute-solution
   - /_ignition/health-check/
   - /_profiler
   - /_profiler/empty/search/results
   - /_profiler/phpinfo
   - /_site
+  - /_vti_pvt/administrators.pwd
+  - /_vti_pvt/authors.pwd
+  - /_vti_pvt/service.pwd
   - /_wpeprivate/config.json
   - /aa/admin/
   - /aaa/admin/
   - /abc/admin/
+  - /about.PHP
+  - /about.php525
   - /about.php7
   - /about/admin/
   - /abruzi.php4
@@ -193,9 +209,13 @@ get:
   - /administrator/templates/isis/
   - /adminlogin/admin/
   - /adminpanel/
+  - /airflow.cfg
   - /ajax
   - /ajax/allcoin_a/id/0?t=0.3782499195965951
   - /akismet
+  - /alfa-rex.PHP
+  - /alfa-rex.phP7
+  - /alfa-rex.phP8
   - /alfa-rex.php56
   - /alfa-rex.php7
   - /alfa-rex.php8
@@ -206,6 +226,18 @@ get:
   - /amember/admin-users/
   - /amfeed/main/download?file=..%2F..%2F..%2Fapp%2Fetc%2Flocal.xml
   - /analytics/jbips/
+  - /ansible.cfg
+  - /ansible/group_vars/all.yml
+  - /ansible/host_vars/production.yml
+  - /ansible/inventory/production.ini
+  - /ansible/playbooks/deploy.yml
+  - /ansible/roles/app/vars/main.yml
+  - /ansible/roles/common/vars/defaults.yml
+  - /ansible/roles/common/vars/main.yml
+  - /ansible/roles/web/vars/main.yml
+  - /ansible/roles/webserver/vars/main.yml
+  - /anytone-config-builder
+  - /apache.conf
   - /api-docs
   - /api-docs.yaml
   - /api.py
@@ -227,6 +259,7 @@ get:
   - /api/v1/about
   - /api/wallet/redDetail
   - /apis/api/index
+  - /aplicacao/application/configs/application.ini
   - /app
   - /app.js
   - /app/
@@ -247,10 +280,14 @@ get:
   - /app/webroot/js/kcfinder/js/helper.js
   - /app_master/telerik.web.ui.dialoghandler.aspx
   - /application
+  - /application-dev.properties
   - /application/
   - /application/config/
   - /application/configs/application.ini
   - /appsettings.json
+  - /appspec.yaml
+  - /appspec.yml
+  - /appveyor.yml
   - /appxz/index.html
   - /article/image7/
   - /article/wp-json/
@@ -260,15 +297,20 @@ get:
   - /asset/kcfinder/
   - /assets
   - /assets/
+  - /assets/alfa-rex.php56
   - /assets/app-manifest.json
   - /assets/app.config.json
   - /assets/backend/plugins/jquery-file-upload/server/php/
   - /assets/backend/plugins/uploadify/uploadify.css
   - /assets/ckeditor/kcfinder/js/helper.js
   - /assets/ckeditor/samples/index.html
+  - /assets/config.rb
   - /assets/credentials.json
   - /assets/dist/static/js/vendor_prod.js
   - /assets/dropzone/dropzone-amd-module.min.js
+  - /assets/e.href
+  - /assets/editor/fileman/dev.html
+  - /assets/editor/fileman/index.html
   - /assets/elfinder/elfinder.html
   - /assets/extension/market/css/mt4.css
   - /assets/file-uploader/server/php/
@@ -282,6 +324,7 @@ get:
   - /assets/js/kcfinder/
   - /assets/js/uploadify/uploadify.css
   - /assets/kcfinder/js/helper.js
+  - /assets/location.href
   - /assets/plugins/
   - /assets/plugins/dropzone/dropzone-amd-module.min.js
   - /assets/plugins/elfinder/connectors/php/
@@ -297,6 +340,7 @@ get:
   - /assets/plugins/kcfinder/
   - /assets/plugins/plupload/
   - /assets/plugins/plupload/examples/
+  - /assets/pubspec.yaml
   - /assets/res/mods/room.js
   - /assets/room/css/room_mobile.css
   - /assets/scripts/
@@ -306,17 +350,31 @@ get:
   - /assets/tinymce/
   - /assets/tinymce/plugins/filemanager/
   - /assets/vendor/jquery.filer/examples/default/index.html
+  - /assets/window.location.href
   - /auth
+  - /auth/keys.json
   - /auth/login/admin/
   - /auth/oauth/token
   - /authentik.yaml
+  - /aws-config.json
+  - /aws-credentials.yaml
+  - /aws-keys.json
   - /aws.credentials
   - /aws.js
   - /aws.json
   - /aws.yml
   - /aws/.credentials
+  - /aws/cloudformation/params/prod-params.json
+  - /aws/cloudformation/templates/production-stack.yml
   - /aws/config
   - /aws/credentials/
+  - /aws_access_keys.csv
+  - /awstats
+  - /awstats.conf
+  - /awstats.pl
+  - /azure-pipelines.yml
+  - /azure/secrets/service-account.json
+  - /babel.config.js
   - /bac
   - /back.tar.gz
   - /back/
@@ -408,8 +466,11 @@ get:
   - /bak/www.gz
   - /base/exchange_article/index/classid/1/id/1
   - /base/exchange_index/changepwdfirst
+  - /baxa1.phP8
   - /bc
   - /bea_wls_internal/
+  - /behat.yml
+  - /behat.yml.dist
   - /beta
   - /bin/bash
   - /bitcoin/backup/wallet.dat
@@ -438,46 +499,90 @@ get:
   - /blog/wp-json/wp/v2/users
   - /blogs
   - /blogs/wp-json/
+  - /bower_components/angular-base64-upload/dist/angular-base64-upload.min.js
   - /bower_components/jquery.filer/examples/default/index.html
   - /browser
+  - /build.properties
+  - /build/secrets/api_keys.json
+  - /buildspec.yml
   - /cache
   - /cache-wordpress
+  - /cache/f/e/d/a
   - /cart
   - /catalog/view/javascript/common.js
   - /ccaef.txt
+  - /cdk.context.json
   - /cdn-cgi/foobar
+  - /cdn.js
   - /cekidot
+  - /cevrimici-kurs-turkiye-de-kumar-casino
   - /cf_scripts/scripts/ajax/ckeditor/plugins/filemanager/iedit.cfc
   - /cgi-bin
+  - /cgi-bin/../../../../../../bin/bash
+  - /cgi-bin/../../../../../bin/bash
+  - /cgi-bin/../../../../bin/bash
+  - /cgi-bin/../../../bin/bash
   - /cgi-bin/fubar
   - /cgialfa
   - /ch/upload/upload
+  - /chef/cookbooks/my_cookbook/attributes/default.rb
+  - /chef/cookbooks/myapp/attributes/default.rb
+  - /chef/data_bags/secrets/aws_keys.json
   - /chosen
+  - /ci/deploy-config.yml
+  - /ci/jenkins/Jenkinsfile
+  - /ci/jenkins/config.yml
+  - /circleci/config.yml
   - /cjs/UPNG.js
   - /cjs/index.js
   - /ckeditor/kcfinder/js/helper.js
   - /ckeditor/plugins/imageuploader/styles.min.css
+  - /ckfinder/ckfinder.html
   - /cli
   - /client/api/findConfigByKey?configKey=level_config
   - /client/api/findFreeTrade
   - /client_secrets.json
+  - /cloud-config.yml
+  - /cloud/aws/credentials.json
+  - /cloudexp/application/configs/application.ini
+  - /cloudformation/parameters/prod-params.json
+  - /cloudformation/templates/dev-env.yml
+  - /cloudformation/templates/prod-env.yml
+  - /cloudformation/templates/production-stack.yml
   - /cms
   - /cms/adMInhtml_page
+  - /cms/application/configs/application.ini
   - /cms/wp-includes/
   - /cms/wp-includes/wlwmanifest.xml
   - /code/scancode
   - /codebuild.yml
+  - /codeception.yml
+  - /collibra.properties
   - /common/member/js/user.util.js
   - /common/template/lottery/lecai/css/style.css
   - /components/swim
+  - /composer.json
+  - /composer.lock
+  - /conf
   - /conf.json
   - /config.js
   - /config.json
+  - /config.properties.bak
   - /config/aws.json
   - /config/aws.yml
   - /config/config.json
   - /config/config.yml
   - /configs/application.ini
+  - /configs/aws/keys.json
+  - /configs/aws/secrets.json
+  - /configs/aws/secrets.yaml
+  - /configs/aws/secrets/credentials.json
+  - /configs/keys.json
+  - /configs/prod.json
+  - /configs/production/settings.json
+  - /configs/secrets.json
+  - /configs/secrets/keys.json
+  - /configs/sphinx.conf
   - /configuration.7z
   - /configuration.bz2
   - /configuration.db
@@ -499,8 +604,10 @@ get:
   - /configurations/.env.prod.bak
   - /configurations/.env.test.bak
   - /configurations/.env.test.local
+  - /configurations/config_default
   - /contact
   - /contacts
+  - /content.php888
   - /copy
   - /core
   - /cpanel
@@ -511,6 +618,7 @@ get:
   - /cscpLoginWeb/app/home
   - /csjs/bankCheck.js
   - /css/album.css
+  - /css/alfa-rex.php56
   - /css/all.css
   - /css/app.css
   - /css/conference/templates/basefe7c.css
@@ -528,11 +636,14 @@ get:
   - /data/json/config.json
   - /data/nextcloud.log
   - /data/owncloud.log
+  - /datab
   - /database/
   - /dayrui/Fcms/Readme.txt
   - /db/
+  - /db/robomongo.json
   - /db_backup.sql
   - /dbdump.sql
+  - /debug/default
   - /debug/default/index
   - /debug/default/view
   - /debug/default/view?panel=config
@@ -541,30 +652,42 @@ get:
   - /demo/rss/catalog/notifystock
   - /demo/rss/catalog/review
   - /demo/rss/order/new
+  - /deployment-config.json
   - /dev/
   - /dev/index.php/admin/
   - /dev/rss/catalog/notifystock
   - /dev/rss/catalog/review
   - /dev/rss/order/new
+  - /device/device.js
   - /devnew
   - /directory.rar
   - /directory.tar.gz
   - /directory.zip
   - /dist/images/mask/guide/cn/step1.jpg
   - /django/settings.py
+  - /docker-cloud.yml
+  - /docker-compose-dev.yml
+  - /docker-compose.dev.yml
+  - /docker-compose.override.yml
+  - /docker-compose.prod.yml
+  - /docker-compose.production.yml
+  - /docker-compose.staging.yml
   - /docker-compose.yml
+  - /docker/secrets/db_password.txt
   - /docs/_sidebar.md
   - /docs/swagger.json
   - /downloader
   - /dropdown.ph
   - /dropzone/dropzone-amd-module.min.js
   - /dropzone/dropzone.js
+  - /dsrdelete.json
   - /dump.gz
   - /dump.sql
   - /dump.tar.gz
   - /e/data/html/postinfo.js
   - /e/data/js/ajax.js
   - /ecoin/
+  - /ecosystem.config.js
   - /ecosystem.config.json
   - /ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application
   - /elfinder
@@ -588,21 +711,85 @@ get:
   - /environments/.credentials
   - /environments/environment.ts
   - /error_log
+  - /etc/ansible/ansible.cfg
+  - /etc/apache2/apache2.conf
+  - /etc/apache2/mods-enabled/ssl.conf
+  - /etc/apache2/sites-available/000-default.conf
+  - /etc/apache2/sites-enabled/000-default.conf
+  - /etc/bind/named.conf
+  - /etc/ceph/ceph.conf
+  - /etc/chrony.conf
+  - /etc/clickhouse-server/config.xml
+  - /etc/crontab
+  - /etc/default/jenkins
+  - /etc/default/tomcat
+  - /etc/dovecot/dovecot.conf
+  - /etc/elasticsearch/elasticsearch.yml
+  - /etc/environment
+  - /etc/fail2ban/jail.local
+  - /etc/filebeat/filebeat.yml
+  - /etc/gitlab-runner/config.toml
+  - /etc/gitlab/gitlab.rb
+  - /etc/haproxy/haproxy.cfg
+  - /etc/hosts
+  - /etc/httpd/conf/httpd.conf
+  - /etc/influxdb/influxdb.conf
+  - /etc/init.d/tomcat
+  - /etc/keepalived/keepalived.conf
+  - /etc/letsencrypt/live/example.com/fullchain.pem
+  - /etc/logstash/conf.d/logstash.conf
+  - /etc/lvm/lvm.conf
+  - /etc/mongod.conf
+  - /etc/mongodb.conf
+  - /etc/my.cnf
+  - /etc/myproject/configuration.json
+  - /etc/mysql/my.cnf
+  - /etc/mysql/mysql.conf.d/mysqld.cnf
+  - /etc/nftables.conf
+  - /etc/nginx/nginx.conf
+  - /etc/nginx/sites-available/default
+  - /etc/ntp.conf
+  - /etc/openvpn/server/server.conf
+  - /etc/php-fpm.d/www.conf
+  - /etc/php/7.4/fpm/php.ini
+  - /etc/php/7.4/fpm/pool.d/www.conf
+  - /etc/postfix/main.cf
+  - /etc/postgresql/12/main/postgresql.conf
+  - /etc/prometheus/prometheus.yml
+  - /etc/rabbitmq/rabbitmq.conf
+  - /etc/redis/redis.conf
+  - /etc/rsyslog.conf
+  - /etc/salt/master
   - /etc/shadow
+  - /etc/ssh/sshd_config
+  - /etc/ssl/certs/nginx-selfsigned.crt
   - /etc/ssl/private/server.key
+  - /etc/supervisor/conf.d/app.conf
+  - /etc/supervisord.conf
+  - /etc/sysctl.conf
+  - /etc/systemd/system/myapp.service
+  - /etc/telegraf/telegraf.conf
+  - /etc/unbound/unbound.conf
+  - /etc/uwsgi/apps-enabled/myapp.ini
+  - /etc/varnish/default.vcl
+  - /etc/wireguard/wg0.conf
   - /eval-stdin
   - /example.com
+  - /exit.PHP
   - /explore/projects?non_archived=true&page=1&sort=latest_activity_desc
   - /fatmous7231231
   - /fatmous7231231/
   - /fckeditor/editor/filemanager/connectors/test.html
   - /feed/
   - /file/
+  - /fileman/dev.html
+  - /fileman/index.html
   - /filemanager/
   - /files/
   - /files/pub_rem.js
   - /files/pub_reset.css
   - /filezilla.xml
+  - /firebase.json
   - /fonts
   - /fonts/
   - /fonts/Playfair_Display/
@@ -616,26 +803,44 @@ get:
   - /ftp.json
   - /ftpsync.settings
   - /full_backup.zip
+  - /gallery
   - /gaocc/g445g
   - /gawean.PhP7
+  - /gcp/secrets/google-credentials.json
+  - /gcp/secrets/service-account.json
+  - /gcp/service-accounts/my-service-account.json
   - /getConfig/listPopFrame.do
+  - /gins/wp-help
+  - /gitlab-ci/pipelines/deploy.yml
+  - /global.json
+  - /go.mod
   - /go//golem.com
   - /good.txt
   - /good_admin.txt
+  - /gpc.json
+  - /gradle.properties
   - /graphql/
+  - /gruntfile.js
   - /gsgvvt
   - /guacamole/api/tokens
+  - /gulpfile.js
   - /h5/
   - /h5/static/cert/icon_yanzhengma.png
   - /h5/static/tabbar/txl.png
   - /hardhat.config.js
   - /hardhat.config.ts
   - /hehe.php%20
+  - /helm/values.yaml
   - /helpers
   - /helpers/utility.js
   - /home
   - /home/GetQrCodeInfo
   - /home/login/login_index.html
+  - /home/ubuntu/.aws/credentials
+  - /home/user/.bashrc
+  - /home/user/.profile
+  - /home/user/.ssh/authorized_keys
+  - /home/user/.ssh/id_rsa
   - /homes/
   - /hooks
   - /html
@@ -656,7 +861,9 @@ get:
   - /im/in/GetUuid
   - /images/
   - /images/ALFA_DATA/alfacgiapi/
+  - /images/alfa-rex.php56
   - /images/ccx
+  - /images/class-con
   - /images/editor/separator.gif
   - /images/fenetres/
   - /images/fenetres/fenetresbb/
@@ -676,7 +883,6 @@ get:
   - /includes
   - /includes/
   - /includes/assets/vendor/jquery.filer/examples/default/index.html
-  - /index.js
   - /index.php/admin/
   - /index/Mobile/fenshi?code=sz002405
   - /index/Mobile/kline_week
@@ -685,21 +891,32 @@ get:
   - /infe/rest/fig/advertise/common.json?mobile_open=1
   - /infe/rest/flash/getServerIP.json
   - /info
+  - /infos
+  - /infrastructure/terraform/variables.tf
   - /install/
   - /installation/
   - /ipl/app/flash/publicbmw/ball/FigLeaf.js?site=member
   - /issmall/
   - /jars/upload/
+  - /jenkins/credentials.xml
+  - /jenkins/jobs/deploy/config.xml
+  - /jenkins/jobs/myjob/config.xml
+  - /jenkins/jobs/myproject/config.xml
   - /jiaoyimao/default.css
   - /jquery.filer/examples/default/index.html
   - /js/a.script
+  - /js/alfa-rex.php56
+  - /js/alfa-rex.php8
   - /js/app.js
   - /js/app.ling.js
   - /js/basic.js
+  - /js/bower_components/angular-base64-upload/dist/angular-base64-upload.min.js
   - /js/common.js
   - /js/config.js
   - /js/envConfig.js
   - /js/fckeditor/editor/filemanager/connectors/test.html
+  - /js/fileman/dev.html
+  - /js/fileman/index.html
   - /js/header-rollup-554.js
   - /js/home.js
   - /js/json.js
@@ -707,7 +924,10 @@ get:
   - /js/mage/cookies.js
   - /js/main.js
   - /js/pups.js
+  - /jsconfig.json
   - /json/configs/permanent/permanent-lottery-config-list.json
+  - /k8s/secrets.yaml
+  - /karma.conf.js
   - /kcfinder/js/helper.js
   - /key.json
   - /keys.json
@@ -717,6 +937,12 @@ get:
   - /kkrps/im_group/showmembers
   - /km.asmx/getPlatParam
   - /koko.PhP7
+  - /kube/secrets.yaml
+  - /kubernetes/configs/aws-config.yaml
+  - /kubernetes/deployment.yaml
+  - /kubernetes/secrets.yaml
+  - /kubernetes/secrets/aws-keys.yaml
+  - /kustomization.yml
   - /langConfig.js
   - /language/en-GB/en-GB.com_acym.ini
   - /language/en-GB/en-GB.com_jce.ini
@@ -726,22 +952,36 @@ get:
   - /laravel/.env
   - /laravel/_ignition/health-check/
   - /legal/currency/set
+  - /lib.php123123
+  - /lib/angular-base64-upload/dist/angular-base64-upload.min.js
   - /lib/assets/compiled/rails-ujs.js
   - /lib/client/etc/hometu.jpg
+  - /lib/config.js
+  - /lib/fileman/dev.html
+  - /lib/fileman/index.html
   - /lib/index.js
+  - /libraries/phpmailer
   - /library/editor/FCKeditor/editor/filemanager/browser/default/browser.html
   - /license.txt
+  - /liefs.ph
   - /live_env
+  - /loadtextfile.htm
   - /loan
   - /localhost.sql
+  - /log4j.properties
   - /login
   - /login.asp
   - /login.html
   - /login/img/nyyh/chkjs.js
   - /loginMe
+  - /loginform.inc.php3
   - /logon/LogonPoint/tmindex.html
   - /logs
   - /logs/
+  - /logs/awstats.pl
+  - /logs/deployment/deploy.log
+  - /logs/deployment/deployment.log
+  - /logstash.conf
   - /m/
   - /m/ticker/usdtqc
   - /mad/Telerik.Web.UI.WebResource.axd
@@ -754,9 +994,12 @@ get:
   - /magmi/conf/magmi.ini
   - /mailman/listinfo/mailman
   - /main
+  - /manage.py
   - /manager/
+  - /manifest.json
   - /market/getStockBaseInfo?stockCodeInternal=2658
   - /market/market-ws/iframe.html
+  - /max
   - /media/com_acym/css/libraries/foundation_email.min.css
   - /media/com_acym/js/global.min.js
   - /media/system/js/core.js
@@ -769,6 +1012,7 @@ get:
   - /mentionslegales
   - /meta.json
   - /mina-env
+  - /mini.phpa
   - /misc
   - /misc/ajax.js
   - /modular/sortable.esm.js
@@ -776,6 +1020,7 @@ get:
   - /modules/blockwishlist/config.xml
   - /modules/columnadverts/
   - /modules/comment/
+  - /modules/config.js
   - /modules/ictea_base/include/js/ckeditor/kcfinder/js/helper.js
   - /modules/jmarketplace/Readme.md
   - /modules/jmarketplace/views/js/multipleshipping.js
@@ -783,6 +1028,7 @@ get:
   - /modules/mod_review/manifest.xml
   - /modules/mod_simplefileuploadv1.3/elements
   - /modules/mod_simplefileuploadv1.3/elements/
+  - /moto/application/configs/application.ini
   - /mssql
   - /mt
   - /mt-atom.cgi
@@ -800,6 +1046,7 @@ get:
   - /nc/wsnc/committees/.git/HEAD
   - /ncmanager.org.sql
   - /ncmanager.org_db.sql
+  - /network.php999
   - /new
   - /new-site
   - /new/media/system/js/core.js
@@ -807,9 +1054,15 @@ get:
   - /news/wp-includes/
   - /news/wp-includes/wlwmanifest.xml
   - /newsite
+  - /next.config.js
   - /nextcloud/data/nextcloud.log
+  - /nginx.conf
+  - /nginx/conf.d/default.conf
+  - /node_modules/angular-base64-upload/dist/angular-base64-upload.min.js
   - /nohup.out
+  - /notified-Coach
   - /null
+  - /nuxt.config.js
   - /nyyh/chkjs.js
   - /nyyh/game.css
   - /oc/admin/
@@ -832,6 +1085,34 @@ get:
   - /oldwebsite
   - /openapi.json
   - /openapi.yaml
+  - /opt/airflow/airflow.cfg
+  - /opt/artifactory/var/etc/system.yaml
+  - /opt/atlassian/confluence/bin/setenv.sh
+  - /opt/bamboo/atlassian-bamboo/WEB-INF/classes/bamboo-init.properties
+  - /opt/cassandra/conf/cassandra.yaml
+  - /opt/confluence/confluence/WEB-INF/classes/confluence-init.properties
+  - /opt/consul/acl-config.json
+  - /opt/flink/conf/flink-conf.yaml
+  - /opt/gradle/gradle.properties
+  - /opt/hadoop/etc/hadoop/core-site.xml
+  - /opt/jenkins/jenkins.yaml
+  - /opt/jenkins/secrets/hudson.util.Secret
+  - /opt/jira/atlassian-jira/WEB-INF/classes/jira-application.properties
+  - /opt/keycloak/standalone/configuration/standalone.xml
+  - /opt/metricbeat/metricbeat.yml
+  - /opt/nexus/etc/nexus-default.properties
+  - /opt/nifi/conf/nifi.properties
+  - /opt/pulsar/conf/broker.conf
+  - /opt/solr/server/solr/solr.xml
+  - /opt/sonarqube/conf/sonar.properties
+  - /opt/sonatype/nexus3/etc/nexus.properties
+  - /opt/spark/conf/spark-defaults.conf
+  - /opt/teamcity/conf/server.xml
+  - /opt/tomcat/conf/server.xml
+  - /opt/traefik/traefik.yml
+  - /opt/wildfly/standalone/configuration/standalone.xml
+  - /opt/zookeeper/conf/zoo.cfg
+  - /ormconfig.json
   - /otc/
   - /other/codepay/js/codepay_util.js
   - /out
@@ -840,6 +1121,9 @@ get:
   - /out?google%252ecom=
   - /ova.phpalfa
   - /owncloud/data/owncloud.log
+  - /package-lock.json
+  - /package.json
+  - /packer.json
   - /pages/admin
   - /pages/console/js/common.js
   - /panel/kcfinder/js/helper.js
@@ -848,39 +1132,60 @@ get:
   - /password.txt
   - /password_resets/new
   - /passwords.txt
+  - /pgs.phP7
+  - /phinx.yaml
+  - /phinx.yml
   - /php
+  - /php-fpm.conf
   - /php.ini
   - /php/
   - /phpMyAdmin
   - /php_info
+  - /phpcs.xml
   - /phpdebugbar
   - /phpinfo
   - /phpmyadmin/
   - /phpmyadmin/fubar
   - /phpmyinfo
+  - /phpspec.yml
+  - /phpstan.neon
+  - /phpunit.xml
   - /pi.php5
+  - /pipeline/config.yml
+  - /platformio.ini
   - /plesk-stat/
   - /plugins
   - /plugins/
   - /plugins/fubar
   - /plus/
+  - /pm2.config.js
   - /pma/
   - /portal/
+  - /portal//components/com_jea/views/form/tmpl
+  - /portal/components/com_jea/views/form/tmpl
   - /portal/index/protocol.html
   - /portal/sftp-config.json
   - /post/wp-json/
   - /postgre
   - /posts/wp-json/
+  - /pre-commit-config.yaml
+  - /private.key
   - /products.json?limit=1
+  - /products/.gitlab-ci.yml
+  - /proftpd.conf
   - /project
+  - /project.config.json
   - /protal
+  - /protractor.conf.js
   - /providers/htmleditorproviders/telerik/telerik.web.ui.dialoghandler.aspx
   - /proxy/games
   - /proxy/settings
+  - /psalm.xml
   - /public.7z
   - /public.bz2
   - /public.db
   - /public.gz
+  - /public.key
   - /public.lz
   - /public.rar
   - /public.sql.tar.gz
@@ -918,14 +1223,25 @@ get:
   - /public_html.xz
   - /public_html.z
   - /public_html.zip
+  - /pubspec.yaml
+  - /puppet/environments/production/manifests/secret-credentials.pp
+  - /puppet/environments/production/manifests/secret.pp
+  - /puppet/manifests/secret.pp
+  - /pyproject.toml
   - /radio.txt
+  - /radio/application/configs/application.ini
   - /randkeyword.PhP8
+  - /react-native.config.js
   - /redirect/%09/google.com
   - /redirect/%2F%2Fgoogle.com
   - /redirect/google%00.com
+  - /redis.conf
   - /register
+  - /resources/application.conf
+  - /resources/application.properties
   - /resources/css/headernav.css
   - /resources/main/common.js
+  - /rest/V1/products
   - /restore/Archive.zip
   - /restore/backup.gz
   - /restore/backup.rar
@@ -944,35 +1260,61 @@ get:
   - /restore/well-known.zip
   - /restore/www.rar
   - /restore/www.zip
+  - /robomongo.json
+  - /rollup.config.js
   - /room/getRoomBangFans
   - /room/script/face.js
   - /roundcube
   - /rss/catalog/notifystock
   - /rss/catalog/review
   - /rss/order/new
+  - /s
   - /s/35342e3230342e3233382e3135/_/;/META-INF/maven/com.atlassian.jira/jira-webapp-dist/pom.properties
   - /s/35342e3230392e39312e313838/_/;/META-INF/maven/com.atlassian.jira/jira-webapp-dist/pom.properties
   - /s/35342e3232312e3235312e313438/_/;/META-INF/maven/com.atlassian.jira/jira-webapp-dist/pom.properties
   - /s/37352e3130312e3138342e3339/_/;/META-INF/maven/com.atlassian.jira/jira-webapp-dist/pom.properties
+  - /s3cfg
   - /s3cmd.ini
   - /s_api/basic/config_js?callback=__set_config
   - /s_api/basic/download/info
+  - /saka.phP7
+  - /salt/pillar/aws_keys.sls
+  - /salt/pillar/secrets/aws_keys.sls
   - /sapi/debug/default/view
   - /scripts/app.js
+  - /scripts/deploy.sh
   - /scripts/hardhat.config.js
   - /scripts/hardhat.config.ts
+  - /search/configs/sphinx.conf
   - /search/label/PHP-Shells
   - /secret.json
   - /secrets.json
+  - /secrets.yaml
   - /secrets.yml
+  - /secrets/api_keys.json
+  - /secrets/aws_keys.json
+  - /secrets/db_credentials.json
+  - /secure/aws-credentials.ini
+  - /secure/aws-credentials.json
+  - /secure/credentials/aws-keys.ini
+  - /secure/secrets/aws_keys.yaml
   - /sellers.json
+  - /seminovos/application/configs/application.ini
   - /sendgrid.env
+  - /server
   - /server-status
+  - /server.js
   - /server.key
+  - /server.xml
   - /server/php
   - /server/php/
+  - /serverless.yml
+  - /service-account.json
   - /service/extdirect/
+  - /settings.gradle
+  - /settings.json
   - /settings.py
+  - /settings.xml
   - /settings/.env.dev.bak
   - /settings/.env.prod.bak
   - /settings/.env.prod.local
@@ -981,6 +1323,7 @@ get:
   - /settings/.env.test.bak
   - /settings/.env.test.local
   - /settings/settings.py
+  - /setup.cfg
   - /setup/.env.dev.bak
   - /setup/.env.dev.local
   - /setup/.env.prod.bak
@@ -1003,10 +1346,12 @@ get:
   - /site.js
   - /site/
   - /site/admin/
+  - /site/components/com_jea/views/form/tmpl
   - /site/get-hq?proNo=btc&panType=1&pid=1
   - /site/wp-admin/includes/
   - /site/wp-includes/
   - /site/wp-includes/wlwmanifest.xml
+  - /site_cg/application/configs/application.ini
   - /site_old
   - /sitebackup
   - /sitecore/shell/ClientBin/Reporting/Report.ashx
@@ -1021,15 +1366,28 @@ get:
   - /sito/wp-includes/wlwmanifest.xml
   - /skin/common_files/lib/jquery.cookie.js
   - /skin/main/onload.js
+  - /slr/application/configs/application.ini
+  - /smax
+  - /smb.conf
+  - /sonar-project.properties
+  - /sphinx.conf
+  - /sphinx/sphinx.conf
+  - /sphinxsearch/sphinx.conf
   - /sql/
   - /sqlite
   - /sqlite3
   - /sqlsrv
   - /src
   - /src/app.js
+  - /src/collibra.properties
+  - /src/config.js
+  - /src/environments/environment.prod.ts
   - /src/environments/environment.ts
   - /src/hardhat.config.js
   - /src/hardhat.config.ts
+  - /src/main/resources/application-prod.properties
+  - /src/main/resources/application.properties
+  - /src/main/resources/appsettings.yml
   - /ssh.json
   - /staging
   - /staging/index.php/admin/
@@ -1056,9 +1414,11 @@ get:
   - /static/wap/css/index.css
   - /static/wap/js/common.js
   - /static/xianyu/js/bankCheck.js
+  - /staticfiles
   - /statics/js/API.js
   - /stock/search.html?keyword=00202
   - /storage/.env
+  - /storage/logs/laravel.log
   - /store
   - /store/index.php/admin/
   - /store/rss/catalog/notifystock
@@ -1066,6 +1426,8 @@ get:
   - /store/rss/order/new
   - /stylesheets/archive.css
   - /subdrivers
+  - /supervisord.conf
+  - /svnserve.conf
   - /swagger-ui
   - /swagger.json
   - /swagger.yaml
@@ -1078,6 +1440,7 @@ get:
   - /tables
   - /telescope/requests
   - /temp/
+  - /temp/aws/credentials.json
   - /template/920ka/css/lsy.css
   - /template/920ka/js/woodyapp.js
   - /template/css/login.css
@@ -1090,6 +1453,16 @@ get:
   - /templates/beez3/cgialfa
   - /templates/index.html
   - /templates/system/css/system.css
+  - /terraform.tfvars
+  - /terraform/backend.tf
+  - /terraform/environments/dev.tfvars
+  - /terraform/environments/prod.tfvars
+  - /terraform/environments/staging.tfvars
+  - /terraform/main.tf
+  - /terraform/modules/aws-setup/variables.tf
+  - /terraform/outputs.tf
+  - /terraform/provider.tf
+  - /terraform/variables.tf
   - /test/
   - /test/index.php/admin/
   - /test/rss/catalog/notifystock
@@ -1108,13 +1481,18 @@ get:
   - /tmb/
   - /tmp/
   - /tmp/license.txt
+  - /tmp/myapp/debug.log
+  - /tmp/myapp_error.log
   - /tmpl
   - /tmps/
   - /tools/.env%20
   - /toor.pho
   - /translate.sql
+  - /tsconfig.json
   - /tslib.js
+  - /tslint.json
   - /ui/login
+  - /ui_config.properties
   - /underscore
   - /up/
   - /upload/
@@ -1124,12 +1502,20 @@ get:
   - /uploadify/jquery.uploadify.v2.1.4.js
   - /uploadify/uploadify.css
   - /uploads/
+  - /uploads/alfa-rex.php8
+  - '/used:'
+  - /user.php3
   - /user/Login
   - /user/admin/
   - /user/getAllNicknames
   - /user/userlist
+  - /user_secrets.yml
   - /users/
   - /users/new
+  - /usr/local/etc/php/php.ini
+  - /usr/local/nginx/conf/nginx.conf
+  - /usr/share/myapp/settings.json
+  - /utchiha.phP
   - /v1/
   - /v1/api-docs
   - /v1/management/tenant/getSpeedDomain
@@ -1140,14 +1526,58 @@ get:
   - /v2/swagger.json
   - /v3/api-docs
   - /var/cache/mage--2/
+  - /var/jenkins_home/secrets/initialAdminPassword
+  - /var/lib/barman/barman.conf
+  - /var/lib/ceph/mon/ceph-node1/keyring
+  - /var/lib/docker/swarm/certificates/swarm-node.crt
+  - /var/lib/docker/swarm/docker-state.json
+  - /var/lib/docker/volumes/gitlab-runner-config/_data/config.toml
+  - /var/lib/docker/volumes/influxdb_data/_data/influxd.bolt
+  - /var/lib/docker/volumes/portainer_data/_data/portainer.db
+  - /var/lib/docker/volumes/portainer_data/_data/portainer.key
+  - /var/lib/docker/volumes/traefik_data/_data/acme.json
+  - /var/lib/drone/drone.sqlite
+  - /var/lib/etcd/member/snap/db
+  - /var/lib/etcd/member/wal/0.tmp
+  - /var/lib/gitea/conf/app.ini
+  - /var/lib/glusterfs/info
+  - /var/lib/grafana/grafana.db
+  - /var/lib/grafana/plugins/myapp/plugin.json
+  - /var/lib/jenkins/jobs/myapp/config.xml
+  - /var/lib/jenkins/secrets/initialAdminPassword
+  - /var/lib/kubelet/config.yaml
+  - /var/lib/ldap/slapd.d/cn=config.ldif
+  - /var/lib/mysql/mysql/user.MYD
+  - /var/lib/patroni/patroni.yml
+  - /var/lib/pgsql/data/pg_hba.conf
+  - /var/lib/postgresql/12/data/pg_hba.conf
+  - /var/lib/postgresql/data/postgresql.conf
+  - /var/lib/proxmox-ve/priv/authorized_keys
+  - /var/lib/rancher/k3s/server/cred/node-password.txt
+  - /var/lib/redis/nodes.conf
+  - /var/lib/redis/redis.conf
+  - /var/lib/zabbix/snmptraps/snmptraps.log
+  - /var/log/apache2/access.log
+  - /var/log/apache2/error.log
+  - /var/log/myapp/application.log
+  - /var/log/myapp/error.log
+  - /var/log/nginx/access.log
+  - /var/log/nginx/error.log
   - /var/resource_config.json
+  - /var/spool/cron/crontabs/root
+  - /var/www/html/.htaccess
+  - /var/www/myapp/config
   - /vendor/
   - /vendor/.env
+  - /vendor/composer/installed.json
   - /vendor/jquery.filer/index.html
   - /vendor/laravel-filemanager/js/cropper.min.js
   - /vendor/laravel-filemanager/js/script.js
   - /vendor/phpunit/
+  - /venv/pyvenv.cfg
+  - '/view-source:'
   - /views/commData/commonSite.js
+  - /vite.config.js
   - /wallet.bak
   - /wallet.dat
   - /wallet.json
@@ -1187,12 +1617,15 @@ get:
   - /website/blog/
   - /website/wp-includes/
   - /website/wp-includes/wlwmanifest.xml
+  - /webstats/awstats.pl
   - /webtools/control/forgotPassword;/ProgramExport
   - /webtools/control/main/ProgramExport
   - /widwsisw/
   - /wls-wsat/CoordinatorPortType/
   - /wordpress
   - /wordpress-old
+  - /wordpress/alfa-rex.php56
+  - /wordpress/alfa-rex.php8
   - /wordpress/license.txt
   - /wordpress/wp-admin/includes/
   - /wordpress/wp-content/plugins/instabuilder2/assets/css/instabuilder2.css
@@ -1237,6 +1670,7 @@ get:
   - /wp-json/bricks/v1/render_element
   - /wp-json/wp/v2/users
   - /wp-loading.phtml
+  - /wp-mails.ph
   - /wp-old
   - /wp-pano
   - /wp-touch.js
@@ -1250,20 +1684,27 @@ get:
   - /wp2
   - /wp2/wp-includes/
   - /wp2/wp-includes/wlwmanifest.xml
+  - /ws-config.example.json
+  - /ws-config.json
   - /ws/index/getTheLotteryInitList
+  - /wso.PHP
+  - /wsoyanzfv3.phP7
   - /www
   - /www.rar
   - /www.sql
   - /www.sql.gz
   - /www.sql.zon
   - /www/js/kcfinder/js/helper.js
+  - /xampp
   - /xianyu/index/setp1.html
   - /xml
   - /xmlrpc.php
   - /xxsssseee
   - /xy/
   - /xy/image/jiantou.png
+  - /yarn.lock
   - /ynz.PhP7
+  - /zappa_settings.json
   - /zso,php
   - /zso1,php
   - js/chat/chat.js

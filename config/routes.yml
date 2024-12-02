@@ -1,4 +1,5 @@
 get:
+  - '*a.PHP'
   - '*a.PHP7'
   - '*a.PhP7'
   - '*a.PhP8'
@@ -7,25 +8,38 @@ get:
   - '*a.aspx'
   - '*a.aspx*b'
   - '*a.bash_history'
+  - '*a.cfg'
   - '*a.cgi'
   - '*a.com_acym.*b'
-  - '*a.com_jce.ini'
   - '*a.do'
   - '*a.env'
   - '*a.git/*b'
+  - '*a.ini'
+  - '*a.jsp'
   - '*a.mvc'
+  - '*a.phP'
+  - '*a.phP7'
+  - '*a.phP8'
   - '*a.php'
   - '*a.php/*b'
+  - '*a.php123123'
+  - '*a.php3'
   - '*a.php4'
   - '*a.php5'
+  - '*a.php525'
+  - '*a.php56'
   - '*a.php7'
   - '*a.php8'
+  - '*a.php888'
+  - '*a.php999'
+  - '*a.phpa'
+  - '*a.shtml'
   - '*a.sql'
   - '*a/.env.*b'
   - '*a/ALFA_DATA'
   - '*a/FCKeditor/*b'
   - '*a/GetQrCodeInfo'
-  - '*a/Telerik.Web.UI.WebResource.axd'
+  - '*a/Telerik.*b'
   - '*a/_ignition/*b'
   - '*a/admin'
   - '*a/admin/*b'
@@ -39,13 +53,13 @@ get:
   - '*a/ckeditor/*b'
   - '*a/com_acym/*b'
   - '*a/common.js'
-  - '*a/config.json'
   - '*a/config/*b'
   - '*a/debug/default/view'
   - '*a/dropzone-amd-module.*b'
   - '*a/dropzone.js'
   - '*a/dup-installer'
   - '*a/e/data/html/postinfo.js'
+  - '*a/econfig.json'
   - '*a/elfinder.html'
   - '*a/elfinder/*b'
   - '*a/env'
@@ -88,10 +102,23 @@ get:
   - '/fresh:'
   - '/tools/.env '
   - '/used:'
+  - '/view-source:'
   - /!==this.readyState
   - /$
+  - /*a.py
+  - /*a/.aws/credentials
+  - /*a/angular-base64-upload/*b
+  - /*a/aws-config.yaml
+  - /*a/aws/credentials.json
+  - /*a/aws_keys.sls
+  - /*a/awstats
+  - /*a/collibra.properties
+  - /*a/fileman/*b
+  - /*a/keys.json
+  - /*a/nginx.conf
   - /*a/phpunit
   - /*a/phpunit/*b
+  - /*a/secrets.yaml
   - /.*b
   - /.env.*b
   - /0byte
@@ -127,15 +154,18 @@ get:
   - /BlockCypher.log
   - /Blog
   - /CFIDE/*b
+  - /CGI/*b
   - /Cache
   - /Content/*b
   - /DEMO
   - /Deadcode1975xxxxxxxxxxxxxxxxxxxxxxxxxxxx
   - /Demo
+  - /Dockerfile
   - /Dockerrun.aws.json
   - /FCKeditor/*b
   - /FORUM
   - /FileZilla
+  - /Gruntfile.*b
   - /Home/Bind/binding
   - /Home/GetAllGameCategory
   - /Home/Index/ajaxTJ
@@ -143,6 +173,7 @@ get:
   - /MYzoomsounds
   - /NEW
   - /New
+  - /OA_HTML/jtfwrepo.xml
   - /OLD
   - /OLDSITE
   - /Old
@@ -159,7 +190,7 @@ get:
   - /Shop
   - /Site
   - /TEST
-  - /Telerik.Web.UI.WebResource.axd
+  - /Telerik.*b
   - /Template/Mobile/js/main.js
   - /Templates/*b
   - /Test
@@ -175,10 +206,12 @@ get:
   - /_all_dbs
   - /_aws/credentials
   - /_fragment
+  - /_framework/blazor.boot.json
   - /_ignition/*b
   - /_profiler
   - /_profiler/empty/search/results
   - /_site
+  - /_vti_pvt/*b
   - /_wpeprivate/*b
   - /account.json
   - /accounts.json
@@ -212,26 +245,34 @@ get:
   - /amember/admin-users
   - /amfeed/main/download
   - /analytics/jbips
+  - /ansible/*b
+  - /anytone-config-builder
+  - /apache.conf
   - /api-docs
-  - /api.py
   - /api/*b
   - /apis/*b
   - /app
   - /app/*b
   - /application
+  - /application-dev.properties
   - /application/*b
   - /appsettings.json
+  - /appspec.*b
+  - /appveyor.yml
   - /appxz/index.html
   - /article/image7/
   - /aspera/faspex
   - /asset/js/library/filer/examples/default/index.html
   - /assets
+  - /assets/*c.href
   - /assets/app-manifest.json
   - /assets/app.config.json
+  - /assets/config.rb
   - /assets/credentials.json
   - /assets/dist/static/js/vendor_prod.js
   - /assets/extension/market/css/mt4.css
   - /assets/plugins
+  - /assets/pubspec.yaml
   - /assets/res/mods/room.js
   - /assets/room/css/room_mobile.css
   - /assets/scripts
@@ -239,13 +280,22 @@ get:
   - /auth
   - /auth/oauth/token
   - /authentik.yaml
+  - /aws-config.json
+  - /aws-credentials.yaml
+  - /aws-keys.json
   - /aws.credentials
   - /aws.js
   - /aws.json
   - /aws.yml
   - /aws/.credentials
+  - /aws/cloudformation/*b
   - /aws/config
   - /aws/credentials
+  - /aws_access_keys.csv
+  - /awstats
+  - /azure-pipelines.yml
+  - /azure/secrets/*b
+  - /babel.config.js
   - /bac
   - /back
   - /back.*b
@@ -280,6 +330,7 @@ get:
   - /base/exchange_index/changepwdfirst
   - /bc
   - /bea_wls_internal
+  - /behat.yml
   - /beta
   - /bin/bash
   - /bk
@@ -291,40 +342,62 @@ get:
   - /blocks
   - /blog
   - /blogs
+  - /bower_components/*b
   - /browser
+  - /build.properties
+  - /build/secrets/*b
+  - /buildspec.yml
   - /cache
   - /cache-wordpress
+  - /cache/f/e/d/a
   - /cart
   - /ccaef.txt
+  - /cdk.context.json
   - /cdn-cgi/*b
+  - /cdn.js
   - /cekidot
+  - /cevrimici-kurs-turkiye-de-kumar-casino
   - /cgi-bin/
   - /cgi-bin/*b
   - /cgialfa
   - /ch/upload/upload
+  - /chef/cookbooks/*b
+  - /chef/data_bags/*b
   - /chosen
+  - /ci/deploy-config.yml
+  - /ci/jenkins/*b
+  - /circleci/config.yml
   - /cjs/*c.js
   - /ckeditor/*b
+  - /ckfinder/ckfinder.html
   - /cli
   - /client/api/findConfigByKey
   - /client/api/findFreeTrade
   - /client_secrets.json
+  - /cloud-config.yml
+  - /cloud/aws/credentials.json
+  - /cloudformation/*b
   - /cms
   - /cms/adMInhtml_page
   - /code/scancode
   - /codebuild.yml
+  - /codeception.yml
+  - /collibra.properties
   - /common/member/js/user.util.js
   - /common/template/lottery/lecai/css/style.css
   - /components/*b
-  - /conf.json
+  - /composer.*b
+  - /conf
+  - /conf.*b
   - /config
+  - /config.*b
   - /config/*b
-  - /configs/application.ini
+  - /configs/*b
   - /configuration.*b
   - /configuration.json
   - /configuration.php_old
   - /configuration/info.xml
-  - /configurations/.*b
+  - /configurations/*b
   - /contact
   - /contacts
   - /copy
@@ -349,30 +422,40 @@ get:
   - /css/style.css
   - /css/view/main/*b
   - /cubrid
+  - /data/json/config.json
+  - /datab
   - /database
   - /dayrui/Fcms/Readme.txt
   - /db
-  - /debug/default/index
-  - /debug/default/view
+  - /db/robomongo.json
+  - /debug/default
+  - /debug/default/*b
   - /demo
   - /demo/*b
+  - /deployment-config.json
   - /dev/
   - /dev/*b
+  - /device/device.js
   - /devnew
   - /directory.rar
   - /directory.tar
   - /directory.tar.gz
   - /directory.zip
   - /dist/images/mask/guide/cn/step1.jpg
+  - /docker-cloud.yml
+  - /docker-compose-dev.yml
+  - /docker-compose.*c.yml
   - /docker-compose.yml
+  - /docker/secrets/db_password.txt
   - /docs/_sidebar.md
   - /docs/swagger.json
   - /downloader
   - /dropdown.ph
+  - /dsrdelete.json
   - /dump.*b
   - /e/data/html/postinfo.js
   - /ecoin
-  - /ecosystem.config.json
+  - /ecosystem.config.*b
   - /ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application
   - /elfinder
   - /elrte/src/elrte.src.html
@@ -388,8 +471,7 @@ get:
   - /environments/.aws/.credentials
   - /environments/.credentials
   - /error_log
-  - /etc/shadow
-  - /etc/ssl/private/server.key
+  - /etc/*b
   - /eval-stdin
   - /example.com
   - /explore/projects
@@ -397,11 +479,13 @@ get:
   - /fckeditor/*b
   - /feed
   - /file
+  - /fileman/*b
   - /filemanager
   - /files
   - /files/pub_rem.js
   - /files/pub_reset.css
   - /filezilla.xml
+  - /firebase.json
   - /fonts
   - /fonts/Playfair_Display
   - /forum
@@ -412,22 +496,35 @@ get:
   - /ftp.json
   - /ftpsync.settings
   - /full_backup.zip
+  - /gallery
   - /gaocc/g445g
+  - /gcp/secrets/*b
+  - /gcp/service-accounts/*b
+  - /gins/wp-help
+  - /gitlab-ci/pipelines/deploy.yml
+  - /global.json
+  - /go.mod
   - /go/golem.com
   - /good.txt
   - /good_admin.txt
   - /google%252ecom
+  - /gpc.json
+  - /gradle.properties
   - /graphql
+  - /gruntfile.js
   - /gsgvvt
   - /guacamole/api/tokens
+  - /gulpfile.js
   - /h5
   - /h5/static/*b
   - /hardhat.*a
   - /hehe
+  - /helm/values.yaml
   - /helpers
   - /helpers/utility.js
   - /home
   - /home/login/login_index.html
+  - /home/user/.*b
   - /homes
   - /hooks
   - /html
@@ -447,6 +544,7 @@ get:
   - /im/in/GetUuid
   - /images
   - /images/ccx
+  - /images/class-con
   - /images/editor/separator.gif
   - /images/fenetres/
   - /images/fenetres/fenetresbb/
@@ -470,17 +568,22 @@ get:
   - /infe/rest/fig/advertise/common.json
   - /infe/rest/flash/getServerIP.json
   - /info
+  - /infos
+  - /infrastructure/terraform/variables.tf
   - /install
   - /installation
   - /ipl/app/flash/publicbmw/ball/FigLeaf.js
   - /issmall
   - /jars/upload/
+  - /jenkins/*c/config.xml
+  - /jenkins/credentials.xml
   - /jiaoyimao/default.css
   - /jquery.filer/*b
   - /js/a.script
   - /js/app.js
   - /js/app.ling.js
   - /js/basic.js
+  - /js/bower_components/*b
   - /js/chat/chat.js
   - /js/config.js
   - /js/envConfig.js
@@ -490,7 +593,10 @@ get:
   - /js/mage/cookies.js
   - /js/main.js
   - /js/pups.js
+  - /jsconfig.json
   - /json/configs/permanent/permanent-lottery-config-list.json
+  - /k8s/secrets.yaml
+  - /karma.conf.js
   - /kcfinder/js/helper.js
   - /key.json
   - /keys.json
@@ -498,6 +604,9 @@ get:
   - /kkrp/site/info
   - /kkrps/im_group/*b
   - /km.asmx/getPlatParam
+  - /kubernetes/deployment.yaml
+  - /kubernetes/secrets/*b
+  - /kustomization.yml
   - /langConfig.js
   - /language/en-GB/en-GB.xml
   - /language/index.html
@@ -505,15 +614,23 @@ get:
   - /legal/currency/set
   - /lib/assets/compiled/rails-ujs.js
   - /lib/client/etc/hometu.jpg
+  - /lib/config.js
   - /lib/index.js
+  - /libraries/phpmailer
   - /license.txt
+  - /liefs.ph
   - /live_env
+  - /loadtextfile.htm
   - /loan
+  - /log4j.properties
   - /login
   - /login/img/nyyh/chkjs.js
   - /loginMe
+  - /loginform.inc.php3
   - /logon/LogonPoint/tmindex.html
   - /logs
+  - /logs/*b
+  - /logstash.conf
   - /m
   - /m/ticker/usdtqc
   - /magento/*b
@@ -521,8 +638,10 @@ get:
   - /mailman/listinfo/mailman
   - /main
   - /manager
+  - /manifest.json
   - /market/getStockBaseInfo
   - /market/market-ws/iframe.html
+  - /max
   - /media/system/js/core.js
   - /member
   - /member/js/lang_zh_CN.js
@@ -538,6 +657,7 @@ get:
   - /modules/blockwishlist/config.xml
   - /modules/columnadverts/
   - /modules/comment/
+  - /modules/config.js
   - /modules/jmarketplace/*b
   - /modules/mod_rebug/manifest.xml
   - /modules/mod_review/manifest.xml
@@ -556,8 +676,13 @@ get:
   - /new-site
   - /newfolder
   - /newsite
+  - /next.config.js
+  - /nginx.conf
+  - /nginx/conf.d/default.conf
   - /nohup.out
+  - /notified-Coach
   - /null
+  - /nuxt.config.js
   - /nyyh/*b
   - /oci8
   - /ocpu/library/base/R/do.call/json
@@ -575,43 +700,65 @@ get:
   - /oldwebsite
   - /openapi.json
   - /openapi.yaml
+  - /opt/*b
+  - /ormconfig.json
   - /otc
   - /other/codepay/js/codepay_util.js
   - /out
   - /out/*b
   - /ova.phpalfa
+  - /package-lock.json
+  - /package.json
+  - /packer.json
   - /pages/admin
   - /pages/console/*b
   - /parameters.yml
   - /password.txt
   - /password_resets/new
   - /passwords.txt
+  - /phinx.yaml
+  - /phinx.yml
   - /php
-  - /php.ini
+  - /php-fpm.conf
   - /phpMyAdmin
   - /php_info
+  - /phpcs.xml
   - /phpdebugbar
   - /phpinfo
   - /phpmyadmin
   - /phpmyadmin/*b
   - /phpmyinfo
+  - /phpspec.yml
+  - /phpstan.neon
+  - /phpunit.xml
+  - /pipeline/config.yml
+  - /platformio.ini
   - /plesk-stat
   - /plugins
   - /plugins/*b
   - /plus
+  - /pm2.config.js
   - /pma
   - /portal
-  - /portal/index/protocol.html
+  - /portal/*b
   - /postgre
+  - /pre-commit-config.yaml
+  - /private.key
   - /products.json
+  - /products/.gitlab-ci.yml
+  - /proftpd.conf
   - /project
+  - /project.config.json
   - /protal
+  - /protractor.conf.js
   - /proxy/games
   - /proxy/settings
+  - /psalm.xml
   - /public.7z
   - /public.bz2
   - /public.db
   - /public.gz
+  - /public.key
   - /public.lz
   - /public.rar
   - /public.sql.tar.*b
@@ -623,32 +770,57 @@ get:
   - /public.zip
   - /public/*b
   - /public_html.*b
+  - /pubspec.yaml
+  - /puppet/*c/manifests/*d.pp
+  - /puppet/manifests/*d.pp
+  - /pyproject.toml
   - /radio.txt
+  - /react-native.config.js
   - /redirect/*b
+  - /redis.conf
   - /register
+  - /resources/application.conf
+  - /resources/application.properties
   - /resources/css/headernav.css
+  - /rest/V1/products
   - /restore/*c.gz
   - /restore/*c.rar
   - /restore/*c.tar
   - /restore/*c.zip
   - /restore/config.js
+  - /robomongo.json
+  - /rollup.config.js
   - /room/getRoomBangFans
   - /room/script/face.js
   - /roundcube
   - /rss/*b
-  - /s3cmd.ini
+  - /s
+  - /s3cfg
   - /s_api/basic/*b
+  - /scripts/deploy.sh
+  - /search/configs/sphinx.conf
   - /search/label/PHP-Shells
   - /secret.json
   - /secrets.json
+  - /secrets.yaml
   - /secrets.yml
+  - /secrets/api_keys.json
+  - /secrets/aws_keys.json
+  - /secrets/db_credentials.json
+  - /secure/aws-credentials.json
+  - /secure/secrets/aws_keys.yaml
   - /sellers.json
+  - /server
   - /server-status
   - /server.key
   - /server/php
+  - /serverless.yml
   - /service
+  - /service-account.json
   - /service/extdirect
-  - /settings.py
+  - /settings.gradle
+  - /settings.json
+  - /settings.xml
   - /sftp-config.json
   - /sftp.json
   - /shell/AnonymousFox-shell
@@ -659,6 +831,7 @@ get:
   - /simpla
   - /site
   - /site.js
+  - /site/components/com_jea/views/form/tmpl
   - /site/get-hq
   - /site_old
   - /sitebackup
@@ -667,22 +840,36 @@ get:
   - /sito
   - /skin/common_files/lib/jquery.cookie.js
   - /skin/main/onload.js
+  - /smax
+  - /smb.conf
+  - /sonar-project.properties
+  - /sphinx.conf
+  - /sphinx/sphinx.conf
+  - /sphinxsearch/sphinx.conf
   - /sql
   - /sqlite
   - /sqlite3
   - /sqlsrv
   - /src
+  - /src/config.js
+  - /src/environments/environment.prod.ts
+  - /src/environments/environment.ts
+  - /src/main/resources/*b
   - /ssh.json
   - /staging
   - /staging/*b
   - /static
   - /static/*b
+  - /staticfiles
   - /statics/js/API.js
   - /stock/search
+  - /storage/logs/laravel.log
   - /store
   - /store/*b
   - /stylesheets/archive.css
   - /subdrivers
+  - /supervisord.conf
+  - /svnserve.conf
   - /swagger-ui
   - /swagger.*b
   - /swagger/*b
@@ -698,6 +885,8 @@ get:
   - /templates/beez3
   - /templates/index.html
   - /templates/system/css/system.css
+  - /terraform.tfvars
+  - /terraform/*b
   - /test
   - /test/*b
   - /test_404_page
@@ -711,11 +900,16 @@ get:
   - /tinc
   - /tmb/
   - /tmp
+  - /tmp/myapp/debug.log
+  - /tmp/myapp_error.log
   - /tmpl
   - /tmps/
   - /toor.pho
+  - /tsconfig.json
   - /tslib.js
+  - /tslint.json
   - /ui/login
+  - /ui_config.properties
   - /underscore
   - /up/
   - /upload/
@@ -726,8 +920,10 @@ get:
   - /user/Login
   - /user/getAllNicknames
   - /user/userlist
+  - /user_secrets.yml
   - /users
   - /users/new
+  - /usr/share/myapp/settings.json
   - /v1
   - /v1/management/tenant/getSpeedDomain
   - /v1/swagger.*b
@@ -735,10 +931,17 @@ get:
   - /v2/_catalog
   - /v2/swagger.*b
   - /var/cache/mage--2
+  - /var/jenkins_home/*b
+  - /var/lib/*b
+  - /var/log/*b
   - /var/resource_config.json
+  - /var/spool/*b
+  - /var/www/*b
   - /vendor/
+  - /vendor/composer/installed.json
   - /vendor/laravel-filemanager/js/*b
   - /views/commData/commonSite.js
+  - /vite.config.js
   - /wallet.bak
   - /wallet.dat
   - /wallet.json
@@ -780,22 +983,27 @@ get:
   - /wp-json
   - /wp-json/*b
   - /wp-loading.phtml
+  - /wp-mails.ph
   - /wp-old
   - /wp-pano
   - /wp-touch.js
   - /wp/license.txt
   - /wp1
   - /wp2
+  - /ws-config.example.json
+  - /ws-config.json
   - /www
   - /www.rar
+  - /xampp
   - /xianyu/*b
   - /xml
   - /xxsssseee
   - /xy
   - /xy/image/jiantou.png
+  - /yarn.lock
+  - /zappa_settings.json
   - /zso,php
   - /zso1,php
-  - MicroStrategyWS/happyaxis.jsp
 
 post:
   - '*a.asp'
