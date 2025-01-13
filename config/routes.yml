@@ -17,17 +17,20 @@ get:
   - '*a.ini'
   - '*a.jsp'
   - '*a.mvc'
+  - '*a.ph'
   - '*a.phP'
   - '*a.phP7'
   - '*a.phP8'
   - '*a.php'
   - '*a.php/*b'
+  - '*a.php0'
   - '*a.php123123'
   - '*a.php3'
   - '*a.php4'
   - '*a.php5'
   - '*a.php525'
   - '*a.php56'
+  - '*a.php69'
   - '*a.php7'
   - '*a.php8'
   - '*a.php888'
@@ -53,6 +56,7 @@ get:
   - '*a/ckeditor/*b'
   - '*a/com_acym/*b'
   - '*a/common.js'
+  - '*a/computeMetadata/v1/instance/service-accounts/default/token'
   - '*a/config/*b'
   - '*a/debug/default/view'
   - '*a/dropzone-amd-module.*b'
@@ -76,6 +80,7 @@ get:
   - '*a/magmi'
   - '*a/maven/com.atlassian.jira/jira-webapp-dist/pom.properties'
   - '*a/media/system/js/core.js'
+  - '*a/metadata/identity/oauth2/token'
   - '*a/mt-static/mt.js'
   - '*a/nextcloud.log'
   - '*a/owncloud.log'
@@ -107,6 +112,7 @@ get:
   - /$
   - /*a.py
   - /*a/.aws/credentials
+  - /*a/.well-known
   - /*a/angular-base64-upload/*b
   - /*a/aws-config.yaml
   - /*a/aws/credentials.json
@@ -115,6 +121,7 @@ get:
   - /*a/collibra.properties
   - /*a/fileman/*b
   - /*a/keys.json
+  - /*a/laravel-filemanager
   - /*a/nginx.conf
   - /*a/phpunit
   - /*a/phpunit/*b
@@ -181,6 +188,7 @@ get:
   - /Panels.txt
   - /Pc/Lang/index.html
   - /Psmith
+  - /Public
   - /Public/*b
   - /SENDGRID.ENV
   - /SHOP
@@ -261,22 +269,32 @@ get:
   - /appveyor.yml
   - /appxz/index.html
   - /article/image7/
+  - /as/function
   - /aspera/faspex
   - /asset/js/library/filer/examples/default/index.html
   - /assets
   - /assets/*c.href
+  - /assets/acordeonPhp
   - /assets/app-manifest.json
   - /assets/app.config.json
+  - /assets/assets
   - /assets/config.rb
   - /assets/credentials.json
   - /assets/dist/static/js/vendor_prod.js
   - /assets/extension/market/css/mt4.css
+  - /assets/flags/4x3
+  - /assets/images
+  - /assets/img/team
+  - /assets/includes
+  - /assets/jquery
+  - /assets/lpmi
   - /assets/plugins
   - /assets/pubspec.yaml
   - /assets/res/mods/room.js
   - /assets/room/css/room_mobile.css
   - /assets/scripts
   - /assets/server
+  - /assets/ventanas_director
   - /auth
   - /auth/oauth/token
   - /authentik.yaml
@@ -298,12 +316,15 @@ get:
   - /babel.config.js
   - /bac
   - /back
+  - /back-office/ppid-filemanager
   - /back.*b
   - /back/*c.gz
   - /back/*c.rar
   - /back/*c.tar
   - /back/*c.zip
   - /back/config.js
+  - /backend/file-manager
+  - /backoffice/fm
   - /backup
   - /backup-new
   - /backup.*b
@@ -333,6 +354,7 @@ get:
   - /behat.yml
   - /beta
   - /bin/bash
+  - /bitbucket-pipelines.yml
   - /bk
   - /bkp
   - /bkp-two
@@ -341,6 +363,9 @@ get:
   - /block-supports
   - /blocks
   - /blog
+  - /blog/.well-known
+  - /blog/css
+  - /blog/modules/mod_simplefileuploadv1.3/elements
   - /blogs
   - /bower_components/*b
   - /browser
@@ -350,6 +375,7 @@ get:
   - /cache
   - /cache-wordpress
   - /cache/f/e/d/a
+  - /cakil
   - /cart
   - /ccaef.txt
   - /cdk.context.json
@@ -370,6 +396,7 @@ get:
   - /cjs/*c.js
   - /ckeditor/*b
   - /ckfinder/ckfinder.html
+  - /class-php
   - /cli
   - /client/api/findConfigByKey
   - /client/api/findFreeTrade
@@ -385,9 +412,11 @@ get:
   - /collibra.properties
   - /common/member/js/user.util.js
   - /common/template/lottery/lecai/css/style.css
+  - /components
   - /components/*b
   - /composer.*b
   - /conf
+  - /conf-php
   - /conf.*b
   - /config
   - /config.*b
@@ -409,14 +438,17 @@ get:
   - /cron.phppython
   - /cscpLoginWeb/*b
   - /csjs/bankCheck.js
+  - /css
   - /css/album.css
   - /css/all.css
   - /css/app.css
+  - /css/assets
   - /css/conference/templates/basefe7c.css
   - /css/conferencefe7c.css
   - /css/font/alfa-rex.php8
   - /css/jquery/jquery.tipsyfe7c.css
   - /css/jquery/ui/jquery.uife7c.css
+  - /css/language
   - /css/main.css
   - /css/nsc/reset.css
   - /css/style.css
@@ -428,6 +460,7 @@ get:
   - /dayrui/Fcms/Readme.txt
   - /db
   - /db/robomongo.json
+  - /de/home
   - /debug/default
   - /debug/default/*b
   - /demo
@@ -437,6 +470,7 @@ get:
   - /dev/*b
   - /device/device.js
   - /devnew
+  - /dir
   - /directory.rar
   - /directory.tar
   - /directory.tar.gz
@@ -447,10 +481,10 @@ get:
   - /docker-compose.*c.yml
   - /docker-compose.yml
   - /docker/secrets/db_password.txt
+  - /docs
   - /docs/_sidebar.md
   - /docs/swagger.json
   - /downloader
-  - /dropdown.ph
   - /dsrdelete.json
   - /dump.*b
   - /e/data/html/postinfo.js
@@ -479,6 +513,7 @@ get:
   - /fckeditor/*b
   - /feed
   - /file
+  - /file-manager
   - /fileman/*b
   - /filemanager
   - /files
@@ -486,25 +521,30 @@ get:
   - /files/pub_reset.css
   - /filezilla.xml
   - /firebase.json
+  - /fmanager
   - /fonts
   - /fonts/Playfair_Display
   - /forum
   - /forum/slide_img_19/
   - /forums/
   - /friendGroup/list
+  - /frontend-filemanager
   - /ftp-sync.json
   - /ftp.json
   - /ftpsync.settings
   - /full_backup.zip
   - /gallery
+  - /gallery/images
   - /gaocc/g445g
   - /gcp/secrets/*b
   - /gcp/service-accounts/*b
+  - /generator/data/generator.conf
   - /gins/wp-help
   - /gitlab-ci/pipelines/deploy.yml
   - /global.json
   - /go.mod
   - /go/golem.com
+  - /go2
   - /good.txt
   - /good_admin.txt
   - /google%252ecom
@@ -548,9 +588,14 @@ get:
   - /images/editor/separator.gif
   - /images/fenetres/
   - /images/fenetres/fenetresbb/
+  - /images/files/event-files
+  - /images/gallery
   - /images/glogo.jpg
   - /images/glogo2.png
   - /images/go-button-gateway.gif
+  - /images/headers
+  - /images/images
+  - /images/news
   - /images/no.jpg
   - /images/petabox-header.png
   - /images/src_images_but_dianz_s.png
@@ -559,6 +604,7 @@ get:
   - /img/pdf/
   - /include/
   - /include/mapping_regions/
+  - /include/taglib/help/adminname.txt
   - /includes
   - /includes/
   - /index.js
@@ -574,11 +620,15 @@ get:
   - /installation
   - /ipl/app/flash/publicbmw/ball/FigLeaf.js
   - /issmall
+  - /issue/administrator
+  - /ivc
   - /jars/upload/
   - /jenkins/*c/config.xml
   - /jenkins/credentials.xml
   - /jiaoyimao/default.css
+  - /jobs
   - /jquery.filer/*b
+  - /js
   - /js/a.script
   - /js/app.js
   - /js/app.ling.js
@@ -611,6 +661,9 @@ get:
   - /language/en-GB/en-GB.xml
   - /language/index.html
   - /lanren/css/global.css
+  - /laravel-filemanager
+  - /laravelfm
+  - /learn/lib/horde/locale/eu
   - /legal/currency/set
   - /lib/assets/compiled/rails-ujs.js
   - /lib/client/etc/hometu.jpg
@@ -618,10 +671,12 @@ get:
   - /lib/index.js
   - /libraries/phpmailer
   - /license.txt
-  - /liefs.ph
   - /live_env
   - /loadtextfile.htm
   - /loan
+  - /local
+  - /locations
+  - /log.txt
   - /log4j.properties
   - /login
   - /login/img/nyyh/chkjs.js
@@ -642,6 +697,9 @@ get:
   - /market/getStockBaseInfo
   - /market/market-ws/iframe.html
   - /max
+  - /media-manager
+  - /media/cms/footer
+  - /media/css
   - /media/system/js/core.js
   - /member
   - /member/js/lang_zh_CN.js
@@ -665,6 +723,7 @@ get:
   - /mssql
   - /mt
   - /mtja.html
+  - /my-account
   - /myConfig.js
   - /myadmin
   - /mysql
@@ -679,6 +738,7 @@ get:
   - /next.config.js
   - /nginx.conf
   - /nginx/conf.d/default.conf
+  - /nl/hp
   - /nohup.out
   - /notified-Coach
   - /null
@@ -716,6 +776,7 @@ get:
   - /password.txt
   - /password_resets/new
   - /passwords.txt
+  - /pdf
   - /phinx.yaml
   - /phinx.yml
   - /php
@@ -735,6 +796,7 @@ get:
   - /platformio.ini
   - /plesk-stat
   - /plugins
+  - /plugins-dist
   - /plugins/*b
   - /plus
   - /pm2.config.js
@@ -742,6 +804,7 @@ get:
   - /portal
   - /portal/*b
   - /postgre
+  - /poupon
   - /pre-commit-config.yaml
   - /private.key
   - /products.json
@@ -779,6 +842,7 @@ get:
   - /redirect/*b
   - /redis.conf
   - /register
+  - /resources
   - /resources/application.conf
   - /resources/application.properties
   - /resources/css/headernav.css
@@ -793,6 +857,7 @@ get:
   - /room/getRoomBangFans
   - /room/script/face.js
   - /roundcube
+  - /routes
   - /rss/*b
   - /s
   - /s3cfg
@@ -830,9 +895,11 @@ get:
   - /sign-in
   - /simpla
   - /site
+  - /site-login
   - /site.js
   - /site/components/com_jea/views/form/tmpl
   - /site/get-hq
+  - /site/images
   - /site_old
   - /sitebackup
   - /sites/default/files
@@ -842,6 +909,7 @@ get:
   - /skin/main/onload.js
   - /smax
   - /smb.conf
+  - /social
   - /sonar-project.properties
   - /sphinx.conf
   - /sphinx/sphinx.conf
@@ -863,6 +931,7 @@ get:
   - /staticfiles
   - /statics/js/API.js
   - /stock/search
+  - /storage
   - /storage/logs/laravel.log
   - /store
   - /store/*b
@@ -878,12 +947,17 @@ get:
   - /tables
   - /telescope/requests
   - /temp
+  - /template
   - /template/920ka/*b
   - /template/css/login.css
+  - /template/default/html/about.html
   - /template/js/comm/Confrim.js
   - /templates
+  - /templates/atomic
+  - /templates/atomic/*b
   - /templates/beez3
   - /templates/index.html
+  - /templates/system
   - /templates/system/css/system.css
   - /terraform.tfvars
   - /terraform/*b
@@ -896,6 +970,7 @@ get:
   - /theme/v2board/assets/umi.css
   - /themes
   - /themes/README.txt
+  - /themes/pridmag
   - /third_party
   - /tinc
   - /tmb/
@@ -908,8 +983,11 @@ get:
   - /tsconfig.json
   - /tslib.js
   - /tslint.json
+  - /tuny
+  - /ubh
   - /ui/login
   - /ui_config.properties
+  - /under-construction
   - /underscore
   - /up/
   - /upload/
@@ -918,6 +996,7 @@ get:
   - /uploadify/*b
   - /uploads
   - /user/Login
+  - /user/file-manager
   - /user/getAllNicknames
   - /user/userlist
   - /user_secrets.yml
@@ -938,6 +1017,7 @@ get:
   - /var/spool/*b
   - /var/www/*b
   - /vendor/
+  - /vendor/composer
   - /vendor/composer/installed.json
   - /vendor/laravel-filemanager/js/*b
   - /views/commData/commonSite.js
@@ -954,8 +1034,10 @@ get:
   - /webadmin
   - /webapp
   - /webapps.*b
+  - /weblogin
   - /website/blog
   - /webtools/control/*b
+  - /welcome
   - /widwsisw/
   - /wls-wsat/CoordinatorPortType/
   - /wordpress
@@ -978,18 +1060,20 @@ get:
   - /wp-content
   - /wp-content/*b
   - /wp-diambar/includes
+  - /wp-dmin/user
   - /wp-includes
   - /wp-includes/*b
   - /wp-json
   - /wp-json/*b
   - /wp-loading.phtml
-  - /wp-mails.ph
   - /wp-old
   - /wp-pano
   - /wp-touch.js
+  - /wp/img
   - /wp/license.txt
   - /wp1
   - /wp2
+  - /wps
   - /ws-config.example.json
   - /ws-config.json
   - /www
